@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="INSERT_OR_UPDATE">
+        <create_roles/>
+        <description/>
+        <display_title>false</display_title>
+        <internal_name>tarjeta</internal_name>
+        <layout>2across</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-05-21 17:10:47</sys_created_on>
+        <sys_id>75dcb05b83e16a10fbeb40526daad3c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tarjeta</sys_name>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name>item_option_new_set_75dcb05b83e16a10fbeb40526daad3c7</sys_update_name>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-05-21 17:10:47</sys_updated_on>
+        <title>Tarjeta</title>
+        <type>one_to_one</type>
+        <version/>
+        <write_roles/>
+    </item_option_new_set>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
+        <claim_timestamp>196f41b9eb40000001</claim_timestamp>
+        <metadata_update_name>item_option_new_set_75dcb05b83e16a10fbeb40526daad3c7</metadata_update_name>
+        <previous_claim_app_version>27.2.17</previous_claim_app_version>
+        <previous_claim_name>Customer Service</previous_claim_name>
+        <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-05-21 18:29:32</sys_created_on>
+        <sys_id>a3fe4d1b83e96a10fbeb40526daad3fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-05-21 18:29:32</sys_updated_on>
+    </sys_claim>
+</record_update>
