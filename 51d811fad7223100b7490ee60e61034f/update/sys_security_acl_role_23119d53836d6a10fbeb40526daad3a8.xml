@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-05-21 18:38:50</sys_created_on>
+        <sys_id>23119d53836d6a10fbeb40526daad3a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_customerservice_pedidos.sn_customerservice.pedidos_user</sys_name>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_security_acl display_value="sn_customerservice_pedidos">af119d53836d6a10fbeb40526daad384</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_23119d53836d6a10fbeb40526daad3a8</sys_update_name>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-05-21 18:38:50</sys_updated_on>
+        <sys_user_role display_value="sn_customerservice.pedidos_user" name="sn_customerservice.pedidos_user">a7119153836d6a10fbeb40526daad3e9</sys_user_role>
+    </sys_security_acl_role>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
+        <claim_timestamp>196f93993b50000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_role_23119d53836d6a10fbeb40526daad3a8</metadata_update_name>
+        <previous_claim_app_version>27.2.17</previous_claim_app_version>
+        <previous_claim_name>Customer Service</previous_claim_name>
+        <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-05-22 18:20:22</sys_created_on>
+        <sys_id>7a76da6383e9ea10fbeb40526daad332</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-05-22 18:20:22</sys_updated_on>
+    </sys_claim>
+</record_update>

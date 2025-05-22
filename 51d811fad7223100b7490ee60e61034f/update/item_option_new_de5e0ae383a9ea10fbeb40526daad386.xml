@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Comprar Productos">825cb04f83ede610fbeb40526daad32a</cat_item>
+        <cat_item/>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -42,14 +42,14 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>producto_a_ordenar</name>
+        <name>email</name>
         <not_available_conversation>false</not_available_conversation>
-        <order>100</order>
+        <order>600</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Producto a Ordenar</question_text>
+        <question_text>Email</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -77,20 +77,20 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>antonio.renteria</sys_created_by>
-        <sys_created_on>2025-05-21 16:53:01</sys_created_on>
-        <sys_id>5d98749383e16a10fbeb40526daad350</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Producto a Ordenar</sys_name>
+        <sys_created_on>2025-05-22 17:44:50</sys_created_on>
+        <sys_id>de5e0ae383a9ea10fbeb40526daad386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Email</sys_name>
         <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
-        <sys_update_name>item_option_new_5d98749383e16a10fbeb40526daad350</sys_update_name>
+        <sys_update_name>item_option_new_de5e0ae383a9ea10fbeb40526daad386</sys_update_name>
         <sys_updated_by>antonio.renteria</sys_updated_by>
-        <sys_updated_on>2025-05-22 15:36:40</sys_updated_on>
+        <sys_updated_on>2025-05-22 17:44:50</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
-        <type>5</type>
+        <type>26</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -106,22 +106,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=5d98749383e16a10fbeb40526daad350"/>
-    <fx_price action="delete_multiple" query="id=5d98749383e16a10fbeb40526daad350"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=de5e0ae383a9ea10fbeb40526daad386"/>
+    <fx_price action="delete_multiple" query="id=de5e0ae383a9ea10fbeb40526daad386"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>5d98749383e16a10fbeb40526daad350</id>
+        <id>de5e0ae383a9ea10fbeb40526daad386</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>antonio.renteria</sys_created_by>
-        <sys_created_on>2025-05-21 16:53:02</sys_created_on>
-        <sys_id>25e83c9383e16a10fbeb40526daad31c</sys_id>
+        <sys_created_on>2025-05-22 17:44:50</sys_created_on>
+        <sys_id>9e5e0ae383a9ea10fbeb40526daad39a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>antonio.renteria</sys_updated_by>
-        <sys_updated_on>2025-05-21 16:53:02</sys_updated_on>
+        <sys_updated_on>2025-05-22 17:44:50</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -129,31 +129,31 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>5d98749383e16a10fbeb40526daad350</id>
+        <id>de5e0ae383a9ea10fbeb40526daad386</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>antonio.renteria</sys_created_by>
-        <sys_created_on>2025-05-21 16:53:02</sys_created_on>
-        <sys_id>25e83c9383e16a10fbeb40526daad31b</sys_id>
+        <sys_created_on>2025-05-22 17:44:50</sys_created_on>
+        <sys_id>565e0ae383a9ea10fbeb40526daad39a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>antonio.renteria</sys_updated_by>
-        <sys_updated_on>2025-05-21 16:53:02</sys_updated_on>
+        <sys_updated_on>2025-05-22 17:44:50</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
     <sys_claim action="INSERT_OR_UPDATE">
         <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
-        <claim_timestamp>196f41b9f0f0000001</claim_timestamp>
-        <metadata_update_name>item_option_new_5d98749383e16a10fbeb40526daad350</metadata_update_name>
+        <claim_timestamp>196f93993e00000001</claim_timestamp>
+        <metadata_update_name>item_option_new_de5e0ae383a9ea10fbeb40526daad386</metadata_update_name>
         <previous_claim_app_version>27.2.17</previous_claim_app_version>
         <previous_claim_name>Customer Service</previous_claim_name>
         <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
         <sys_created_by>antonio.renteria</sys_created_by>
-        <sys_created_on>2025-05-21 18:29:33</sys_created_on>
-        <sys_id>2ffe8d1b83e96a10fbeb40526daad329</sys_id>
+        <sys_created_on>2025-05-22 18:20:22</sys_created_on>
+        <sys_id>3e76da6383e9ea10fbeb40526daad338</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>antonio.renteria</sys_updated_by>
-        <sys_updated_on>2025-05-21 18:29:33</sys_updated_on>
+        <sys_updated_on>2025-05-22 18:20:22</sys_updated_on>
     </sys_claim>
 </record_update>

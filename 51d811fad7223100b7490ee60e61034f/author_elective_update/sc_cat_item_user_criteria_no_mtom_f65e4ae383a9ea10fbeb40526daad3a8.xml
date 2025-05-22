@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="DELETE">
+        <sc_cat_item display_value="Copy of Comprar Productos">465e0ae383a9ea10fbeb40526daad334</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-05-22 17:44:52</sys_created_on>
+        <sys_id>f65e4ae383a9ea10fbeb40526daad3a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of Comprar Productos.SNC External</sys_name>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_f65e4ae383a9ea10fbeb40526daad3a8</sys_update_name>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-05-22 17:44:52</sys_updated_on>
+        <user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Customer Service">51d811fad7223100b7490ee60e61034f</application>
+        <file_path/>
+        <instance_id>537c19fd1b1b219019254089bd4bcb73</instance_id>
+        <instance_name>volteollcdemo21</instance_name>
+        <name>sc_cat_item_user_criteria_no_mtom_f65e4ae383a9ea10fbeb40526daad3a8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom"><sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Copy of Comprar Productos">465e0ae383a9ea10fbeb40526daad334</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name><sys_created_by>antonio.renteria</sys_created_by><sys_created_on>2025-05-22 17:44:52</sys_created_on><sys_id>f65e4ae383a9ea10fbeb40526daad3a8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Copy of Comprar Productos.SNC External</sys_name><sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package><sys_policy/><sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope><sys_update_name>sc_cat_item_user_criteria_no_mtom_f65e4ae383a9ea10fbeb40526daad3a8</sys_update_name><sys_updated_by>antonio.renteria</sys_updated_by><sys_updated_on>2025-05-22 17:44:52</sys_updated_on><user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria></sc_cat_item_user_criteria_no_mtom></record_update>]]></payload>
+        <payload_hash>-1829160452</payload_hash>
+        <record_name>Copy of Comprar Productos.SNC External</record_name>
+        <reverted_from/>
+        <source>a61cb80f83ede610fbeb40526daad3b1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-05-22 17:44:52</sys_created_on>
+        <sys_id>7e5e4ae383a9ea10fbeb40526daad3ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196f91913da0000001</sys_recorded_at>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-05-22 17:44:52</sys_updated_on>
+        <type>Catalog Item Not Available for</type>
+        <update_guid>725e4ae3e4a9ea106d1655d26ca69bab</update_guid>
+        <update_guid_history>725e4ae3e4a9ea106d1655d26ca69bab:-1829160452</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Copy of Comprar Productos.SNC External">f18e462783a9ea10fbeb40526daad3e4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-05-22 17:45:37</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_no_mtom">sc_cat_item_user_criteria_no_mtom</sys_db_object>
+        <sys_id>6ccccd4dbc1f4060bfaa75aa519a6404</sys_id>
+        <sys_metadata>f65e4ae383a9ea10fbeb40526daad3a8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of Comprar Productos.SNC External</sys_name>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_scope_delete display_value="">5b1be66412fc4f2eb88762fff89dc671</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_f65e4ae383a9ea10fbeb40526daad3a8</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_no_mtom_f65e4ae383a9ea10fbeb40526daad3a8">7e5e4ae383a9ea10fbeb40526daad3ab</sys_update_version>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-05-22 17:45:37</sys_updated_on>
+    </sys_metadata_delete>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
+        <claim_timestamp>196f93994270000001</claim_timestamp>
+        <metadata_update_name>sc_cat_item_user_criteria_no_mtom_f65e4ae383a9ea10fbeb40526daad3a8</metadata_update_name>
+        <previous_claim_app_version>27.2.17</previous_claim_app_version>
+        <previous_claim_name>Customer Service</previous_claim_name>
+        <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-05-22 18:20:22</sys_created_on>
+        <sys_id>be76da6383e9ea10fbeb40526daad343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-05-22 18:20:22</sys_updated_on>
+    </sys_claim>
+</record_update>

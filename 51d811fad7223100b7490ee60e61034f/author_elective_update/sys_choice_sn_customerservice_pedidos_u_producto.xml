@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_producto" table="sn_customerservice_pedidos" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_producto</element>
+            <name>sn_customerservice_pedidos</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>antonio.renteria</sys_created_by>
+            <sys_created_on>2025-05-22 15:20:34</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_producto</sys_name>
+            <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+            <sys_update_name>sys_choice_sn_customerservice_pedidos_u_producto</sys_update_name>
+            <sys_updated_by>antonio.renteria</sys_updated_by>
+            <sys_updated_on>2025-05-22 15:20:34</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_producto</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mesa</label>
+            <language>en</language>
+            <name>sn_customerservice_pedidos</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>antonio.renteria</sys_created_by>
+            <sys_created_on>2025-05-22 15:20:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>antonio.renteria</sys_updated_by>
+            <sys_updated_on>2025-05-22 15:21:03</sys_updated_on>
+            <value>Mesa</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_producto</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Silla</label>
+            <language>en</language>
+            <name>sn_customerservice_pedidos</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>antonio.renteria</sys_created_by>
+            <sys_created_on>2025-05-22 15:20:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>antonio.renteria</sys_updated_by>
+            <sys_updated_on>2025-05-22 15:20:34</sys_updated_on>
+            <value>Silla</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_producto</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sillón</label>
+            <language>en</language>
+            <name>sn_customerservice_pedidos</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>antonio.renteria</sys_created_by>
+            <sys_created_on>2025-05-22 15:21:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>antonio.renteria</sys_updated_by>
+            <sys_updated_on>2025-05-22 15:21:15</sys_updated_on>
+            <value>Sillon</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_producto</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sombrilla</label>
+            <language>en</language>
+            <name>sn_customerservice_pedidos</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>antonio.renteria</sys_created_by>
+            <sys_created_on>2025-05-22 15:21:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>antonio.renteria</sys_updated_by>
+            <sys_updated_on>2025-05-22 15:21:31</sys_updated_on>
+            <value>Sombrilla</value>
+        </sys_choice>
+    </sys_choice>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
+        <claim_timestamp>196f93994080000001</claim_timestamp>
+        <metadata_update_name>sys_choice_sn_customerservice_pedidos_u_producto</metadata_update_name>
+        <previous_claim_app_version>27.2.17</previous_claim_app_version>
+        <previous_claim_name>Customer Service</previous_claim_name>
+        <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-05-22 18:20:22</sys_created_on>
+        <sys_id>7276da6383e9ea10fbeb40526daad33f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-05-22 18:20:22</sys_updated_on>
+    </sys_claim>
+</record_update>

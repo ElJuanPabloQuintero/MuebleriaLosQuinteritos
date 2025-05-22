@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7ab0599f832d6a10fbeb40526daad360" extends="task" label="Pedidos" max_length="40" name="sn_customerservice_pedidos" type="collection">
+        <element label="Id de compra" max_length="40" name="u_id_de_compra" type="string"/>
+        <element label="Cantidad" max_length="40" name="u_cantidad" type="integer"/>
+        <element label="Teléfono" max_length="10" name="u_telefono" type="string"/>
+        <element label="Email" max_length="40" name="u_email" type="string"/>
+        <element choice="3" default="Silla" label="Producto" max_length="40" name="u_producto" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Silla" value="Silla"/>
+                <element inactive_on_update="false" label="Sillón" value="Sillon"/>
+                <element inactive_on_update="false" label="Mesa" value="Mesa"/>
+                <element inactive_on_update="false" label="Sombrilla" value="Sombrilla"/>
+            </choice>
+        </element>
+    </element>
+</database>

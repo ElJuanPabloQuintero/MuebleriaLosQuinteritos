@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <filter_extension/>
+        <is_extendable>false</is_extendable>
+        <label>Pedidos</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>sn_customerservice_pedidos</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Task" name="task">e2a06539c31321100ec79e0f050131e7</super_class>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-05-21 18:38:50</sys_created_on>
+        <sys_id>7ab0599f832d6a10fbeb40526daad360</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pedidos</sys_name>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name>sys_db_object_7ab0599f832d6a10fbeb40526daad360</sys_update_name>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-05-21 18:38:50</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="sn_customerservice.pedidos_user" name="sn_customerservice.pedidos_user">a7119153836d6a10fbeb40526daad3e9</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
+        <claim_timestamp>196f939949a0000001</claim_timestamp>
+        <metadata_update_name>sys_db_object_7ab0599f832d6a10fbeb40526daad360</metadata_update_name>
+        <previous_claim_app_version>27.2.17</previous_claim_app_version>
+        <previous_claim_name>Customer Service</previous_claim_name>
+        <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-05-22 18:20:22</sys_created_on>
+        <sys_id>7276da6383e9ea10fbeb40526daad361</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-05-22 18:20:22</sys_updated_on>
+    </sys_claim>
+</record_update>
