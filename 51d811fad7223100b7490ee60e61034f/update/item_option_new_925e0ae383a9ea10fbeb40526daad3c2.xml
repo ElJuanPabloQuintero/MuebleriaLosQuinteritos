@@ -79,14 +79,14 @@
         <sys_created_by>antonio.renteria</sys_created_by>
         <sys_created_on>2025-05-22 17:44:50</sys_created_on>
         <sys_id>925e0ae383a9ea10fbeb40526daad3c2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Dirección de envío</sys_name>
         <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
         <sys_update_name>item_option_new_925e0ae383a9ea10fbeb40526daad3c2</sys_update_name>
         <sys_updated_by>antonio.renteria</sys_updated_by>
-        <sys_updated_on>2025-05-22 17:44:50</sys_updated_on>
+        <sys_updated_on>2025-05-22 21:25:59</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
@@ -97,7 +97,7 @@
         <use_reference_qualifier>simple</use_reference_qualifier>
         <validate_regex/>
         <variable_name/>
-        <variable_set/>
+        <variable_set display_value="Direccion">f920c7e783edea10fbeb40526daad30b</variable_set>
         <variable_width/>
         <visibility>1</visibility>
         <visible_bundle>true</visible_bundle>

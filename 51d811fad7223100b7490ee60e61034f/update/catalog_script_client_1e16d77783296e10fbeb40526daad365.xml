@@ -7,42 +7,43 @@
         <applies_sc_task>false</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <cat_item display_value="Sombrilla">825cb04f83ede610fbeb40526daad32a</cat_item>
-        <cat_variable>IO:3a3dfc5b83e16a10fbeb40526daad382</cat_variable>
+        <cat_item display_value="Sillón">0e16977783296e10fbeb40526daad3ec</cat_item>
+        <cat_variable>IO:476d349b83e16a10fbeb40526daad3bd</cat_variable>
         <condition/>
         <description/>
         <field/>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Validar Tarjeta</name>
+        <name>Validar Fecha Expiración</name>
         <order/>
         <published_ref/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
-   if (isLoading || newValue == '') {
-      return;
-   }
-
-    var regex = /^\d{16}$/;
-    if (!regex.test(newValue)) {
-        g_form.showFieldMsg('numero_tarjeta', 'Formato incorrecto. Deben ser 16 digitos.', 'error');
+    if (isLoading || newValue == '') {
+        return;
     }
+
+    var regex = /^(0[1-9]|1[0-2])\/\d{2}$/;
+    if (!regex.test(newValue)) {
+        g_form.showFieldMsg('fecha_tarjeta', 'Formato incorrecto. El formato esperado es: "mm/aa".', 'error');
+    }
+
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>antonio.renteria</sys_created_by>
-        <sys_created_on>2025-05-22 17:39:13</sys_created_on>
+        <sys_created_on>2025-05-23 17:36:48</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>2f6cceaf8369ea10fbeb40526daad309</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Validar Tarjeta</sys_name>
+        <sys_id>1e16d77783296e10fbeb40526daad365</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validar Fecha Expiración</sys_name>
         <sys_overrides/>
         <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
-        <sys_update_name>catalog_script_client_2f6cceaf8369ea10fbeb40526daad309</sys_update_name>
+        <sys_update_name>catalog_script_client_1e16d77783296e10fbeb40526daad365</sys_update_name>
         <sys_updated_by>antonio.renteria</sys_updated_by>
-        <sys_updated_on>2025-05-23 16:39:22</sys_updated_on>
+        <sys_updated_on>2025-05-23 17:36:48</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
@@ -52,16 +53,16 @@
     </catalog_script_client>
     <sys_claim action="INSERT_OR_UPDATE">
         <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
-        <claim_timestamp>196f93993ea0000001</claim_timestamp>
-        <metadata_update_name>catalog_script_client_2f6cceaf8369ea10fbeb40526daad309</metadata_update_name>
+        <claim_timestamp>1970383d3cf0000001</claim_timestamp>
+        <metadata_update_name>catalog_script_client_1e16d77783296e10fbeb40526daad365</metadata_update_name>
         <previous_claim_app_version>27.2.17</previous_claim_app_version>
         <previous_claim_name>Customer Service</previous_claim_name>
         <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
         <sys_created_by>antonio.renteria</sys_created_by>
-        <sys_created_on>2025-05-22 18:20:22</sys_created_on>
-        <sys_id>3676da6383e9ea10fbeb40526daad33a</sys_id>
+        <sys_created_on>2025-05-24 18:17:40</sys_created_on>
+        <sys_id>320924908375ee10fbeb40526daad344</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>antonio.renteria</sys_updated_by>
-        <sys_updated_on>2025-05-22 18:20:22</sys_updated_on>
+        <sys_updated_on>2025-05-24 18:17:40</sys_updated_on>
     </sys_claim>
 </record_update>

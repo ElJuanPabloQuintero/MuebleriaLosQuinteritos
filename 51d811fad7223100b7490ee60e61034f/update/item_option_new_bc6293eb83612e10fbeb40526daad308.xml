@@ -4,13 +4,13 @@
         <attributes/>
         <cat_item/>
         <category/>
-        <choice_direction>down</choice_direction>
+        <choice_direction>across</choice_direction>
         <choice_field/>
         <choice_table/>
         <conversational_label/>
         <create_roles/>
         <default_html_value/>
-        <default_value/>
+        <default_value>tarjeta_nueva</default_value>
         <delete_roles/>
         <delivery_plan/>
         <description/>
@@ -42,14 +42,14 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>telefono</name>
+        <name>agregar_tarjeta</name>
         <not_available_conversation>false</not_available_conversation>
-        <order>500</order>
+        <order>50</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Telefono</question_text>
+        <question_text>Seleccione forma de pago</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -77,27 +77,27 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>antonio.renteria</sys_created_by>
-        <sys_created_on>2025-05-22 17:44:50</sys_created_on>
-        <sys_id>d25e0ae383a9ea10fbeb40526daad3aa</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Telefono</sys_name>
+        <sys_created_on>2025-05-22 22:44:28</sys_created_on>
+        <sys_id>bc6293eb83612e10fbeb40526daad308</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Seleccione forma de pago</sys_name>
         <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
-        <sys_update_name>item_option_new_d25e0ae383a9ea10fbeb40526daad3aa</sys_update_name>
+        <sys_update_name>item_option_new_bc6293eb83612e10fbeb40526daad308</sys_update_name>
         <sys_updated_by>antonio.renteria</sys_updated_by>
-        <sys_updated_on>2025-05-22 17:44:50</sys_updated_on>
+        <sys_updated_on>2025-05-23 15:53:36</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
-        <type>6</type>
+        <type>3</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <validate_regex/>
         <variable_name/>
-        <variable_set/>
+        <variable_set display_value="Tarjeta">e31df05b83e16a10fbeb40526daad33c</variable_set>
         <variable_width/>
         <visibility>1</visibility>
         <visible_bundle>true</visible_bundle>
@@ -106,22 +106,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=d25e0ae383a9ea10fbeb40526daad3aa"/>
-    <fx_price action="delete_multiple" query="id=d25e0ae383a9ea10fbeb40526daad3aa"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=bc6293eb83612e10fbeb40526daad308"/>
+    <fx_price action="delete_multiple" query="id=bc6293eb83612e10fbeb40526daad308"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>d25e0ae383a9ea10fbeb40526daad3aa</id>
+        <id>bc6293eb83612e10fbeb40526daad308</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>antonio.renteria</sys_created_by>
-        <sys_created_on>2025-05-22 17:44:50</sys_created_on>
-        <sys_id>9a5e0ae383a9ea10fbeb40526daad3b1</sys_id>
+        <sys_created_on>2025-05-22 22:44:28</sys_created_on>
+        <sys_id>1be2972f83612e10fbeb40526daad3db</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>antonio.renteria</sys_updated_by>
-        <sys_updated_on>2025-05-22 17:44:50</sys_updated_on>
+        <sys_updated_on>2025-05-22 22:44:28</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -129,31 +129,31 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>d25e0ae383a9ea10fbeb40526daad3aa</id>
+        <id>bc6293eb83612e10fbeb40526daad308</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>antonio.renteria</sys_created_by>
-        <sys_created_on>2025-05-22 17:44:50</sys_created_on>
-        <sys_id>525e0ae383a9ea10fbeb40526daad3b1</sys_id>
+        <sys_created_on>2025-05-22 22:44:28</sys_created_on>
+        <sys_id>dfe2972f83612e10fbeb40526daad3da</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>antonio.renteria</sys_updated_by>
-        <sys_updated_on>2025-05-22 17:44:50</sys_updated_on>
+        <sys_updated_on>2025-05-22 22:44:28</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
     <sys_claim action="INSERT_OR_UPDATE">
         <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
-        <claim_timestamp>196f93994d30000001</claim_timestamp>
-        <metadata_update_name>item_option_new_d25e0ae383a9ea10fbeb40526daad3aa</metadata_update_name>
+        <claim_timestamp>1970383d45d0000001</claim_timestamp>
+        <metadata_update_name>item_option_new_bc6293eb83612e10fbeb40526daad308</metadata_update_name>
         <previous_claim_app_version>27.2.17</previous_claim_app_version>
         <previous_claim_name>Customer Service</previous_claim_name>
         <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
         <sys_created_by>antonio.renteria</sys_created_by>
-        <sys_created_on>2025-05-22 18:20:22</sys_created_on>
-        <sys_id>7676da6383e9ea10fbeb40526daad369</sys_id>
+        <sys_created_on>2025-05-24 18:17:40</sys_created_on>
+        <sys_id>360924908375ee10fbeb40526daad35b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>antonio.renteria</sys_updated_by>
-        <sys_updated_on>2025-05-22 18:20:22</sys_updated_on>
+        <sys_updated_on>2025-05-24 18:17:40</sys_updated_on>
     </sys_claim>
 </record_update>

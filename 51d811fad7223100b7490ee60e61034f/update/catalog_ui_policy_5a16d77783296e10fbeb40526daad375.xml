@@ -7,7 +7,7 @@
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
         <catalog_conditions/>
-        <catalog_item display_value="Sombrilla">825cb04f83ede610fbeb40526daad32a</catalog_item>
+        <catalog_item display_value="Sillón">0e16977783296e10fbeb40526daad3ec</catalog_item>
         <conditions/>
         <description/>
         <global>true</global>
@@ -30,19 +30,19 @@
         <short_description>Hacer campos mandatorios</short_description>
         <sys_class_name>catalog_ui_policy</sys_class_name>
         <sys_created_by>antonio.renteria</sys_created_by>
-        <sys_created_on>2025-05-22 16:00:14</sys_created_on>
+        <sys_created_on>2025-05-23 17:36:48</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>8306f92b83e5ea10fbeb40526daad346</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_id>5a16d77783296e10fbeb40526daad375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Hacer campos mandatorios</sys_name>
         <sys_overrides/>
         <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
-        <sys_update_name>catalog_ui_policy_8306f92b83e5ea10fbeb40526daad346</sys_update_name>
+        <sys_update_name>catalog_ui_policy_5a16d77783296e10fbeb40526daad375</sys_update_name>
         <sys_updated_by>antonio.renteria</sys_updated_by>
-        <sys_updated_on>2025-05-23 16:09:27</sys_updated_on>
+        <sys_updated_on>2025-05-23 17:36:48</sys_updated_on>
         <table/>
         <ui_type>0</ui_type>
         <va_supported>true</va_supported>
@@ -51,16 +51,16 @@
     </catalog_ui_policy>
     <sys_claim action="INSERT_OR_UPDATE">
         <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
-        <claim_timestamp>196f93994af0000001</claim_timestamp>
-        <metadata_update_name>catalog_ui_policy_8306f92b83e5ea10fbeb40526daad346</metadata_update_name>
+        <claim_timestamp>1970383d3730000001</claim_timestamp>
+        <metadata_update_name>catalog_ui_policy_5a16d77783296e10fbeb40526daad375</metadata_update_name>
         <previous_claim_app_version>27.2.17</previous_claim_app_version>
         <previous_claim_name>Customer Service</previous_claim_name>
         <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
         <sys_created_by>antonio.renteria</sys_created_by>
-        <sys_created_on>2025-05-22 18:20:22</sys_created_on>
-        <sys_id>7e76da6383e9ea10fbeb40526daad363</sys_id>
+        <sys_created_on>2025-05-24 18:17:40</sys_created_on>
+        <sys_id>760924908375ee10fbeb40526daad335</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>antonio.renteria</sys_updated_by>
-        <sys_updated_on>2025-05-22 18:20:22</sys_updated_on>
+        <sys_updated_on>2025-05-24 18:17:40</sys_updated_on>
     </sys_claim>
 </record_update>

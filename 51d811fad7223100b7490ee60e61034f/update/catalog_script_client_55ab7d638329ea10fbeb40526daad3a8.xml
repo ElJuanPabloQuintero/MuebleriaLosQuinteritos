@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
     <catalog_script_client action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <applies_catalog>true</applies_catalog>
         <applies_extended>false</applies_extended>
         <applies_req_item>false</applies_req_item>
         <applies_sc_task>false</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <cat_item display_value="Comprar Productos">825cb04f83ede610fbeb40526daad32a</cat_item>
+        <cat_item display_value="Sombrilla">825cb04f83ede610fbeb40526daad32a</cat_item>
         <cat_variable>IO:68fbf0d783e16a10fbeb40526daad30b</cat_variable>
         <condition/>
         <description/>
@@ -23,16 +23,10 @@
         return;
     }
 
-    //Type appropriate comment here, and begin script below
-    var ga = new GlideAjax('MQCatalogsUtils');
-    ga.addParam('sysparm_name', 'validatePhoneNumber');
-    ga.addParam('sysparm_phone', newValue);
-    ga.getXMLAnswer(function(response) {
-		//g_form.showFieldMsg('telefono', response, 'error');
-        if (response !== 'true') {
-            g_form.showFieldMsg('telefono', 'Número en formato incorrecto.', 'error');
-        }
-    });
+    var regex = /^\+?(\d{1,3})?[-.\s]?(\(?\d{3}\)?)[-.\s]?\d{3}[-.\s]?\d{4}$/;
+    if (!regex.test(newValue)) {
+        g_form.showFieldMsg('telefono', 'Formato incorrecto.', 'error');
+    }
 
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
@@ -41,7 +35,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>55ab7d638329ea10fbeb40526daad3a8</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Validar Telefono</sys_name>
         <sys_overrides/>
         <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
@@ -49,7 +43,7 @@
         <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
         <sys_update_name>catalog_script_client_55ab7d638329ea10fbeb40526daad3a8</sys_update_name>
         <sys_updated_by>antonio.renteria</sys_updated_by>
-        <sys_updated_on>2025-05-22 16:47:58</sys_updated_on>
+        <sys_updated_on>2025-05-23 17:28:18</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
