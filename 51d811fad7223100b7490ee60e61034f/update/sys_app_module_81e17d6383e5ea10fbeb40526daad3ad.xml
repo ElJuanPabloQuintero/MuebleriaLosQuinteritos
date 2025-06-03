@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Tarjetas Guardadas">85e17d6383e5ea10fbeb40526daad3a8</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Tarjetas Guardadas</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>sn_customerservice_tarjetas_guardadas</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>sn_customerservice.tarjetas_guardadas_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>jacqueline.lopez</sys_created_by>
+        <sys_created_on>2025-05-22 15:40:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>81e17d6383e5ea10fbeb40526daad3ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tarjetas Guardadas</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name>sys_app_module_81e17d6383e5ea10fbeb40526daad3ad</sys_update_name>
+        <sys_updated_by>jacqueline.lopez</sys_updated_by>
+        <sys_updated_on>2025-05-22 15:40:30</sys_updated_on>
+        <timeline_page/>
+        <title>Tarjetas Guardadas</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
+        <claim_timestamp>1970375b2c80000001</claim_timestamp>
+        <metadata_update_name>sys_app_module_81e17d6383e5ea10fbeb40526daad3ad</metadata_update_name>
+        <previous_claim_app_version>27.2.17</previous_claim_app_version>
+        <previous_claim_name>Customer Service</previous_claim_name>
+        <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
+        <sys_created_by>jacqueline.lopez</sys_created_by>
+        <sys_created_on>2025-05-24 18:02:14</sys_created_on>
+        <sys_id>3085681c8335ee10fbeb40526daad3ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jacqueline.lopez</sys_updated_by>
+        <sys_updated_on>2025-05-24 18:02:14</sys_updated_on>
+    </sys_claim>
+</record_update>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_element">
+    <sys_embedded_tour_element action="DELETE">
+        <cell_edit/>
+        <cell_types/>
+        <col/>
+        <cxs_results/>
+        <element_type>link</element_type>
+        <field/>
+        <field_action/>
+        <field_header/>
+        <filters/>
+        <form_buttons>additional_actions</form_buttons>
+        <form_element>field</form_element>
+        <form_section/>
+        <frameset>nav_filter</frameset>
+        <js_path/>
+        <list_element>ui_action</list_element>
+        <list_header/>
+        <manual_css>LI:nth-of-type(7) [href="?id=csm_sc_cat_item&amp;sys_id=bb3303af83edea10fbeb40526daad3f2"] .ng-binding</manual_css>
+        <name>xpath</name>
+        <record_id/>
+        <related_field/>
+        <related_links/>
+        <related_list_element>ui_action</related_list_element>
+        <related_lists/>
+        <related_table/>
+        <row/>
+        <seismic_selector/>
+        <sys_class_name>sys_embedded_tour_element</sys_class_name>
+        <sys_created_by>isaac.santos</sys_created_by>
+        <sys_created_on>2025-06-02 18:43:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2a45c7478339e210fbeb40526daad387</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>xpath</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name>sys_embedded_tour_element_2a45c7478339e210fbeb40526daad387</sys_update_name>
+        <sys_updated_by>isaac.santos</sys_updated_by>
+        <sys_updated_on>2025-06-02 18:43:37</sys_updated_on>
+        <table/>
+        <type>manual_css</type>
+        <ui_action/>
+    </sys_embedded_tour_element>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Customer Service">51d811fad7223100b7490ee60e61034f</application>
+        <file_path/>
+        <instance_id>537c19fd1b1b219019254089bd4bcb73</instance_id>
+        <instance_name>volteollcdemo21</instance_name>
+        <name>sys_embedded_tour_element_2a45c7478339e210fbeb40526daad387</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_element"><sys_embedded_tour_element action="INSERT_OR_UPDATE"><cell_edit/><cell_types/><col/><cxs_results/><element_type>link</element_type><field/><field_action/><field_header/><filters/><form_buttons>additional_actions</form_buttons><form_element>field</form_element><form_section/><frameset>nav_filter</frameset><js_path/><list_element>ui_action</list_element><list_header/><manual_css>LI:nth-of-type(7) [href="?id=csm_sc_cat_item&amp;sys_id=bb3303af83edea10fbeb40526daad3f2"] .ng-binding</manual_css><name>xpath</name><record_id/><related_field/><related_links/><related_list_element>ui_action</related_list_element><related_lists/><related_table/><row/><seismic_selector/><sys_class_name>sys_embedded_tour_element</sys_class_name><sys_created_by>isaac.santos</sys_created_by><sys_created_on>2025-06-02 18:43:37</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2a45c7478339e210fbeb40526daad387</sys_id><sys_mod_count>0</sys_mod_count><sys_name>xpath</sys_name><sys_overrides/><sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package><sys_policy/><sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope><sys_update_name>sys_embedded_tour_element_2a45c7478339e210fbeb40526daad387</sys_update_name><sys_updated_by>isaac.santos</sys_updated_by><sys_updated_on>2025-06-02 18:43:37</sys_updated_on><table/><type>manual_css</type><ui_action/></sys_embedded_tour_element></record_update>]]></payload>
+        <payload_hash>315403571</payload_hash>
+        <record_name>xpath</record_name>
+        <reverted_from/>
+        <source>177e45d383e96a10fbeb40526daad3cb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>isaac.santos</sys_created_by>
+        <sys_created_on>2025-06-02 18:43:37</sys_created_on>
+        <sys_id>a645c7478339e210fbeb40526daad389</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19731f4d1180000001</sys_recorded_at>
+        <sys_updated_by>isaac.santos</sys_updated_by>
+        <sys_updated_on>2025-06-02 18:43:37</sys_updated_on>
+        <type>Guided Tour Element</type>
+        <update_guid>6a45c7474039e210d64996ce23963588</update_guid>
+        <update_guid_history>6a45c7474039e210d64996ce23963588:315403571</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>isaac.santos</sys_created_by>
+        <sys_created_on>2025-06-02 18:44:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_embedded_tour_element">sys_embedded_tour_element</sys_db_object>
+        <sys_id>395a2e973dfe4cd493dc15562f687744</sys_id>
+        <sys_metadata>2a45c7478339e210fbeb40526daad387</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>xpath</sys_name>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_scope_delete display_value="">5b1be66412fc4f2eb88762fff89dc671</sys_scope_delete>
+        <sys_update_name>sys_embedded_tour_element_2a45c7478339e210fbeb40526daad387</sys_update_name>
+        <sys_update_version display_value="sys_embedded_tour_element_2a45c7478339e210fbeb40526daad387">a645c7478339e210fbeb40526daad389</sys_update_version>
+        <sys_updated_by>isaac.santos</sys_updated_by>
+        <sys_updated_on>2025-06-02 18:44:10</sys_updated_on>
+    </sys_metadata_delete>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
+        <claim_timestamp>197377b99800000001</claim_timestamp>
+        <metadata_update_name>sys_embedded_tour_element_2a45c7478339e210fbeb40526daad387</metadata_update_name>
+        <previous_claim_app_version>27.2.17</previous_claim_app_version>
+        <previous_claim_name>Customer Service</previous_claim_name>
+        <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-03 20:28:56</sys_created_on>
+        <sys_id>13f660eb4735261038e741af016d4311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-03 20:28:56</sys_updated_on>
+    </sys_claim>
+</record_update>

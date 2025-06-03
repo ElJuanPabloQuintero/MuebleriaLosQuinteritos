@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>4</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">6262379783b16610fbeb40526daad3c7</sp_column>
+        <sp_widget display_value="CSM login redirect">7b203d3987403300bc5020eac5cb0b39</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>isaac.santos</sys_created_by>
+        <sys_created_on>2025-06-03 17:08:05</sys_created_on>
+        <sys_id>8509bf9f4731261038e741af016d43fb</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name>sp_instance_8509bf9f4731261038e741af016d43fb</sys_update_name>
+        <sys_updated_by>isaac.santos</sys_updated_by>
+        <sys_updated_on>2025-06-03 17:09:46</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=8509bf9f4731261038e741af016d43fb"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Customer Service">51d811fad7223100b7490ee60e61034f</application>
+        <file_path/>
+        <instance_id>537c19fd1b1b219019254089bd4bcb73</instance_id>
+        <instance_name>volteollcdemo21</instance_name>
+        <name>sp_instance_8509bf9f4731261038e741af016d43fb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>4</order><roles/><short_description/><size>md</size><sp_column display_value="1">6262379783b16610fbeb40526daad3c7</sp_column><sp_widget display_value="CSM login redirect">7b203d3987403300bc5020eac5cb0b39</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>isaac.santos</sys_created_by><sys_created_on>2025-06-03 17:08:05</sys_created_on><sys_id>8509bf9f4731261038e741af016d43fb</sys_id><sys_mod_count>3</sys_mod_count><sys_name/><sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package><sys_policy/><sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope><sys_update_name>sp_instance_8509bf9f4731261038e741af016d43fb</sys_update_name><sys_updated_by>isaac.santos</sys_updated_by><sys_updated_on>2025-06-03 17:09:46</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=8509bf9f4731261038e741af016d43fb"/></record_update>]]></payload>
+        <payload_hash>1241479340</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>177e45d383e96a10fbeb40526daad3cb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>isaac.santos</sys_created_by>
+        <sys_created_on>2025-06-03 17:09:46</sys_created_on>
+        <sys_id>2d6933134771261038e741af016d436b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19736c540240000001</sys_recorded_at>
+        <sys_updated_by>isaac.santos</sys_updated_by>
+        <sys_updated_on>2025-06-03 17:09:46</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>21693313c9712610be7982896f3e1e6b</update_guid>
+        <update_guid_history>21693313c9712610be7982896f3e1e6b:1241479340,80597bdfed312610c6abee258e161421:1997245163,dc19f3dfbe312610428558201145d41c:1241479340,8d09bf9f7e3126108d1d4c31e643e9fc:1997245163</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">39effb1f83f16610fbeb40526daad3be</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>isaac.santos</sys_created_by>
+        <sys_created_on>2025-06-03 17:38:11</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>025fabe17fb6467f8055ce10efd7c481</sys_id>
+        <sys_metadata>8509bf9f4731261038e741af016d43fb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_scope_delete display_value="">5b1be66412fc4f2eb88762fff89dc671</sys_scope_delete>
+        <sys_update_name>sp_instance_8509bf9f4731261038e741af016d43fb</sys_update_name>
+        <sys_update_version display_value="sp_instance_8509bf9f4731261038e741af016d43fb">2d6933134771261038e741af016d436b</sys_update_version>
+        <sys_updated_by>isaac.santos</sys_updated_by>
+        <sys_updated_on>2025-06-03 17:38:11</sys_updated_on>
+    </sys_metadata_delete>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
+        <claim_timestamp>197377b97b20000001</claim_timestamp>
+        <metadata_update_name>sp_instance_8509bf9f4731261038e741af016d43fb</metadata_update_name>
+        <previous_claim_app_version>27.2.17</previous_claim_app_version>
+        <previous_claim_name>Customer Service</previous_claim_name>
+        <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-03 20:28:56</sys_created_on>
+        <sys_id>cff620eb4735261038e741af016d43c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-03 20:28:56</sys_updated_on>
+    </sys_claim>
+</record_update>

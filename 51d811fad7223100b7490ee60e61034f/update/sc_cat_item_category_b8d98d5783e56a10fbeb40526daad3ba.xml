@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Pedir Garantia (Item)">78d5499b83256a10fbeb40526daad3f8</sc_cat_item>
+        <sc_category display_value="Furniture">0a35891b83256a10fbeb40526daad319</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>emiliano.jimenez</sys_created_by>
+        <sys_created_on>2025-05-21 18:06:58</sys_created_on>
+        <sys_id>b8d98d5783e56a10fbeb40526daad3ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Muebles.Pedir Garantia</sys_name>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name>sc_cat_item_category_b8d98d5783e56a10fbeb40526daad3ba</sys_update_name>
+        <sys_updated_by>emiliano.jimenez</sys_updated_by>
+        <sys_updated_on>2025-05-21 18:06:58</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
+        <claim_timestamp>197377b987e0000001</claim_timestamp>
+        <metadata_update_name>sc_cat_item_category_b8d98d5783e56a10fbeb40526daad3ba</metadata_update_name>
+        <previous_claim_app_version>27.2.17</previous_claim_app_version>
+        <previous_claim_name>Customer Service</previous_claim_name>
+        <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-03 20:28:56</sys_created_on>
+        <sys_id>03f620eb4735261038e741af016d43e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-03 20:28:56</sys_updated_on>
+    </sys_claim>
+</record_update>

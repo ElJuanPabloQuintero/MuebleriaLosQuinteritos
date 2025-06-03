@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency">
+    <m2m_sp_widget_dependency action="INSERT_OR_UPDATE">
+        <sp_dependency display_value="sp_codemirror_includes">016f19255b301200e39fc7ad31f91abd</sp_dependency>
+        <sp_widget display_value="CSM cart pay 2">f56ed4a18371a650fbeb40526daad3ee</sp_widget>
+        <sys_class_name>m2m_sp_widget_dependency</sys_class_name>
+        <sys_created_by>emiliano.jimenez</sys_created_by>
+        <sys_created_on>2025-05-28 14:43:35</sys_created_on>
+        <sys_id>b16e5ce18371a650fbeb40526daad3a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sp_codemirror_includes.Copy of SC Catalog Item</sys_name>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name>m2m_sp_widget_dependency_b16e5ce18371a650fbeb40526daad3a2</sys_update_name>
+        <sys_updated_by>emiliano.jimenez</sys_updated_by>
+        <sys_updated_on>2025-05-28 14:43:35</sys_updated_on>
+    </m2m_sp_widget_dependency>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
+        <claim_timestamp>197377b9af00000001</claim_timestamp>
+        <metadata_update_name>m2m_sp_widget_dependency_b16e5ce18371a650fbeb40526daad3a2</metadata_update_name>
+        <previous_claim_app_version>27.2.17</previous_claim_app_version>
+        <previous_claim_name>Customer Service</previous_claim_name>
+        <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-03 20:28:56</sys_created_on>
+        <sys_id>5bf660eb4735261038e741af016d434a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-03 20:28:56</sys_updated_on>
+    </sys_claim>
+</record_update>

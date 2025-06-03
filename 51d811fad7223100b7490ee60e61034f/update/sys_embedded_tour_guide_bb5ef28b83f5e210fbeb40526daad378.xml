@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_guide">
+    <sys_embedded_tour_guide action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <additional_parameters/>
+        <autolaunch_order>0</autolaunch_order>
+        <context>csp?id=csp_index&amp;gtd_portal_title=Customer Service&amp;gtd_page_title=Consumer Service Portal</context>
+        <description/>
+        <has_concl>true</has_concl>
+        <has_intro>true</has_intro>
+        <name>How to navigate through Quinteritos Furniture?</name>
+        <options/>
+        <roles/>
+        <route_parameters/>
+        <sn_created>false</sn_created>
+        <sp_page display_value="csp_index">30b664ecc3b2120095ccd02422d3aecb</sp_page>
+        <sp_portal display_value="Customer Service">2086b814c3221200f3897bfaa2d3aea8</sp_portal>
+        <status>published</status>
+        <sys_class_name>sys_embedded_tour_guide</sys_class_name>
+        <sys_created_by>isaac.santos</sys_created_by>
+        <sys_created_on>2025-06-02 18:13:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bb5ef28b83f5e210fbeb40526daad378</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>How to navigate through Quinteritos Furniture?</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name>sys_embedded_tour_guide_bb5ef28b83f5e210fbeb40526daad378</sys_update_name>
+        <sys_updated_by>isaac.santos</sys_updated_by>
+        <sys_updated_on>2025-06-02 18:51:22</sys_updated_on>
+        <tour_id>TOUR0000037</tour_id>
+        <type>service_portal</type>
+    </sys_embedded_tour_guide>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
+        <claim_timestamp>197377b99e50000001</claim_timestamp>
+        <metadata_update_name>sys_embedded_tour_guide_bb5ef28b83f5e210fbeb40526daad378</metadata_update_name>
+        <previous_claim_app_version>27.2.17</previous_claim_app_version>
+        <previous_claim_name>Customer Service</previous_claim_name>
+        <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-03 20:28:56</sys_created_on>
+        <sys_id>93f660eb4735261038e741af016d4321</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-03 20:28:56</sys_updated_on>
+    </sys_claim>
+</record_update>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Pedir Garantia">78d5499b83256a10fbeb40526daad3f8</catalog_item>
+        <catalog_variable>IO:e31df05b83e16a10fbeb40526daad33c</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>emiliano.jimenez</sys_created_by>
+        <sys_created_on>2025-05-22 14:00:22</sys_created_on>
+        <sys_id>82ea592347a52a1038e741af016d432c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tarjeta</sys_name>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_82ea592347a52a1038e741af016d432c</sys_update_name>
+        <sys_updated_by>emiliano.jimenez</sys_updated_by>
+        <sys_updated_on>2025-05-22 14:00:22</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Mostrar tarjetas guardadas o nueva tarjeta">67e7d16f47652a1038e741af016d43a4</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>tarjeta</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Customer Service">51d811fad7223100b7490ee60e61034f</application>
+        <file_path/>
+        <instance_id>537c19fd1b1b219019254089bd4bcb73</instance_id>
+        <instance_name>volteollcdemo21</instance_name>
+        <name>catalog_ui_policy_action_82ea592347a52a1038e741af016d432c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Pedir Garantia">78d5499b83256a10fbeb40526daad3f8</catalog_item><catalog_variable>IO:e31df05b83e16a10fbeb40526daad33c</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>emiliano.jimenez</sys_created_by><sys_created_on>2025-05-22 14:00:22</sys_created_on><sys_id>82ea592347a52a1038e741af016d432c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>tarjeta</sys_name><sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package><sys_policy/><sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope><sys_update_name>catalog_ui_policy_action_82ea592347a52a1038e741af016d432c</sys_update_name><sys_updated_by>emiliano.jimenez</sys_updated_by><sys_updated_on>2025-05-22 14:00:22</sys_updated_on><table/><ui_policy display_value="Mostrar tarjetas guardadas o nueva tarjeta">67e7d16f47652a1038e741af016d43a4</ui_policy><value/><value_action>ignore</value_action><variable>tarjeta</variable><variable_set/><visible>false</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>1115313503</payload_hash>
+        <record_name>tarjeta</record_name>
+        <reverted_from/>
+        <source>79b281d383256a10fbeb40526daad302</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>emiliano.jimenez</sys_created_by>
+        <sys_created_on>2025-05-22 14:00:24</sys_created_on>
+        <sys_id>fafad92347a52a1038e741af016d43eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196f84b92d80000001</sys_recorded_at>
+        <sys_updated_by>emiliano.jimenez</sys_updated_by>
+        <sys_updated_on>2025-05-22 14:00:24</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>fefad923a5a52a10d3dd10fa2d37c8ea</update_guid>
+        <update_guid_history>fefad923a5a52a10d3dd10fa2d37c8ea:1115313503</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="tarjeta">bb52256b47a52a1038e741af016d43a1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>emiliano.jimenez</sys_created_by>
+        <sys_created_on>2025-05-22 14:32:41</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>a5876adf1c9c4a00b5a7f5c7192a1900</sys_id>
+        <sys_metadata>82ea592347a52a1038e741af016d432c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tarjeta</sys_name>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_scope_delete display_value="">5b1be66412fc4f2eb88762fff89dc671</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_82ea592347a52a1038e741af016d432c</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_82ea592347a52a1038e741af016d432c">fafad92347a52a1038e741af016d43eb</sys_update_version>
+        <sys_updated_by>emiliano.jimenez</sys_updated_by>
+        <sys_updated_on>2025-05-22 14:32:41</sys_updated_on>
+    </sys_metadata_delete>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
+        <claim_timestamp>197377b9ae30000001</claim_timestamp>
+        <metadata_update_name>catalog_ui_policy_action_82ea592347a52a1038e741af016d432c</metadata_update_name>
+        <previous_claim_app_version>27.2.17</previous_claim_app_version>
+        <previous_claim_name>Customer Service</previous_claim_name>
+        <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-03 20:28:56</sys_created_on>
+        <sys_id>d7f660eb4735261038e741af016d4348</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-03 20:28:56</sys_updated_on>
+    </sys_claim>
+</record_update>

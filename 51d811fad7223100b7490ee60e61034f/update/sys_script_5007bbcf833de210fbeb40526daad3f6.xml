@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>csm_consumer_user</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>On insert sync consumer user and consume</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+    // Query csm_consumer where user reference matches current csm_consumer_user
+    var consumerGR = new GlideRecord('csm_consumer');
+    consumerGR.addQuery('user', current.sys_id);
+    consumerGR.query();
+    if (consumerGR.next()) {
+        // Update consumer fields with values from csm_consumer_user
+        consumerGR.setValue('first_name', current.first_name);
+        consumerGR.setValue('middle_name', current.middle_name);
+        consumerGR.setValue('last_name', current.last_name);
+        consumerGR.setValue('email', current.email);
+        consumerGR.setValue('home_phone', current.home_phone);
+        consumerGR.setValue('mobile_phone', current.mobile_phone);
+        consumerGR.setValue('business_phone', current.phone); // Make sure 'phone' is the correct field
+        consumerGR.update();
+    } else {
+        // Create a new consumer record if one does not exist
+        var newConsumer = new GlideRecord('csm_consumer');
+        newConsumer.initialize();
+        newConsumer.user = current.sys_id;
+        newConsumer.first_name = current.first_name;
+        newConsumer.middle_name = current.middle_name;
+        newConsumer.last_name = current.last_name;
+        newConsumer.email = current.email;
+        newConsumer.home_phone = current.home_phone;
+        newConsumer.mobile_phone = current.mobile_phone;
+        newConsumer.business_phone = current.phone;
+        newConsumer.insert();
+    }
+})(current, previous);
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>jacqueline.lopez</sys_created_by>
+        <sys_created_on>2025-06-02 22:28:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5007bbcf833de210fbeb40526daad3f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>On insert sync consumer user and consume</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name>sys_script_5007bbcf833de210fbeb40526daad3f6</sys_update_name>
+        <sys_updated_by>jacqueline.lopez</sys_updated_by>
+        <sys_updated_on>2025-06-02 22:28:57</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=5007bbcf833de210fbeb40526daad3f6"/>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
+        <claim_timestamp>197377b991c0000001</claim_timestamp>
+        <metadata_update_name>sys_script_5007bbcf833de210fbeb40526daad3f6</metadata_update_name>
+        <previous_claim_app_version>27.2.17</previous_claim_app_version>
+        <previous_claim_name>Customer Service</previous_claim_name>
+        <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-03 20:28:56</sys_created_on>
+        <sys_id>57f660eb4735261038e741af016d4302</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-03 20:28:56</sys_updated_on>
+    </sys_claim>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>5007bbcf833de210fbeb40526daad3f6</id>
+        <sys_created_by>jacqueline.lopez</sys_created_by>
+        <sys_created_on>2025-06-02 22:28:57</sys_created_on>
+        <sys_id>d7d8f783837de210fbeb40526daad3b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jacqueline.lopez</sys_updated_by>
+        <sys_updated_on>2025-06-02 22:28:57</sys_updated_on>
+        <table>sys_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Silla Tst">3a43508c837d6e10fbeb40526daad3ae</sc_cat_item>
+        <sc_catalog display_value="Consumer Service">0f910a2ac3112200b12d9f2974d3ae3c</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>jacqueline.lopez</sys_created_by>
+        <sys_created_on>2025-05-23 22:04:10</sys_created_on>
+        <sys_id>0b43508c837d6e10fbeb40526daad3b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Consumer Service.Silla</sys_name>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_0b43508c837d6e10fbeb40526daad3b7</sys_update_name>
+        <sys_updated_by>jacqueline.lopez</sys_updated_by>
+        <sys_updated_on>2025-05-23 22:04:10</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
+        <claim_timestamp>1970375b2940000001</claim_timestamp>
+        <metadata_update_name>sc_cat_item_catalog_0b43508c837d6e10fbeb40526daad3b7</metadata_update_name>
+        <previous_claim_app_version>27.2.17</previous_claim_app_version>
+        <previous_claim_name>Customer Service</previous_claim_name>
+        <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
+        <sys_created_by>jacqueline.lopez</sys_created_by>
+        <sys_created_on>2025-05-24 18:02:14</sys_created_on>
+        <sys_id>2c85681c8335ee10fbeb40526daad3e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jacqueline.lopez</sys_updated_by>
+        <sys_updated_on>2025-05-24 18:02:14</sys_updated_on>
+    </sys_claim>
+</record_update>

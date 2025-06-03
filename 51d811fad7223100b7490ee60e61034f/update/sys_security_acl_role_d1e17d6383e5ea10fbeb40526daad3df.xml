@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>jacqueline.lopez</sys_created_by>
+        <sys_created_on>2025-05-22 15:40:31</sys_created_on>
+        <sys_id>d1e17d6383e5ea10fbeb40526daad3df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_customerservice_tarjetas_guardadas.sn_customerservice.tarjetas_guardadas_user</sys_name>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_security_acl display_value="sn_customerservice_tarjetas_guardadas">95e17d6383e5ea10fbeb40526daad3d8</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_d1e17d6383e5ea10fbeb40526daad3df</sys_update_name>
+        <sys_updated_by>jacqueline.lopez</sys_updated_by>
+        <sys_updated_on>2025-05-22 15:40:31</sys_updated_on>
+        <sys_user_role display_value="sn_customerservice.tarjetas_guardadas_user" name="sn_customerservice.tarjetas_guardadas_user">7ce17d6383e5ea10fbeb40526daad360</sys_user_role>
+    </sys_security_acl_role>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
+        <claim_timestamp>1970375b2e20000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_role_d1e17d6383e5ea10fbeb40526daad3df</metadata_update_name>
+        <previous_claim_app_version>27.2.17</previous_claim_app_version>
+        <previous_claim_name>Customer Service</previous_claim_name>
+        <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
+        <sys_created_by>jacqueline.lopez</sys_created_by>
+        <sys_created_on>2025-05-24 18:02:14</sys_created_on>
+        <sys_id>b085681c8335ee10fbeb40526daad3ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jacqueline.lopez</sys_updated_by>
+        <sys_updated_on>2025-05-24 18:02:14</sys_updated_on>
+    </sys_claim>
+</record_update>

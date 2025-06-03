@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item/>
+        <catalog_variable>IO:c952dfab83612e10fbeb40526daad397</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>jeronimo.moreno</sys_created_by>
+        <sys_created_on>2025-05-22 22:46:20</sys_created_on>
+        <sys_id>6133136f83612e10fbeb40526daad353</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>agregar_direccion</sys_name>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_6133136f83612e10fbeb40526daad353</sys_update_name>
+        <sys_updated_by>jeronimo.moreno</sys_updated_by>
+        <sys_updated_on>2025-05-22 22:46:20</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Al seleccionar permite agregar una nueva tarjeta ">65d2d32f83612e10fbeb40526daad39a</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>agregar_direccion</variable>
+        <variable_set display_value="Direccion">f920c7e783edea10fbeb40526daad30b</variable_set>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Customer Service">51d811fad7223100b7490ee60e61034f</application>
+        <file_path/>
+        <instance_id>537c19fd1b1b219019254089bd4bcb73</instance_id>
+        <instance_name>volteollcdemo21</instance_name>
+        <name>catalog_ui_policy_action_6133136f83612e10fbeb40526daad353</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item/><catalog_variable>IO:c952dfab83612e10fbeb40526daad397</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>jeronimo.moreno</sys_created_by><sys_created_on>2025-05-22 22:46:20</sys_created_on><sys_id>6133136f83612e10fbeb40526daad353</sys_id><sys_mod_count>0</sys_mod_count><sys_name>agregar_direccion</sys_name><sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package><sys_policy/><sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope><sys_update_name>catalog_ui_policy_action_6133136f83612e10fbeb40526daad353</sys_update_name><sys_updated_by>jeronimo.moreno</sys_updated_by><sys_updated_on>2025-05-22 22:46:20</sys_updated_on><table/><ui_policy display_value="Al seleccionar permite agregar una nueva tarjeta ">65d2d32f83612e10fbeb40526daad39a</ui_policy><value/><value_action>ignore</value_action><variable>agregar_direccion</variable><variable_set display_value="Direccion">f920c7e783edea10fbeb40526daad30b</variable_set><visible>true</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>29526764</payload_hash>
+        <record_name>agregar_direccion</record_name>
+        <reverted_from/>
+        <source>33bec26783a9ea10fbeb40526daad350</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jeronimo.moreno</sys_created_by>
+        <sys_created_on>2025-05-22 22:46:20</sys_created_on>
+        <sys_id>b653d76f83612e10fbeb40526daad337</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196fa2d15e80000001</sys_recorded_at>
+        <sys_updated_by>jeronimo.moreno</sys_updated_by>
+        <sys_updated_on>2025-05-22 22:46:20</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>ba53d76fff612e10c2af247b72e21536</update_guid>
+        <update_guid_history>ba53d76fff612e10c2af247b72e21536:29526764</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="agregar_direccion">9f26dba383a12e10fbeb40526daad383</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jeronimo.moreno</sys_created_by>
+        <sys_created_on>2025-05-22 22:58:39</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>77b076e92b564a6da16f6b3769a39f89</sys_id>
+        <sys_metadata>6133136f83612e10fbeb40526daad353</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>agregar_direccion</sys_name>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_scope_delete display_value="">5b1be66412fc4f2eb88762fff89dc671</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_6133136f83612e10fbeb40526daad353</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_6133136f83612e10fbeb40526daad353">b653d76f83612e10fbeb40526daad337</sys_update_version>
+        <sys_updated_by>jeronimo.moreno</sys_updated_by>
+        <sys_updated_on>2025-05-22 22:58:39</sys_updated_on>
+    </sys_metadata_delete>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
+        <claim_timestamp>197377b9a610000001</claim_timestamp>
+        <metadata_update_name>catalog_ui_policy_action_6133136f83612e10fbeb40526daad353</metadata_update_name>
+        <previous_claim_app_version>27.2.17</previous_claim_app_version>
+        <previous_claim_name>Customer Service</previous_claim_name>
+        <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-03 20:28:56</sys_created_on>
+        <sys_id>17f660eb4735261038e741af016d4333</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-03 20:28:56</sys_updated_on>
+    </sys_claim>
+</record_update>

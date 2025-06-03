@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0f8dadab83a5ea10fbeb40526daad368" label="Tarjetas Guardadas" max_length="40" name="sn_customerservice_tarjetas_guardadas" type="collection">
+        <element label="Fecha de expiración" max_length="40" name="u_fecha_de_expiracion" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="CVV" max_length="40" name="u_cvv" type="string"/>
+        <element label="Cliente" max_length="32" name="u_customer" reference="sys_user" type="reference"/>
+        <element label="Número de tarjeta" max_length="40" name="u_numero_de_tarjeta" type="string"/>
+        <element display="true" label="Tarjeta oculta" max_length="16" name="u_tarjeta_oculta" type="string"/>
+        <element label="Nombre en tarjeta" max_length="40" name="u_nombre_en_tarjeta" type="string"/>
+        <index name="index">
+            <element name="u_customer"/>
+        </index>
+    </element>
+</database>

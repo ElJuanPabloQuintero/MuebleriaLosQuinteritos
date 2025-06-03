@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>3</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">dfdfdc658371a650fbeb40526daad315</sp_column>
+        <sp_widget display_value="SC Saved Carts">55ccec906701220023c82e08f585ef82</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>emiliano.jimenez</sys_created_by>
+        <sys_created_on>2025-05-28 14:49:58</sys_created_on>
+        <sys_id>dfdfdc658371a650fbeb40526daad31a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name>sp_instance_dfdfdc658371a650fbeb40526daad31a</sys_update_name>
+        <sys_updated_by>emiliano.jimenez</sys_updated_by>
+        <sys_updated_on>2025-05-28 15:23:27</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=dfdfdc658371a650fbeb40526daad31a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Customer Service">51d811fad7223100b7490ee60e61034f</application>
+        <file_path/>
+        <instance_id>537c19fd1b1b219019254089bd4bcb73</instance_id>
+        <instance_name>volteollcdemo21</instance_name>
+        <name>sp_instance_dfdfdc658371a650fbeb40526daad31a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>3</order><roles/><short_description/><size>md</size><sp_column display_value="1">dfdfdc658371a650fbeb40526daad315</sp_column><sp_widget display_value="SC Saved Carts">55ccec906701220023c82e08f585ef82</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>emiliano.jimenez</sys_created_by><sys_created_on>2025-05-28 14:49:58</sys_created_on><sys_id>dfdfdc658371a650fbeb40526daad31a</sys_id><sys_mod_count>3</sys_mod_count><sys_name/><sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package><sys_policy/><sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope><sys_update_name>sp_instance_dfdfdc658371a650fbeb40526daad31a</sys_update_name><sys_updated_by>emiliano.jimenez</sys_updated_by><sys_updated_on>2025-05-28 15:23:27</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=dfdfdc658371a650fbeb40526daad31a"/></record_update>]]></payload>
+        <payload_hash>1682346440</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>79b281d383256a10fbeb40526daad302</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>emiliano.jimenez</sys_created_by>
+        <sys_created_on>2025-05-28 15:23:27</sys_created_on>
+        <sys_id>7987606183b1a650fbeb40526daad3c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197177dc4690000001</sys_recorded_at>
+        <sys_updated_by>emiliano.jimenez</sys_updated_by>
+        <sys_updated_on>2025-05-28 15:23:27</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>fd876061afb1a6503f1b2c18cd2f53c8</update_guid>
+        <update_guid_history>fd876061afb1a6503f1b2c18cd2f53c8:1682346440,f887606134b1a6503a5be8124c22f28b:712743815,ac77ec2151b1a650f2674ec5886f4ca2:1682346440,17dfdc65d671a6501fe858fbedfa311c:712743815</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">4097a06183b1a650fbeb40526daad39c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>emiliano.jimenez</sys_created_by>
+        <sys_created_on>2025-05-28 15:23:37</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>1ae790089ec0479892bb32ee1f9ac040</sys_id>
+        <sys_metadata>dfdfdc658371a650fbeb40526daad31a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_scope_delete display_value="">5b1be66412fc4f2eb88762fff89dc671</sys_scope_delete>
+        <sys_update_name>sp_instance_dfdfdc658371a650fbeb40526daad31a</sys_update_name>
+        <sys_update_version display_value="sp_instance_dfdfdc658371a650fbeb40526daad31a">7987606183b1a650fbeb40526daad3c9</sys_update_version>
+        <sys_updated_by>emiliano.jimenez</sys_updated_by>
+        <sys_updated_on>2025-05-28 15:23:37</sys_updated_on>
+    </sys_metadata_delete>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
+        <claim_timestamp>197377b9a030000001</claim_timestamp>
+        <metadata_update_name>sp_instance_dfdfdc658371a650fbeb40526daad31a</metadata_update_name>
+        <previous_claim_app_version>27.2.17</previous_claim_app_version>
+        <previous_claim_name>Customer Service</previous_claim_name>
+        <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-03 20:28:56</sys_created_on>
+        <sys_id>13f660eb4735261038e741af016d4326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-03 20:28:56</sys_updated_on>
+    </sys_claim>
+</record_update>

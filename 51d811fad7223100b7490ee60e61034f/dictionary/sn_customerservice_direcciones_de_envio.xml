@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c24239a383e5ea10fbeb40526daad3c7" label="Direcciones de envío" max_length="40" name="sn_customerservice_direcciones_de_envio" type="collection">
+        <element display="true" label="address" max_length="40" name="u_address" type="string"/>
+        <element label="Cliente" max_length="32" name="u_cliente" reference="sys_user" type="reference"/>
+        <element label="country" max_length="40" name="u_country" type="string"/>
+        <element label="cp" max_length="40" name="u_cp" type="string"/>
+        <element label="state" max_length="40" name="u_state" type="string"/>
+        <index name="index">
+            <element name="u_cliente"/>
+        </index>
+    </element>
+</database>

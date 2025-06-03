@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="0479ce2b8369ea10fbeb40526daad317" sys_domain="global" table="sn_customerservice_direcciones_de_envio" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cliente</element>
+            <position>0</position>
+            <sys_created_by>jacqueline.lopez</sys_created_by>
+            <sys_created_on>2025-05-22 17:23:50</sys_created_on>
+            <sys_id>7689826b8369ea10fbeb40526daad326</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_customerservice_direcciones_de_envio" sys_domain="global" view="Default view">0479ce2b8369ea10fbeb40526daad317</sys_ui_section>
+            <sys_updated_by>jacqueline.lopez</sys_updated_by>
+            <sys_updated_on>2025-05-22 17:23:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_guardar</element>
+            <position>1</position>
+            <sys_created_by>jacqueline.lopez</sys_created_by>
+            <sys_created_on>2025-05-22 17:23:50</sys_created_on>
+            <sys_id>7e89826b8369ea10fbeb40526daad326</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_customerservice_direcciones_de_envio" sys_domain="global" view="Default view">0479ce2b8369ea10fbeb40526daad317</sys_ui_section>
+            <sys_updated_by>jacqueline.lopez</sys_updated_by>
+            <sys_updated_on>2025-05-22 17:23:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>jacqueline.lopez</sys_created_by>
+            <sys_created_on>2025-05-22 17:23:50</sys_created_on>
+            <sys_id>7689826b8369ea10fbeb40526daad327</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_customerservice_direcciones_de_envio" sys_domain="global" view="Default view">0479ce2b8369ea10fbeb40526daad317</sys_ui_section>
+            <sys_updated_by>jacqueline.lopez</sys_updated_by>
+            <sys_updated_on>2025-05-22 17:23:50</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_direccion</element>
+            <position>3</position>
+            <sys_created_by>jacqueline.lopez</sys_created_by>
+            <sys_created_on>2025-05-22 17:23:50</sys_created_on>
+            <sys_id>7e89826b8369ea10fbeb40526daad327</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_customerservice_direcciones_de_envio" sys_domain="global" view="Default view">0479ce2b8369ea10fbeb40526daad317</sys_ui_section>
+            <sys_updated_by>jacqueline.lopez</sys_updated_by>
+            <sys_updated_on>2025-05-22 17:23:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_address</element>
+            <position>4</position>
+            <sys_created_by>jeronimo.moreno</sys_created_by>
+            <sys_created_on>2025-06-02 20:55:57</sys_created_on>
+            <sys_id>19932b47477da21038e741af016d4386</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_customerservice_direcciones_de_envio" sys_domain="global" view="Default view">0479ce2b8369ea10fbeb40526daad317</sys_ui_section>
+            <sys_updated_by>jeronimo.moreno</sys_updated_by>
+            <sys_updated_on>2025-06-02 20:55:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_country</element>
+            <position>5</position>
+            <sys_created_by>jeronimo.moreno</sys_created_by>
+            <sys_created_on>2025-06-02 21:43:26</sys_created_on>
+            <sys_id>787ea7c347bda21038e741af016d43f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_customerservice_direcciones_de_envio" sys_domain="global" view="Default view">0479ce2b8369ea10fbeb40526daad317</sys_ui_section>
+            <sys_updated_by>jeronimo.moreno</sys_updated_by>
+            <sys_updated_on>2025-06-02 21:43:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_state</element>
+            <position>6</position>
+            <sys_created_by>jeronimo.moreno</sys_created_by>
+            <sys_created_on>2025-06-02 21:43:44</sys_created_on>
+            <sys_id>c98e6bc347bda21038e741af016d43f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_customerservice_direcciones_de_envio" sys_domain="global" view="Default view">0479ce2b8369ea10fbeb40526daad317</sys_ui_section>
+            <sys_updated_by>jeronimo.moreno</sys_updated_by>
+            <sys_updated_on>2025-06-02 21:43:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cp</element>
+            <position>7</position>
+            <sys_created_by>jeronimo.moreno</sys_created_by>
+            <sys_created_on>2025-06-02 21:44:02</sys_created_on>
+            <sys_id>ed9eebc347bda21038e741af016d43dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_customerservice_direcciones_de_envio" sys_domain="global" view="Default view">0479ce2b8369ea10fbeb40526daad317</sys_ui_section>
+            <sys_updated_by>jeronimo.moreno</sys_updated_by>
+            <sys_updated_on>2025-06-02 21:44:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>sn_customerservice_direcciones_de_envio</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>jacqueline.lopez</sys_created_by>
+            <sys_created_on>2025-05-22 17:23:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0479ce2b8369ea10fbeb40526daad317</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sn_customerservice_direcciones_de_envio</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+            <sys_update_name>sys_ui_section_0479ce2b8369ea10fbeb40526daad317</sys_update_name>
+            <sys_updated_by>jacqueline.lopez</sys_updated_by>
+            <sys_updated_on>2025-05-22 17:23:23</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
+        <claim_timestamp>1970375b2470000001</claim_timestamp>
+        <metadata_update_name>sys_ui_section_0479ce2b8369ea10fbeb40526daad317</metadata_update_name>
+        <previous_claim_app_version>27.2.17</previous_claim_app_version>
+        <previous_claim_name>Customer Service</previous_claim_name>
+        <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
+        <sys_created_by>jacqueline.lopez</sys_created_by>
+        <sys_created_on>2025-05-24 18:02:14</sys_created_on>
+        <sys_id>a485681c8335ee10fbeb40526daad3d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jacqueline.lopez</sys_updated_by>
+        <sys_updated_on>2025-05-24 18:02:14</sys_updated_on>
+    </sys_claim>
+</record_update>

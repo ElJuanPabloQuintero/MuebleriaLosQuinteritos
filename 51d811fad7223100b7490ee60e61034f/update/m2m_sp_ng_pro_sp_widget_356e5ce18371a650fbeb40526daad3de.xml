@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_ng_pro_sp_widget">
+    <m2m_sp_ng_pro_sp_widget action="INSERT_OR_UPDATE">
+        <sp_angular_provider display_value="scBindHtmlCompile">631d65a287300300e0ef0cf888cb0ba3</sp_angular_provider>
+        <sp_widget display_value="CSM cart pay 2">f56ed4a18371a650fbeb40526daad3ee</sp_widget>
+        <sys_class_name>m2m_sp_ng_pro_sp_widget</sys_class_name>
+        <sys_created_by>emiliano.jimenez</sys_created_by>
+        <sys_created_on>2025-05-28 14:43:35</sys_created_on>
+        <sys_id>356e5ce18371a650fbeb40526daad3de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>scBindHtmlCompile.Copy of SC Catalog Item</sys_name>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name>m2m_sp_ng_pro_sp_widget_356e5ce18371a650fbeb40526daad3de</sys_update_name>
+        <sys_updated_by>emiliano.jimenez</sys_updated_by>
+        <sys_updated_on>2025-05-28 14:43:35</sys_updated_on>
+    </m2m_sp_ng_pro_sp_widget>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
+        <claim_timestamp>197377b98b10000001</claim_timestamp>
+        <metadata_update_name>m2m_sp_ng_pro_sp_widget_356e5ce18371a650fbeb40526daad3de</metadata_update_name>
+        <previous_claim_app_version>27.2.17</previous_claim_app_version>
+        <previous_claim_name>Customer Service</previous_claim_name>
+        <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-03 20:28:56</sys_created_on>
+        <sys_id>97f620eb4735261038e741af016d43f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-03 20:28:56</sys_updated_on>
+    </sys_claim>
+</record_update>

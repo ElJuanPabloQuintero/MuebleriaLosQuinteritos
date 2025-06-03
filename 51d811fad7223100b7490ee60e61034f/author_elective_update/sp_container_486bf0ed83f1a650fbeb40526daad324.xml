@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Shopping Cart MQ - Container 2</name>
+        <order>2</order>
+        <semantic_tag/>
+        <sp_page display_value="sc_cart_mq_2">87dfd4658371a650fbeb40526daad3d7</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>emiliano.jimenez</sys_created_by>
+        <sys_created_on>2025-05-28 16:50:10</sys_created_on>
+        <sys_id>486bf0ed83f1a650fbeb40526daad324</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Shopping Cart MQ - Container 2</sys_name>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name>sp_container_486bf0ed83f1a650fbeb40526daad324</sys_update_name>
+        <sys_updated_by>emiliano.jimenez</sys_updated_by>
+        <sys_updated_on>2025-05-28 16:50:10</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Customer Service">51d811fad7223100b7490ee60e61034f</application>
+        <file_path/>
+        <instance_id>537c19fd1b1b219019254089bd4bcb73</instance_id>
+        <instance_name>volteollcdemo21</instance_name>
+        <name>sp_container_486bf0ed83f1a650fbeb40526daad324</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Shopping Cart MQ - Container 2</name><order>2</order><semantic_tag/><sp_page display_value="sc_cart_mq_2">87dfd4658371a650fbeb40526daad3d7</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>emiliano.jimenez</sys_created_by><sys_created_on>2025-05-28 16:50:10</sys_created_on><sys_id>486bf0ed83f1a650fbeb40526daad324</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Shopping Cart MQ - Container 2</sys_name><sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package><sys_policy/><sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope><sys_update_name>sp_container_486bf0ed83f1a650fbeb40526daad324</sys_update_name><sys_updated_by>emiliano.jimenez</sys_updated_by><sys_updated_on>2025-05-28 16:50:10</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-1247944104</payload_hash>
+        <record_name>Shopping Cart MQ - Container 2</record_name>
+        <reverted_from/>
+        <source>79b281d383256a10fbeb40526daad302</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>emiliano.jimenez</sys_created_by>
+        <sys_created_on>2025-05-28 16:50:10</sys_created_on>
+        <sys_id>086bb4ed83f1a650fbeb40526daad3b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19717cd294d0000001</sys_recorded_at>
+        <sys_updated_by>emiliano.jimenez</sys_updated_by>
+        <sys_updated_on>2025-05-28 16:50:10</sys_updated_on>
+        <type>Container</type>
+        <update_guid>4c6bf0ed92f1a650919f9a69ed0a4b25</update_guid>
+        <update_guid_history>4c6bf0ed92f1a650919f9a69ed0a4b25:-1247944104</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Shopping Cart MQ - Container 2">019c34218335a650fbeb40526daad3af</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>emiliano.jimenez</sys_created_by>
+        <sys_created_on>2025-05-28 16:55:27</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>0c453d1d7bdf4ff192094072914362a9</sys_id>
+        <sys_metadata>486bf0ed83f1a650fbeb40526daad324</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Shopping Cart MQ - Container 2</sys_name>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_scope_delete display_value="">5b1be66412fc4f2eb88762fff89dc671</sys_scope_delete>
+        <sys_update_name>sp_container_486bf0ed83f1a650fbeb40526daad324</sys_update_name>
+        <sys_update_version display_value="sp_container_486bf0ed83f1a650fbeb40526daad324">086bb4ed83f1a650fbeb40526daad3b2</sys_update_version>
+        <sys_updated_by>emiliano.jimenez</sys_updated_by>
+        <sys_updated_on>2025-05-28 16:55:27</sys_updated_on>
+    </sys_metadata_delete>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
+        <claim_timestamp>197377b97230000001</claim_timestamp>
+        <metadata_update_name>sp_container_486bf0ed83f1a650fbeb40526daad324</metadata_update_name>
+        <previous_claim_app_version>27.2.17</previous_claim_app_version>
+        <previous_claim_name>Customer Service</previous_claim_name>
+        <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-03 20:28:55</sys_created_on>
+        <sys_id>87f620eb4735261038e741af016d43bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-03 20:28:55</sys_updated_on>
+    </sys_claim>
+</record_update>

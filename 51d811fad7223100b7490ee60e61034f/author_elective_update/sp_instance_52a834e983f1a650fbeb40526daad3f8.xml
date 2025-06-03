@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">659830e983f1a650fbeb40526daad3b9</sp_column>
+        <sp_widget display_value="CSM Shopping Cart MQ">889fa46d83b1a650fbeb40526daad354</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>emiliano.jimenez</sys_created_by>
+        <sys_created_on>2025-05-28 16:38:19</sys_created_on>
+        <sys_id>52a834e983f1a650fbeb40526daad3f8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name>sp_instance_52a834e983f1a650fbeb40526daad3f8</sys_update_name>
+        <sys_updated_by>emiliano.jimenez</sys_updated_by>
+        <sys_updated_on>2025-05-28 16:39:56</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"cartTemplate": {
+		"value": "large_shopping_cart_v4_mq.html",
+		"displayValue": "large_shopping_cart_v4_mq.html"
+	},
+	"auto_update_cart": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=52a834e983f1a650fbeb40526daad3f8"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Customer Service">51d811fad7223100b7490ee60e61034f</application>
+        <file_path/>
+        <instance_id>537c19fd1b1b219019254089bd4bcb73</instance_id>
+        <instance_name>volteollcdemo21</instance_name>
+        <name>sp_instance_52a834e983f1a650fbeb40526daad3f8</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;659830e983f1a650fbeb40526daad3b9&lt;/sp_column&gt;&lt;sp_widget display_value="CSM Shopping Cart MQ"&gt;889fa46d83b1a650fbeb40526daad354&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;emiliano.jimenez&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-28 16:38:19&lt;/sys_created_on&gt;&lt;sys_id&gt;52a834e983f1a650fbeb40526daad3f8&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Customer Service" source="sn_customerservice"&gt;51d811fad7223100b7490ee60e61034f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Customer Service"&gt;51d811fad7223100b7490ee60e61034f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_52a834e983f1a650fbeb40526daad3f8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;emiliano.jimenez&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-28 16:39:56&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"cartTemplate": {
+		"value": "large_shopping_cart_v4_mq.html",
+		"displayValue": "large_shopping_cart_v4_mq.html"
+	},
+	"auto_update_cart": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=52a834e983f1a650fbeb40526daad3f8"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2112756886</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>79b281d383256a10fbeb40526daad302</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>emiliano.jimenez</sys_created_by>
+        <sys_created_on>2025-05-28 16:39:56</sys_created_on>
+        <sys_id>0609f8e983f1a650fbeb40526daad3c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19717c3c78a0000001</sys_recorded_at>
+        <sys_updated_by>emiliano.jimenez</sys_updated_by>
+        <sys_updated_on>2025-05-28 16:39:56</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>8a09f8e980f1a65069267e12d1f348c8</update_guid>
+        <update_guid_history>8a09f8e980f1a65069267e12d1f348c8:2112756886,5aa834e907f1a650f7dc080a8f1d82f9:1029269859</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">4c2b30ed83f1a650fbeb40526daad3e3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>emiliano.jimenez</sys_created_by>
+        <sys_created_on>2025-05-28 16:49:05</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>09c4a1bb23c249ea80e0b6c5bc3dc769</sys_id>
+        <sys_metadata>52a834e983f1a650fbeb40526daad3f8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_scope_delete display_value="">5b1be66412fc4f2eb88762fff89dc671</sys_scope_delete>
+        <sys_update_name>sp_instance_52a834e983f1a650fbeb40526daad3f8</sys_update_name>
+        <sys_update_version display_value="sp_instance_52a834e983f1a650fbeb40526daad3f8">0609f8e983f1a650fbeb40526daad3c9</sys_update_version>
+        <sys_updated_by>emiliano.jimenez</sys_updated_by>
+        <sys_updated_on>2025-05-28 16:49:05</sys_updated_on>
+    </sys_metadata_delete>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
+        <claim_timestamp>197377b984a0000001</claim_timestamp>
+        <metadata_update_name>sp_instance_52a834e983f1a650fbeb40526daad3f8</metadata_update_name>
+        <previous_claim_app_version>27.2.17</previous_claim_app_version>
+        <previous_claim_name>Customer Service</previous_claim_name>
+        <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-03 20:28:56</sys_created_on>
+        <sys_id>4bf620eb4735261038e741af016d43e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-03 20:28:56</sys_updated_on>
+    </sys_claim>
+</record_update>

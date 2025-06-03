@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope, $location,$timeout,spUtil) {
+  /* widget controller */
+  var c = this;
+	
+	$scope.trackPageAnalytics = function(eventName) {
+		try {
+			window.GlideWebAnalytics.trackEvent('com.sn_customerservice', 'outlook', eventName, 1);
+		} catch(e) {
+			console.warn(JSON.stringify(e));
+		}
+	};
+	
+	var rpForm;
+	if($scope.portal.url_suffix == "csm_outlook"){
+	  $scope.$on('spModel.gForm.initialized', function (e, gFormInstance) { 
+		rpForm =  gFormInstance;
+		if(c.data.rpContact){
+			 $timeout(function(){
+			    rpForm.setValue("email",c.data.emailid);
+				  rpForm.setReadOnly("email",true);
+		    },3000);
+		 }
+		
+		if(c.data.rpCase){
+		   $timeout(function(){
+			    rpForm.setValue("contact",c.data.contactId);
+			    rpForm.setValue("account",c.data.accountId);
+				  rpForm.setValue("short_description",c.data.shortDescription);
+			
+			    rpForm.setReadOnly("contact",true);
+			    rpForm.setReadOnly("account",true);
+		   },3000);
+		
+	   }
+	});
+	}
+	
+	/*
+	 *Listening to $sp.sc_cat_item.submitted 
+	 */
+	$scope.$on("$sp.sc_cat_item.submitted", function(event, data){	
+		
+		if($scope.portal.url_suffix == "csm_outlook"){
+		   if(c.data.rpContact){
+				   $scope.server.get({cgen_id: data.sys_id}).then(function(response){
+				
+				 if(response.data.generatedContactRecord){
+					 $scope.trackPageAnalytics('contact.create');
+					  spUtil.addInfoMessage(c.data.contactCreateSucsMsg);
+					 $scope.$emit('viewContact');
+				 }
+				else {
+					  spUtil.addErrorMessage(c.data.contactCreateFailMsg);
+					  $scope.$emit('loadCreateContact');
+						}
+					 
+			 });
+		     }
+		   if(c.data.rpCase){
+		      c.data.setChannel=true;
+		      c.data.caseId=data.sys_id;
+			  $scope.server.update();
+			  $scope.trackPageAnalytics('case.create')
+		      $scope.$emit('viewCases',{showMoreCases:false});
+		      $scope.$emit("caseCreated", "${Case }" + data.number + "${ successfully created.}");
+		      }
+		}
+		else{
+			
+		//TODO: Change when STRY6219674 has been implemented
+		$scope.server.get({action: 'get_case',requestId: data.sys_id}).then(function(response) {
+			if(response.data.caseId){
+				$location.search("id="+ c.options.page_id + "&is_new_order=true&table=sn_customerservice_case&sys_id=" + response.data.caseId);
+			}
+			else if(c.options.view_type == 'ec_view'){
+				$location.search("id="+ c.options.page_id + "&is_new_order=true&table=" + data.table + "&sys_id=" + data.sys_id);
+			}
+			else{
+				if (data.redirect_portal_url) {
+					//In case of record producer having a redirect URL, use the redirect URL from the record
+					//producer instead of redirecting to ticket page.
+					var rUrl = data.redirect_portal_url;
+					$location.url(data.redirect_portal_url);
+				} else {
+					//This is for record producer. When the parent is not set, the RP redirects to the ticket page for the table and sys id. 
+					$location.search("id=ticket" + "&is_new_order=true&table=" + data.table + "&sys_id=" + data.sys_id);
+				}
+			}
+		});
+		}
+		
+	});
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>#submit-btn {&#13;
+  display: none;&#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>CSM SC Catalog Item MQ</name>
+        <option_schema>[{"page_id":"csm_ticket"}]</option_schema>
+        <public>false</public>
+        <roles>snc_internal,snc_external</roles>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	var properties = {};
+	properties.show_add_cart_button = "true";
+	properties.auto_redirect = "false";
+	properties.show_add_to_wishlist_button = "true";
+
+	data.contactCreateFailMsg = gs.getMessage("Contact creation failed");
+	if(input && input.cgen_id){
+		var gcr = new GlideRecordSecure('customer_contact');
+		gcr.addQuery('sys_id',input.cgen_id);
+		gcr.query();
+		if(gcr.hasNext())
+			data.generatedContactRecord = true;
+		
+	}
+	
+	if(input && input.setChannel){
+		var cgr = new GlideRecord('sn_customerservice_case');
+        if(cgr.get(input.caseId)){
+           cgr.setValue("contact_type","email");
+           cgr.update();
+        }
+	}
+	
+	if(input && input.rpOutContactSysid){
+	     properties.sys_id= input.rpOutContactSysid;
+		   data.rpContact=true;
+	}
+	if(input && input.rpOutCaseSysid){
+	     properties.sys_id= input.rpOutCaseSysid;
+		   data.rpCase=true;
+	}
+	if(input && input.contactId)
+	    data.contactId=input.contactId;
+	if(input && input.accountId)
+	    data.accountId=input.accountId;
+	
+	if(input && input.short_description)
+		   data.shortDescription = input.short_description;
+	
+	if(input && input.emailId)
+		   data.emailid = input.emailId;
+	data.contactCreateSucsMsg = gs.getMessage("Contact created successfully");
+	options.page_id = options.page_id || "csm_ticket";
+	
+	//TODO: Change when STRY6219674 has been implemented
+	if(input && input.action == "get_case"){
+		var gr = new GlideRecord("sc_request");
+		if(gr.get(input.requestId))
+			data.caseId = gr.getValue("parent");
+	}
+	else
+		data.catItemWidget = $sp.getWidget("widget-sc-cat-mq", properties);
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>emiliano.jimenez</sys_created_by>
+        <sys_created_on>2025-05-27 21:13:48</sys_created_on>
+        <sys_id>8c2e2cd54771225038e741af016d4317</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>CSM SC Catalog Item MQ</sys_name>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name>sp_widget_8c2e2cd54771225038e741af016d4317</sys_update_name>
+        <sys_updated_by>emiliano.jimenez</sys_updated_by>
+        <sys_updated_on>2025-06-02 21:18:23</sys_updated_on>
+        <template><![CDATA[<div>
+  <sp-widget widget="data.catItemWidget"></sp-widget>
+</div>]]></template>
+    </sp_widget>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
+        <claim_timestamp>197377b9ba60000001</claim_timestamp>
+        <metadata_update_name>sp_widget_8c2e2cd54771225038e741af016d4317</metadata_update_name>
+        <previous_claim_app_version>27.2.17</previous_claim_app_version>
+        <previous_claim_name>Customer Service</previous_claim_name>
+        <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-03 20:28:57</sys_created_on>
+        <sys_id>1bf660eb4735261038e741af016d4377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-03 20:28:57</sys_updated_on>
+    </sys_claim>
+</record_update>
