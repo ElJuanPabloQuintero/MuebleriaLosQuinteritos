@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>200</order>
+        <published_ref/>
+        <question display_value="What color are you looking for?">7660efb083fda250fbeb40526daad3ba</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-05-26 20:57:23</sys_created_on>
+        <sys_id>f1c02bf083fda250fbeb40526daad316</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Red</sys_name>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name>question_choice_f1c02bf083fda250fbeb40526daad316</sys_update_name>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-05-26 20:57:23</sys_updated_on>
+        <text>Red</text>
+        <value>red</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=f1c02bf083fda250fbeb40526daad316"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>f1c02bf083fda250fbeb40526daad316</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>jeronimo.moreno</sys_created_by>
+        <sys_created_on>2025-05-26 21:44:09</sys_created_on>
+        <sys_id>077be3b84779ae1038e741af016d43dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jeronimo.moreno</sys_updated_by>
+        <sys_updated_on>2025-05-26 21:44:09</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>f1c02bf083fda250fbeb40526daad316</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>jeronimo.moreno</sys_created_by>
+        <sys_created_on>2025-05-26 21:44:09</sys_created_on>
+        <sys_id>c77be3b84779ae1038e741af016d43dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jeronimo.moreno</sys_updated_by>
+        <sys_updated_on>2025-05-26 21:44:09</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
+        <claim_timestamp>1973779c6590000001</claim_timestamp>
+        <metadata_update_name>question_choice_f1c02bf083fda250fbeb40526daad316</metadata_update_name>
+        <previous_claim_app_version>27.2.17</previous_claim_app_version>
+        <previous_claim_name>Customer Service</previous_claim_name>
+        <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-03 20:26:56</sys_created_on>
+        <sys_id>c286686b4735261038e741af016d4389</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-03 20:26:56</sys_updated_on>
+    </sys_claim>
+</record_update>

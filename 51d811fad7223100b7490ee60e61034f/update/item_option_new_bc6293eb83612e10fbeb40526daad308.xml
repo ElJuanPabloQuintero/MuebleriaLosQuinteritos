@@ -10,7 +10,7 @@
         <conversational_label/>
         <create_roles/>
         <default_html_value/>
-        <default_value>tarjeta_nueva</default_value>
+        <default_value>saved_card</default_value>
         <delete_roles/>
         <delivery_plan/>
         <description/>
@@ -42,14 +42,14 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>agregar_tarjeta</name>
+        <name>refund_method</name>
         <not_available_conversation>false</not_available_conversation>
         <order>50</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Seleccione forma de pago</question_text>
+        <question_text>Refund method</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -79,14 +79,14 @@
         <sys_created_by>antonio.renteria</sys_created_by>
         <sys_created_on>2025-05-22 22:44:28</sys_created_on>
         <sys_id>bc6293eb83612e10fbeb40526daad308</sys_id>
-        <sys_mod_count>10</sys_mod_count>
-        <sys_name>Seleccione forma de pago</sys_name>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Refund method</sys_name>
         <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
         <sys_update_name>item_option_new_bc6293eb83612e10fbeb40526daad308</sys_update_name>
         <sys_updated_by>antonio.renteria</sys_updated_by>
-        <sys_updated_on>2025-05-23 15:53:36</sys_updated_on>
+        <sys_updated_on>2025-05-27 21:04:19</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
@@ -97,7 +97,7 @@
         <use_reference_qualifier>simple</use_reference_qualifier>
         <validate_regex/>
         <variable_name/>
-        <variable_set display_value="Tarjeta">e31df05b83e16a10fbeb40526daad33c</variable_set>
+        <variable_set display_value="Card">e31df05b83e16a10fbeb40526daad33c</variable_set>
         <variable_width/>
         <visibility>1</visibility>
         <visible_bundle>true</visible_bundle>

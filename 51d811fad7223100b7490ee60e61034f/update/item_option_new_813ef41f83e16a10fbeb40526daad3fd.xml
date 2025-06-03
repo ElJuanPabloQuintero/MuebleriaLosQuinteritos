@@ -42,14 +42,14 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>guardar_tarjeta</name>
+        <name>save_card</name>
         <not_available_conversation>false</not_available_conversation>
         <order>500</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Guardar tarjeta</question_text>
+        <question_text>Save card</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -79,14 +79,14 @@
         <sys_created_by>antonio.renteria</sys_created_by>
         <sys_created_on>2025-05-21 17:16:28</sys_created_on>
         <sys_id>813ef41f83e16a10fbeb40526daad3fd</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Guardar tarjeta</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Save card</sys_name>
         <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
         <sys_update_name>item_option_new_813ef41f83e16a10fbeb40526daad3fd</sys_update_name>
         <sys_updated_by>antonio.renteria</sys_updated_by>
-        <sys_updated_on>2025-05-21 17:17:05</sys_updated_on>
+        <sys_updated_on>2025-05-27 21:00:17</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
@@ -97,7 +97,7 @@
         <use_reference_qualifier>simple</use_reference_qualifier>
         <validate_regex/>
         <variable_name/>
-        <variable_set display_value="Tarjeta">e31df05b83e16a10fbeb40526daad33c</variable_set>
+        <variable_set display_value="Card">e31df05b83e16a10fbeb40526daad33c</variable_set>
         <variable_width/>
         <visibility>1</visibility>
         <visible_bundle>true</visible_bundle>

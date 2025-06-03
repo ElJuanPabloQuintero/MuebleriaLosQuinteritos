@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Comprar Productos">825cb04f83ede610fbeb40526daad32a</sc_cat_item>
-        <sc_category display_value="Muebles">0a35891b83256a10fbeb40526daad319</sc_category>
+        <sc_cat_item display_value="Umbrella">825cb04f83ede610fbeb40526daad32a</sc_cat_item>
+        <sc_category display_value="Furniture">0a35891b83256a10fbeb40526daad319</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>antonio.renteria</sys_created_by>
         <sys_created_on>2025-05-21 17:55:27</sys_created_on>

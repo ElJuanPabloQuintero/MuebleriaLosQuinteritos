@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Mesa">52465f7783296e10fbeb40526daad313</sc_cat_item>
-        <sc_category display_value="Muebles">0a35891b83256a10fbeb40526daad319</sc_category>
+        <sc_cat_item display_value="Table">52465f7783296e10fbeb40526daad313</sc_cat_item>
+        <sc_category display_value="Furniture">0a35891b83256a10fbeb40526daad319</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>antonio.renteria</sys_created_by>
         <sys_created_on>2025-05-23 17:37:37</sys_created_on>

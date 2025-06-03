@@ -2,24 +2,24 @@
     <question_choice action="INSERT_OR_UPDATE">
         <inactive>false</inactive>
         <misc>0</misc>
-        <order>100</order>
+        <order>200</order>
         <published_ref/>
-        <question display_value="Seleccione forma de pago">bc6293eb83612e10fbeb40526daad308</question>
+        <question display_value="Refund method">bc6293eb83612e10fbeb40526daad308</question>
         <rec_misc>0</rec_misc>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>antonio.renteria</sys_created_by>
         <sys_created_on>2025-05-23 15:50:02</sys_created_on>
         <sys_id>a77d7abb83656e10fbeb40526daad34c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Tarjeta nueva</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Add a card</sys_name>
         <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
         <sys_update_name>question_choice_a77d7abb83656e10fbeb40526daad34c</sys_update_name>
         <sys_updated_by>antonio.renteria</sys_updated_by>
-        <sys_updated_on>2025-05-23 15:50:02</sys_updated_on>
-        <text>Tarjeta nueva</text>
-        <value>tarjeta_nueva</value>
+        <sys_updated_on>2025-05-27 21:27:15</sys_updated_on>
+        <text>Add a card</text>
+        <value>add_card</value>
     </question_choice>
     <fx_price action="delete_multiple" query="id=a77d7abb83656e10fbeb40526daad34c"/>
     <fx_price action="INSERT_OR_UPDATE">

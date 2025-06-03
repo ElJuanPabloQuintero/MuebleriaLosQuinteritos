@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
     <catalog_ui_policy_action action="INSERT_OR_UPDATE">
-        <catalog_item display_value="Mesa">52465f7783296e10fbeb40526daad313</catalog_item>
+        <catalog_item display_value="Table">52465f7783296e10fbeb40526daad313</catalog_item>
         <catalog_variable>IO:68fbf0d783e16a10fbeb40526daad30b</catalog_variable>
         <cleared>false</cleared>
         <disabled>ignore</disabled>

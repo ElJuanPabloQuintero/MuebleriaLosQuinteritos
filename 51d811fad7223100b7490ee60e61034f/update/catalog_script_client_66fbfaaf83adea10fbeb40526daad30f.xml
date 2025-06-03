@@ -15,7 +15,7 @@
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Validar Tarjeta</name>
+        <name>Validate Card Number</name>
         <order/>
         <published_ref/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
@@ -26,14 +26,14 @@
     var regex = /^\d{16}$/;
     var formattedValue = newValue.replaceAll(' ', '');
     if (!regex.test(formattedValue)) {
-        g_form.showFieldMsg('numero_tarjeta', 'Formato incorrecto. Deben ser 16 digitos.', 'error');
+        g_form.showFieldMsg('card_number', 'Incorrect format. Must be 16 digits.', 'error');
     } else {
         var ga = new GlideAjax('MQCatalogsUtils');
         ga.addParam('sysparm_name', 'tarjetaExiste');
         ga.addParam('sysparm_tarjetaNum', newValue);
         ga.getXMLAnswer(function(response) {
             if (response === 'true') {
-                alert("Este número de tarjeta ya existe en tarjetas guardadas!");
+                alert("This card is already on your saved cards!");
                 g_form.setSubmit(false);
             } else {
                 g_form.setSubmit(true);
@@ -47,20 +47,20 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>66fbfaaf83adea10fbeb40526daad30f</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Validar Tarjeta</sys_name>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Validate Card Number</sys_name>
         <sys_overrides/>
         <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
         <sys_update_name>catalog_script_client_66fbfaaf83adea10fbeb40526daad30f</sys_update_name>
-        <sys_updated_by>emiliano.jimenez</sys_updated_by>
-        <sys_updated_on>2025-05-23 17:09:21</sys_updated_on>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-05-27 21:46:21</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
         <va_supported>false</va_supported>
-        <variable_set display_value="Tarjeta">e31df05b83e16a10fbeb40526daad33c</variable_set>
+        <variable_set display_value="Card">e31df05b83e16a10fbeb40526daad33c</variable_set>
         <view/>
     </catalog_script_client>
     <sys_claim action="INSERT_OR_UPDATE">

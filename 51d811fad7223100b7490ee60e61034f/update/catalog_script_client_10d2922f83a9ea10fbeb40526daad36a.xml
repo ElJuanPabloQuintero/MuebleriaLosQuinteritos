@@ -7,7 +7,7 @@
         <applies_sc_task>false</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <cat_item display_value="Sombrilla">825cb04f83ede610fbeb40526daad32a</cat_item>
+        <cat_item display_value="Umbrella">825cb04f83ede610fbeb40526daad32a</cat_item>
         <cat_variable>IO:c9cd3c9b83e16a10fbeb40526daad31d</cat_variable>
         <condition/>
         <description/>

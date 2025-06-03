@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="DELETE">
+        <sc_cat_item display_value="Umbrella">825cb04f83ede610fbeb40526daad32a</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-02 22:51:53</sys_created_on>
+        <sys_id>e31e330b47fda21038e741af016d4367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Umbrella.All ACME Corporation employees</sys_name>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_e31e330b47fda21038e741af016d4367</sys_update_name>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-02 22:51:53</sys_updated_on>
+        <user_criteria display_value="All ACME Corporation employees">7b8a6927ef732100438236caa5c0fb89</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Customer Service">51d811fad7223100b7490ee60e61034f</application>
+        <file_path/>
+        <instance_id>537c19fd1b1b219019254089bd4bcb73</instance_id>
+        <instance_name>volteollcdemo21</instance_name>
+        <name>sc_cat_item_user_criteria_no_mtom_e31e330b47fda21038e741af016d4367</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom"><sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Umbrella">825cb04f83ede610fbeb40526daad32a</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name><sys_created_by>antonio.renteria</sys_created_by><sys_created_on>2025-06-02 22:51:53</sys_created_on><sys_id>e31e330b47fda21038e741af016d4367</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Umbrella.All ACME Corporation employees</sys_name><sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package><sys_policy/><sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope><sys_update_name>sc_cat_item_user_criteria_no_mtom_e31e330b47fda21038e741af016d4367</sys_update_name><sys_updated_by>antonio.renteria</sys_updated_by><sys_updated_on>2025-06-02 22:51:53</sys_updated_on><user_criteria display_value="All ACME Corporation employees">7b8a6927ef732100438236caa5c0fb89</user_criteria></sc_cat_item_user_criteria_no_mtom></record_update>]]></payload>
+        <payload_hash>-68063315</payload_hash>
+        <record_name>Umbrella.All ACME Corporation employees</record_name>
+        <reverted_from/>
+        <source>a61cb80f83ede610fbeb40526daad3b1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-02 22:51:54</sys_created_on>
+        <sys_id>eb1e330b47fda21038e741af016d436a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19732d81f4c0000001</sys_recorded_at>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-02 22:51:54</sys_updated_on>
+        <type>Catalog Item Not Available for</type>
+        <update_guid>af1e330bc3fda2108c09d4ed9da69b69</update_guid>
+        <update_guid_history>af1e330bc3fda2108c09d4ed9da69b69:-68063315</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Umbrella.All ACME Corporation employees">a22ef30b47fda21038e741af016d430f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-02 22:52:06</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_no_mtom">sc_cat_item_user_criteria_no_mtom</sys_db_object>
+        <sys_id>299270d2fe9b41fc8c79f7f55d9f87e4</sys_id>
+        <sys_metadata>e31e330b47fda21038e741af016d4367</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Umbrella.All ACME Corporation employees</sys_name>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_scope_delete display_value="">5b1be66412fc4f2eb88762fff89dc671</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_e31e330b47fda21038e741af016d4367</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_no_mtom_e31e330b47fda21038e741af016d4367">eb1e330b47fda21038e741af016d436a</sys_update_version>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-02 22:52:06</sys_updated_on>
+    </sys_metadata_delete>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
+        <claim_timestamp>1973779c7ea0000001</claim_timestamp>
+        <metadata_update_name>sc_cat_item_user_criteria_no_mtom_e31e330b47fda21038e741af016d4367</metadata_update_name>
+        <previous_claim_app_version>27.2.17</previous_claim_app_version>
+        <previous_claim_name>Customer Service</previous_claim_name>
+        <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-03 20:26:57</sys_created_on>
+        <sys_id>4286686b4735261038e741af016d43e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-03 20:26:57</sys_updated_on>
+    </sys_claim>
+</record_update>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>100</order>
+        <sc_cat_item display_value="Copy of Comprar Productos">5875dff383296e10fbeb40526daad3d8</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>jeronimo.moreno</sys_created_by>
+        <sys_created_on>2025-05-23 17:33:58</sys_created_on>
+        <sys_id>3875173783296e10fbeb40526daad3aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Datos de contacto.Copy of Comprar Productos</sys_name>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name>io_set_item_3875173783296e10fbeb40526daad3aa</sys_update_name>
+        <sys_updated_by>jeronimo.moreno</sys_updated_by>
+        <sys_updated_on>2025-05-23 17:33:58</sys_updated_on>
+        <variable_set display_value="Datos de contacto">a6248b6383212e10fbeb40526daad3f3</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Customer Service">51d811fad7223100b7490ee60e61034f</application>
+        <file_path/>
+        <instance_id>537c19fd1b1b219019254089bd4bcb73</instance_id>
+        <instance_name>volteollcdemo21</instance_name>
+        <name>io_set_item_3875173783296e10fbeb40526daad3aa</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>100</order><sc_cat_item display_value="Copy of Comprar Productos">5875dff383296e10fbeb40526daad3d8</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>jeronimo.moreno</sys_created_by><sys_created_on>2025-05-23 17:33:58</sys_created_on><sys_id>3875173783296e10fbeb40526daad3aa</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Datos de contacto.Copy of Comprar Productos</sys_name><sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package><sys_policy/><sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope><sys_update_name>io_set_item_3875173783296e10fbeb40526daad3aa</sys_update_name><sys_updated_by>jeronimo.moreno</sys_updated_by><sys_updated_on>2025-05-23 17:33:58</sys_updated_on><variable_set display_value="Datos de contacto">a6248b6383212e10fbeb40526daad3f3</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>-1617975494</payload_hash>
+        <record_name>Datos de contacto.Copy of Comprar Productos</record_name>
+        <reverted_from/>
+        <source>33bec26783a9ea10fbeb40526daad350</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jeronimo.moreno</sys_created_by>
+        <sys_created_on>2025-05-23 17:33:58</sys_created_on>
+        <sys_id>3475173783296e10fbeb40526daad3b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196fe3576280000001</sys_recorded_at>
+        <sys_updated_by>jeronimo.moreno</sys_updated_by>
+        <sys_updated_on>2025-05-23 17:33:58</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>387517373d296e1045a53952651ea0b3</update_guid>
+        <update_guid_history>387517373d296e1045a53952651ea0b3:-1617975494</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Datos de contacto.Copy of Comprar Productos">29e683bc833da250fbeb40526daad329</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jeronimo.moreno</sys_created_by>
+        <sys_created_on>2025-05-26 19:04:19</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>d547696eca4c44ff9e2ae7d59c749f79</sys_id>
+        <sys_metadata>3875173783296e10fbeb40526daad3aa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Datos de contacto.Copy of Comprar Productos</sys_name>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_scope_delete display_value="">5b1be66412fc4f2eb88762fff89dc671</sys_scope_delete>
+        <sys_update_name>io_set_item_3875173783296e10fbeb40526daad3aa</sys_update_name>
+        <sys_update_version display_value="io_set_item_3875173783296e10fbeb40526daad3aa">3475173783296e10fbeb40526daad3b4</sys_update_version>
+        <sys_updated_by>jeronimo.moreno</sys_updated_by>
+        <sys_updated_on>2025-05-26 19:04:19</sys_updated_on>
+    </sys_metadata_delete>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
+        <claim_timestamp>1973779c72d0000001</claim_timestamp>
+        <metadata_update_name>io_set_item_3875173783296e10fbeb40526daad3aa</metadata_update_name>
+        <previous_claim_app_version>27.2.17</previous_claim_app_version>
+        <previous_claim_name>Customer Service</previous_claim_name>
+        <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-03 20:26:57</sys_created_on>
+        <sys_id>ce86686b4735261038e741af016d43bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-03 20:26:57</sys_updated_on>
+    </sys_claim>
+</record_update>

@@ -7,7 +7,7 @@
         <applies_sc_task>false</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <cat_item display_value="Mesa">52465f7783296e10fbeb40526daad313</cat_item>
+        <cat_item display_value="Table">52465f7783296e10fbeb40526daad313</cat_item>
         <cat_variable>IO:3a3dfc5b83e16a10fbeb40526daad382</cat_variable>
         <condition/>
         <description/>
