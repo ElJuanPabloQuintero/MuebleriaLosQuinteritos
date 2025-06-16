@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>2</order>
+        <semantic_tag/>
+        <size>4</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">b3aad5c2470a225038e741af016d43eb</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>emiliano.jimenez</sys_created_by>
+        <sys_created_on>2025-06-11 18:39:37</sys_created_on>
+        <sys_id>b7aa59c2470a225038e741af016d431a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name>sp_column_b7aa59c2470a225038e741af016d431a</sys_update_name>
+        <sys_updated_by>emiliano.jimenez</sys_updated_by>
+        <sys_updated_on>2025-06-11 18:39:37</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Customer Service">51d811fad7223100b7490ee60e61034f</application>
+        <file_path/>
+        <instance_id>537c19fd1b1b219019254089bd4bcb73</instance_id>
+        <instance_name>volteollcdemo21</instance_name>
+        <name>sp_column_b7aa59c2470a225038e741af016d431a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>2</order><semantic_tag/><size>4</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">b3aad5c2470a225038e741af016d43eb</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>emiliano.jimenez</sys_created_by><sys_created_on>2025-06-11 18:39:37</sys_created_on><sys_id>b7aa59c2470a225038e741af016d431a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>2</sys_name><sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package><sys_policy/><sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope><sys_update_name>sp_column_b7aa59c2470a225038e741af016d431a</sys_update_name><sys_updated_by>emiliano.jimenez</sys_updated_by><sys_updated_on>2025-06-11 18:39:37</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>-1563786978</payload_hash>
+        <record_name>2</record_name>
+        <reverted_from/>
+        <source>e640c52f47b5261038e741af016d430b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>emiliano.jimenez</sys_created_by>
+        <sys_created_on>2025-06-11 18:39:37</sys_created_on>
+        <sys_id>37aa59c2470a225038e741af016d431c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197604a62bb0000001</sys_recorded_at>
+        <sys_updated_by>emiliano.jimenez</sys_updated_by>
+        <sys_updated_on>2025-06-11 18:39:37</sys_updated_on>
+        <type>Column</type>
+        <update_guid>f7aa59c2000a2250ced7fac8fc0dc81b</update_guid>
+        <update_guid_history>f7aa59c2000a2250ced7fac8fc0dc81b:-1563786978</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="2">2b0cd146470a225038e741af016d43e9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>emiliano.jimenez</sys_created_by>
+        <sys_created_on>2025-06-11 18:45:36</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>07a2b9c26e4e427d830f3cc34127b099</sys_id>
+        <sys_metadata>b7aa59c2470a225038e741af016d431a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_scope_delete display_value="">5b1be66412fc4f2eb88762fff89dc671</sys_scope_delete>
+        <sys_update_name>sp_column_b7aa59c2470a225038e741af016d431a</sys_update_name>
+        <sys_update_version display_value="sp_column_b7aa59c2470a225038e741af016d431a">37aa59c2470a225038e741af016d431c</sys_update_version>
+        <sys_updated_by>emiliano.jimenez</sys_updated_by>
+        <sys_updated_on>2025-06-11 18:45:36</sys_updated_on>
+    </sys_metadata_delete>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
+        <claim_timestamp>19779fdf6ee0000001</claim_timestamp>
+        <metadata_update_name>sp_column_b7aa59c2470a225038e741af016d431a</metadata_update_name>
+        <previous_claim_app_version>27.2.17</previous_claim_app_version>
+        <previous_claim_name>Customer Service</previous_claim_name>
+        <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-16 18:26:16</sys_created_on>
+        <sys_id>bc9703a7838e6e50fbeb40526daad347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-16 18:26:16</sys_updated_on>
+    </sys_claim>
+</record_update>

@@ -1,0 +1,1897 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=9015000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>ee664f6a474ae25038e741af016d4312</copied_from>
+        <copied_from_name>Purchase of Penicillin</copied_from_name>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>copy_of_purchase_of_penicillin</internal_name>
+        <label_cache>[{"name":"7b582688-5b4f-4a29-b2bb-62e8da41fd47.record.model","label":"18 - Create Record➛Asset Record➛Model","reference":"cmdb_model","reference_display":"Product Model","type":"reference","base_type":"reference","parent_table_name":"alm_asset","column_name":"model","usedInstances":{"10751d96-29f6-47f4-8933-8e99725c2cf6":["product"]}},{"name":"c3e5e60f-bf6b-4c82-b076-22f40c6d05ac.record.price","label":"17 - Update Record➛Requested Item Record➛Price","reference":"","reference_display":"Price","type":"currency","base_type":"currency","usedInstances":{"7b582688-5b4f-4a29-b2bb-62e8da41fd47":["cost"]},"attributes":{}},{"name":"Service Catalog_1.request_item.active","label":"Trigger - Service Catalog➛Requested Item Record➛Active","reference":"","reference_display":"Active","type":"boolean","base_type":"boolean","parent_table_name":"sc_req_item","column_name":"active","usedInstances":{"cf578f24-a444-465f-a035-37052c779c90":["condition"]}},{"name":"Service Catalog_1.request_item.number","label":"Trigger - Service Catalog➛Requested Item Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"sc_req_item","column_name":"number","usedInstances":{"8fb5d35e-93d2-4277-ace3-e44735ea1a4c":[null]}},{"name":"Service Catalog_1.request_item.requested_for.first_name","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"8fb5d35e-93d2-4277-ace3-e44735ea1a4c":[null],"7b582688-5b4f-4a29-b2bb-62e8da41fd47":["display_name"]}},{"name":"Service Catalog_1.request_item.requested_for.email","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"8fb5d35e-93d2-4277-ace3-e44735ea1a4c":["ah_to"]}},{"name":"6fcb7128-9985-407e-b4b4-a3dca78a8a2c.record.closed_at","label":"2 - Update Record➛Request Record➛Closed","reference":"","reference_display":"Closed","type":"glide_date_time","base_type":"glide_date_time","usedInstances":{"ab017af4-a5ad-4e2a-ba24-1296ad6c5c00":["closed_date-0"]},"attributes":{}},{"name":"Service Catalog_1.request_item.closed_at","label":"Trigger - Service Catalog➛Requested Item Record➛Closed","reference":"","reference_display":"Closed","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sc_req_item","column_name":"closed_at","usedInstances":{"ab017af4-a5ad-4e2a-ba24-1296ad6c5c00":["closed_date-0"]}},{"name":"d7bc22e9-fe70-41f9-bdc9-1c660bda3617.record.closed_at","label":"1 - Update Record➛Requested Item Record➛Closed","reference":"","reference_display":"Closed","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sc_req_item","column_name":"closed_at","usedInstances":{"10751d96-29f6-47f4-8933-8e99725c2cf6":["start_date"]}},{"name":"7b582688-5b4f-4a29-b2bb-62e8da41fd47.record","label":"18 - Create Record➛Asset Record","reference":"alm_asset","reference_display":"Asset","type":"reference","base_type":"reference","usedInstances":{"10751d96-29f6-47f4-8933-8e99725c2cf6":["asset","product"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item.opened_at","label":"Trigger - Service Catalog➛Requested Item Record➛Opened","reference":"","reference_display":"Opened","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sc_req_item","column_name":"opened_at","usedInstances":{"7b582688-5b4f-4a29-b2bb-62e8da41fd47":["order_date"]}},{"name":"Service Catalog_1.request_item.requested_for","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"requested_for","usedInstances":{"7b582688-5b4f-4a29-b2bb-62e8da41fd47":["owned_by"]}},{"name":"Service Catalog_1.request_item.sys_id","label":"Trigger - Service Catalog➛Requested Item Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sc_req_item","column_name":"sys_id","usedInstances":{"5a6c1bda-3574-4af4-bcf0-ffdac41fb604":["sys_id"]}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"d7bc22e9-fe70-41f9-bdc9-1c660bda3617":["record"],"822b2fb3-a3d8-4f8d-bea5-cf29fc165011":["ah_requested_item"],"ffa7bb4d-b952-42db-9583-191cddaa15c2":["record"],"8fb5d35e-93d2-4277-ace3-e44735ea1a4c":["record",null],"5d31fbfb-003d-4de6-93b1-6be3419a7b1f":["record"],"99ebb0ef-f09e-4034-a02f-56dc3a7b4e6a":["record"],"7890eb4f-0a2e-4c61-b060-fb2249b48fe1":["record"],"3dee1b12-8dc5-497c-a519-86d00e089e76":["record"],"38f419a8-aa05-4543-bd21-dd7c990b71d5":["record"],"22917603-a087-4a81-a693-32877ce08b51":["ah_requested_item"],"bf561e9b-e8e7-4e55-ae43-1d0da48e9011":["record"],"36e17da4-5c01-4953-a8af-0c4c6f99ce78":["ah_requested_item"],"ebdf5f35-55d0-403f-9b27-d17c7f73a306":["ah_requested_item"],"19334924-e99b-4b30-aa79-3fcc20be734a":["record"],"9ca15322-3797-4834-9929-b6856d991619":["ah_requested_item"],"b84caebd-1083-4d2d-9c73-f11b5c4696ea":["record"],"660f54d5-5432-4ac7-9337-cf76749a7dd9":["ah_requested_item"],"ec62bfcc-19d1-4ce7-83fd-978e8376117a":["ah_requested_item"],"c3e5e60f-bf6b-4c82-b076-22f40c6d05ac":["record"],"581b2e19-988a-492d-930d-46359fa505a3":["record"]},"attributes":{"default_search_field":"number"}},{"name":"Service Catalog_1.request_item.request","label":"Trigger - Service Catalog➛Requested Item Record➛Request","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"request","usedInstances":{"6fcb7128-9985-407e-b4b4-a3dca78a8a2c":["record"]}},{"name":"6fcb7128-9985-407e-b4b4-a3dca78a8a2c.record","label":"2 - Update Record➛Request Record","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","usedInstances":{"99ebb0ef-f09e-4034-a02f-56dc3a7b4e6a":["record"],"7890eb4f-0a2e-4c61-b060-fb2249b48fe1":["record"],"b84caebd-1083-4d2d-9c73-f11b5c4696ea":["record"],"3da67c80-0313-457d-a76d-55379f778200":["record"],"558c07ad-756a-4495-8a70-a0d3e0040f57":["record"],"5e160134-648c-437c-a57a-b91414ce8dab":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item.sys_created_on","label":"Trigger - Service Catalog➛Requested Item Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sc_req_item","column_name":"sys_created_on","usedInstances":{"bf561e9b-e8e7-4e55-ae43-1d0da48e9011":["due_date"]}},{"name":"{{static.c28f582083ceaa10fbeb40526daad348}}","label":"Storage team MQ","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"bf561e9b-e8e7-4e55-ae43-1d0da48e9011":["approval_conditions"]}},{"name":"d7bc22e9-fe70-41f9-bdc9-1c660bda3617.record","label":"1 - Update Record➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"a0a55135-0654-4c66-9e14-c2a15a429d7e":["record"],"bc2d1e4f-2f01-4f4f-89a4-7baa6da48985":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d7bc22e9-fe70-41f9-bdc9-1c660bda3617.record.requested_for.email","label":"1 - Update Record➛Requested Item Record➛Requested for➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"bc2d1e4f-2f01-4f4f-89a4-7baa6da48985":["ah_to"]}},{"name":"{{static.807c7b7a932d6610d942fc4e1dba1025}}","label":"Jacqueline Lopez","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"c7de4bdd-d693-496a-99ff-89ff114cf236":["approval_conditions"]}},{"name":"d7bc22e9-fe70-41f9-bdc9-1c660bda3617.record.requested_for.manager","label":"1 - Update Record➛Requested Item Record➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{"c7de4bdd-d693-496a-99ff-89ff114cf236":["approval_conditions"]}},{"name":"36e17da4-5c01-4953-a8af-0c4c6f99ce78.Catalog Task.state","label":"3 - Create Catalog Task➛Catalog Task➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"sc_task","column_name":"state","choices":[{"label":"Pending","used":false,"reference":false,"image":"","rawLabel":"Pending","selected":false,"missing":false,"value":"-5","parameters":{"name":"task","dependent_values":[""]}},{"label":"Open","used":false,"reference":false,"image":"","rawLabel":"Open","selected":false,"missing":false,"value":"1","parameters":{"name":"task","dependent_values":[""]}},{"label":"Work in Progress","used":false,"reference":false,"image":"","rawLabel":"Work in Progress","selected":false,"missing":false,"value":"2","parameters":{"name":"task","dependent_values":[""]}},{"label":"Closed Complete","used":false,"reference":false,"image":"","rawLabel":"Closed Complete","selected":false,"missing":false,"value":"3","parameters":{"name":"task","dependent_values":[""]}},{"label":"Closed Incomplete","used":false,"reference":false,"image":"","rawLabel":"Closed Incomplete","selected":false,"missing":false,"value":"4","parameters":{"name":"task","dependent_values":[""]}},{"label":"Closed Skipped","used":false,"reference":false,"image":"","rawLabel":"Closed Skipped","selected":false,"missing":false,"value":"7","parameters":{"name":"task","dependent_values":[""]}}],"usedInstances":{"9f706f79-3c08-4e0a-840b-0fcf538e07c1":["condition"]}},{"name":"Service Catalog_1.request_item.price","label":"Trigger - Service Catalog➛Requested Item Record➛Price","reference":"","reference_display":"Price","type":"currency","base_type":"currency","parent_table_name":"sc_req_item","column_name":"price","usedInstances":{"7b582688-5b4f-4a29-b2bb-62e8da41fd47":["cost"]}},{"name":"c3e5e60f-bf6b-4c82-b076-22f40c6d05ac.record.closed_at","label":"17 - Update Record➛Requested Item Record➛Closed","reference":"","reference_display":"Closed","type":"glide_date_time","base_type":"glide_date_time","usedInstances":{"10751d96-29f6-47f4-8933-8e99725c2cf6":["start_date"]},"attributes":{}}]</label_cache>
+        <master_snapshot>fffdc3a6478ae25038e741af016d43f5</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Purchase of Codeine</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>900e07a6478ae25038e741af016d436e</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:17:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8c7d8766478ae25038e741af016d436d</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Purchase of Codeine</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name>sys_hub_flow_8c7d8766478ae25038e741af016d436d</sys_update_name>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 18:48:14</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=8c7d8766478ae25038e741af016d436d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=8c7d8766478ae25038e741af016d436d"/>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
+        <claim_timestamp>19779fdf4470000001</claim_timestamp>
+        <metadata_update_name>sys_hub_flow_8c7d8766478ae25038e741af016d436d</metadata_update_name>
+        <previous_claim_app_version>27.2.17</previous_claim_app_version>
+        <previous_claim_name>Customer Service</previous_claim_name>
+        <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-16 18:26:15</sys_created_on>
+        <sys_id>f097cf67838e6e50fbeb40526daad36f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-16 18:26:15</sys_updated_on>
+    </sys_claim>
+    <sys_flow_catalog_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <catalog_item/>
+        <name/>
+        <published_version/>
+        <run_flow_in/>
+        <sys_class_name>sys_flow_catalog_trigger</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:20:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>900e07a6478ae25038e741af016d436e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 18:48:14</sys_updated_on>
+        <trigger_definition/>
+    </sys_flow_catalog_trigger>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=8c7d8766478ae25038e741af016d436d"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=8c7d8766478ae25038e741af016d436d"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=8c7d8766478ae25038e741af016d436d^sys_idNOT IN0c7d8766478ae25038e741af016d436e"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>8c7d8766478ae25038e741af016d436d</id>
+        <name>Copy of Purchase of Penicillin</name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:17:56</sys_created_on>
+        <sys_id>0c7d8766478ae25038e741af016d436e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:17:56</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=0c7d8766478ae25038e741af016d436e"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=8c7d8766478ae25038e741af016d436d^sys_idNOT IN047d8766478ae25038e741af016d43a3,c07d8766478ae25038e741af016d439f"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Purchase of Codeine">8c7d8766478ae25038e741af016d436d</model>
+        <model_id>8c7d8766478ae25038e741af016d436d</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_8c7d8766478ae25038e741af016d436d</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:17:57</sys_created_on>
+        <sys_id>047d8766478ae25038e741af016d43a3</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 18:48:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=047d8766478ae25038e741af016d43a3"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Purchase of Codeine">8c7d8766478ae25038e741af016d436d</model>
+        <model_id>8c7d8766478ae25038e741af016d436d</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_8c7d8766478ae25038e741af016d436d</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:17:57</sys_created_on>
+        <sys_id>c07d8766478ae25038e741af016d439f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:20:15</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c07d8766478ae25038e741af016d439f"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=8c7d8766478ae25038e741af016d436d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8c7d8766478ae25038e741af016d436d"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=8c7d8766478ae25038e741af016d436d^sys_idNOT INd87d8766478ae25038e741af016d43bd"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Purchase of Codeine">8c7d8766478ae25038e741af016d436d</flow>
+        <generation_source/>
+        <name>Service Catalog</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:17:57</sys_created_on>
+        <sys_id>d87d8766478ae25038e741af016d43bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:17:57</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/61TTW/bMAz9K4FOG5CDk6zNktswoECAbgWarpdiMGSJcoTJkifJbr2g/32kPxK3M4YB3U2iyMfHx6eHIzM8A8O27LaysyvjHmc7y+ZM2wjecnPXlICP4uC0AIx3h2sdIts+HJm656aihIyLH7l3lZWYpK5HmIowtZ2dM2bvJChemfiecncFzwmBznswICJItlXcBMDItzC+fdEhaJv3gef5iIByHv5O4GXGG9p+n7OCW8mj8805ybviDorS8AinoPMSPNsukmTOaiK6b8JOdl0tL6i/r2xKDFNNstf9NHiUOiBYc3+OiIM20oNF5ZFCyT0iRMI/vnrS1OIy2SRivdys18tktUoSdZEpoYRYf1wkl4uLDQJOr36SWHzlg/Fk8BTBypFgf6rjgcsba86BAxqsm6rgT0H/QvAPCeUpwDFEP/HpmvZqDEIQi9A60Py71eopr/aDJGSmKawXrqmnzDZIQb7ou33+/wQXbya4JIKddDdl1A7Nwla0Wp4ZqglN6BbuQWBJGr3OcyzEImeqwn6d8kXPfuTSKuC2oCRH0IqH77E/uMfbYZ1X2raU+kfjBDenG4/YOasi6XdkXNYcK8jR0WOP59YV6c+KKtp/MvRK24koIQivy/hJRF3D6dP+BvLQA67rBAAA</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=8c7d8766478ae25038e741af016d436d^sys_idNOT IN147d8766478ae25038e741af016d43ba,1c7d8766478ae25038e741af016d43b9,507d8766478ae25038e741af016d43b8,547d8766478ae25038e741af016d43b3,547d8766478ae25038e741af016d43bd,587d8766478ae25038e741af016d43b7,5c7d8766478ae25038e741af016d43bc,907d8766478ae25038e741af016d43b2,907d8766478ae25038e741af016d43b5,987d8766478ae25038e741af016d43b4,9c7d8766478ae25038e741af016d43ba,d07d8766478ae25038e741af016d43b9,d47d8766478ae25038e741af016d43b6,d47d8766478ae25038e741af016d43bb,d87d8766478ae25038e741af016d43b8,dc7d8766478ae25038e741af016d43bb"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment>Request stage: Delivery</comment>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Purchase of Codeine">8c7d8766478ae25038e741af016d436d</flow>
+        <generation_source/>
+        <order>13</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:17:57</sys_created_on>
+        <sys_id>147d8766478ae25038e741af016d43ba</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:20:15</sys_updated_on>
+        <ui_id>581b2e19-988a-492d-930d-46359fa505a3</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1UTWvjMBD9K0FnY+w4DW1uy4ZAD9tCuvTSLUaWJolAllxJTpsN+e87kuU0/dhuKIFlYX2b8cyb92YeutsSwcmEjIBn+UU+ZkVeFMMsG56P8mpcVPmQFxQgJwlRtAasNMC04RivqWx9Yru9AbMWDAZfqaNSL8s8NfDQgnWlcFDvdljMhW0k3dzGHsywlZDcgCKTu/uENNQgvANDJttXv9ymgVLSCiQ2TjVra1BucDlFjGOp993znvtrLX4Gxjyil8In8Zfnk2cJgScHigOOW1BpISE1VZw6bTZk4kyLCQOUXyu52VeshHKd0po+WfET8UeZr1sASmNxC/uwjBvql6NxodeNE1p1GUcr2W9Oy7ZWV50Ev1tY0Fa6g922FvGg8ZQ9iY7h4malH+f9vJlQQV1kKzWjch9R54yoWgfWnwMkhKXUtGmEWpaN0WsRmpFKnS4lBulC6kecacVSpZR53ikuiKYzzE9D+pYa4UV8Qxhs3gXx5UPr53YyIuEyaA6Cy3AoLLXMiMZ9QeA1RJq7JHq3OvvIAOzi+d4HmM/+taxEuwarvjXqvDMy8MFl9/9ztv3uBw+uusHHkn7R/BsR0bgvctG3Zyfz7flf8m1k9I8Z9092zYYfvlcHlw4OtYdWdXQJP9osKzgHidh4xzeWfb/ok76FGqEdDDrw5GgFPcBMgOT2HUm9ceOAch0H7B/dk7k3H2fh+//2nvDtvf8FKZbmgjkIAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Fire Event">80a30edeff30311077a95dac793bf19b</action_type>
+        <action_type_parent display_value="Fire Event">15e10e5eff30311077a95dac793bf11e</action_type_parent>
+        <attributes/>
+        <comment>Order on delivery - notification</comment>
+        <compiled_snapshot>80a30edeff30311077a95dac793bf19b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Purchase of Codeine">8c7d8766478ae25038e741af016d436d</flow>
+        <generation_source/>
+        <order>12</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:17:57</sys_created_on>
+        <sys_id>1c7d8766478ae25038e741af016d43b9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:20:15</sys_updated_on>
+        <ui_id>3dee1b12-8dc5-497c-a519-86d00e089e76</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2W227bOBCGX0XQtWVIFHXyXbFpFwF220XS7U1RCBQ5dLjQwSElt94g796hDj7UjRM4QRYF9sYAz//M/J9Hn+9cJdyFm3IW+iBAytAPg8BPEpZFgvEkCwsZZODO3JpVgDthDXWb94OZu2ZlZyeDMEz8OCnSsIggDnxZQEH9iMSCMRFyjluFMquSbT6NJ0yd8860TQXagF4rDvPqdq7htgPTzruVYC0IPMZvVCk01O7i85eZu2IaH25Bu4u7H5bazQrykhVQ4u1XIAFXuNX41Pims29tgA/Eax/BOb13faOFlRPMXPjWQi1Q9UKy0sDMrViNYTR64y5a3eGEBiY+1OVmu+NG4VML9wKM0iCc641poXJ6BU57w1rH3DRdKZwCHGl3uPbSb0b9iypCMtsTghndmEGrhqUyNkd76/mY/ik+56rfpFmrmrpPc4Ml+LDqhwvXhsqK8qFreVN2Vf1+SJCtLUjWle1UW5zpDD4JK5sPG+EYrry+ab5ua/NO1X3qxsWy4azcjljbalV0LRhb6k59PM78MPnHT0oOJVRWcsVWK1Uv85Vu1qp/C6VX82WJg7ksm6+o0ahlPWfcBj7HarH5O5y/6Kc/Ma1sFv7Ea/q4O/V3rdChl9ZSAH4IIpFewij1KI0Kryho6HE/yjLmEyID4t73NchvOxvakKoxKfmQaNxguFar9g1KWMMY//1s5JL7p3zL6M6nGjhacY/Ju7vrASznNwyrbJZ5MPGVK7TZ/f0xlWcDd9HwzqbcubyYkHuC9B2uo/YfYxl5E+PtuRI74shLEPe7tcLwvNMU/wBvHambCuEDBwYMew5OcPcAZiehOoehIaDnI3SYzEOIDsv4KhjJgLMoIKFHwoR7NOOpl1LAH4SJ0CzlhMePYjTk9TGWTvYAluz8N9V8Qslw/Pe77ak5ZuZqYArNdDmsn0fQR/um837oM0/Ve3D4WP+ITz+cWthIT3iannHmCJ8tBan/31DwYp3kICmHFByU4lUgyAilMk5TryBMeDSNKfYSP/WSgPoELUDCKHx2LxHpST8VO/+gZ6tgz/8v2CiusRj1crL4EyRNB/+aHnCCY6Gj0c10+Whyep7Jxx7xpt44fQaGTzENpinXYJy2cZizfWqPCP9XZ2Ib1CEP25q9Cgtx5Ge+T6Qn4hQ8GkjisSBLPULCIhAxpyTOns8CPWk8eWgx8iosPC7pmAVyLPQBFqL/Wfj1WJA0piFPEo+iM/DjKMW+kEDkhZGQCRUJj9PgbBa+fAd4GHOd/Q8AAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment>Request stage: Fulfillment</comment>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Purchase of Codeine">8c7d8766478ae25038e741af016d436d</flow>
+        <generation_source/>
+        <order>9</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:17:57</sys_created_on>
+        <sys_id>507d8766478ae25038e741af016d43b8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:20:15</sys_updated_on>
+        <ui_id>19334924-e99b-4b30-aa79-3fcc20be734a</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1UUWvbMBD+K8HPxthxGtq8jYVAH9ZCOvrSFXOWzo5All1ZTpuF/PedZDlN27ULJTAG09ud7r77vtOH7raB4MEsmCCPk4tkytIkTcdxPD6fJPk0zZMxTwExCcJAQYVUqZHVmlO8BtnZxHZ7g3otGI6+ggFZl1kSaXzosDWZMFjtdlTMRdtI2Nz6HsqwlZBcowpmd/dh0IAmeIM6mG1fXZlNg5mEHCU1zmvWVajM6HJOGMdSH7qXA/fXWuwMirlHz4RN0pXlk8RhgE8GFUcaV4BsMQwqUBxMrTfBzOiOEhqBXyu52VeshDK90gqeWvGT8CexrSuQpDG/hX2Y+Q0Ny6lpodeNEbXqMwZyOWyull2lrnoJdrdYQCfNwW67lvCwsZQtiZ5hcbOqH5fDvIVQTp1nK2sGch+BMVrkncHWPgdKdEupoGmEKrNG12vhmolKFZWSgqiQ9SPNbEWpImCWd0QLgmhB+blL34IWVsQ3gqHmnROfPXR2bi/DE86cZic4cw9FpS3TojFfCHiNnuYu9N7Nzz4yALt4fu8DzGf/tiwjuzqrvjXqsjcy8tFlf/852363g0dX/eBjSb9ofkeEN+6LnPft2cl8e/6XfOsZ/WPG/ZNd4/GH/9XBSzuHtodWNVDijy6OU150shBSWn1vXftu3SfdixWhGxz1+OHROgaAhUDJ298IG+zrB2RrP2D/9Z7Mw8k0duf/D3zCH/j+F09Ulec/CAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment>Request stage: Requested</comment>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Purchase of Codeine">8c7d8766478ae25038e741af016d436d</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:17:57</sys_created_on>
+        <sys_id>547d8766478ae25038e741af016d43b3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:20:15</sys_updated_on>
+        <ui_id>6fcb7128-9985-407e-b4b4-a3dca78a8a2c</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1UUWvbMBD+K8HPxthxGtq8jYbAHtZCOvrSdeZsXRKBLLmSnDYL+e872bKbJlsXSmAM5rf7pLv7vtPne9gGnAWTYIQsTq6ScZEmaTqM4+HlKMnHaZ4MWQqISRAGEkqkmxoLpRnFaxC1A7bbO9RrXuDgGiwItcySSONTjcZm3GLZBbsdJTFuKgGbe59LSLHigmmUweThMQwq0NTGog4m24Mju6kwE5CjoMSpKuoSpR18nlKNUyV02fNOw6Em14Ni5qtn3IF05PgkcRjgi0XJkNotQBgMgxIkA6v0JphYXROgEditFJv+xopL2yot4cXwH1R/FLt7CyRphZ9CH2Z+Qt1wFA32trJcyRaxkItuckrUpbxpJbjZ4gJqYfdmWxuqh5Wj7Ei0DBd3K/U87/rNuGzUebZCFSD6CKzVPK8tGvccKLAZSglVxeUyq7Ra8yaZqJTRUlAQLYR6pp6GL2UEheMd0YAgmhE+beB70NyJ+EJlKHnXiM+eate3leEJZ43mRnDWPBRdNYXmlf1Ehdfoae5C7+H84j0DFFev771X89XHpsi8U499Ou8PPmbXr67h4KZteCrZN8m/Ie8N+wbzfr04m18v/5JfPaN/zLB/smk8fHdP7b1040yzZ9FurRoLFr/VcZwyDyH7TuDyCCTKJBrEAX7s8HOW/uA/giURsjhoKYUnT6srMOMomPnF+LqfxDfI1r5Bv9jP9qck47j5/u/3M+73x59/H8GBpQgAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Purchase of Codeine">8c7d8766478ae25038e741af016d436d</flow>
+        <generation_source/>
+        <order>19</order>
+        <parent_ui_id>cf578f24-a444-465f-a035-37052c779c90</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:17:57</sys_created_on>
+        <sys_id>547d8766478ae25038e741af016d43bd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:20:16</sys_updated_on>
+        <ui_id>10751d96-29f6-47f4-8933-8e99725c2cf6</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1V32+bSBD+V1Y82ZKhgG3suE+nS1NValpdkmsf6gYt7GBvBQvZXZxwFv/7zbLgOElbRdFJVaXjBXZmduabb37wZe9w5qycKAB/fhJE6TSYTkPfD5ezIImmSRCyKQWYORNH0ALQUtMkh7g7TJwdzWsjVCB3PIUYhOY6hwLfqGVcVTltPvVGbx4o0y3PmQThrL58nTgVlehRg3RW+0cq3VQQ5zSBHH1cmejkg43+XOQPLv8gExPlsayUzADyJw7caRAMMF5GcwUTp6CCUV3KxllpWaNAAmUfRd4cLLYc01w5jrG9U/wf9L70jV0GmFoKVnc4xj1ZVpxuS6TzY6V5KaykA9Yry7wuxAebhKEZMlrneqAZJbVCf1AZyAZEjyi73Ja3F0PAMy667HplXqY0P5yo1pIntQZl6gG2aHFBq4qLTVzJcse7y4il8DY5HrwsL28xqOIb4dHUAPeQIeqdofy0E3+ikpssztENXm677OOb2sS1efSIY5s0GqhU8kr/ge520INrJ0PLMvBPflj4ILkvdNel6qhdaedwXfv+lJnyXVOlQNvzfr9I5sswWi7deTLL3BkNT9wkTBI3CmHJ6CzI2GzhSUixPdr2Oi2FqguQ9nbGXIsZ2LXSVOoYSYDBczqFOUR+5iZZlLizdBm6ib+I3DDMZn4aMX9O096zl+alAhZTjTGOxqrrTevvHBhPqWFakc9USip0g6bsKOQxHKwaq9OXZOkVJYO8bZ+O9P9EvpTIF64/KJB+DcQWYPLsSRgcnHHImfrOaAz7rw8Q7/oA/Q4M/qsdGER+9/yaTWhx/maL8Oif9GQl2oSsrEPYd635/pklFl4SOxmnpp9sMxMBt+StycIIr3gBo6zzR704WMRxXRnfcd/Mj+dr/Hot7l16lOG7Ue8Nn52r0BisxatX5M2dlkgNKbFZiN4CMW4JDoEmowYf9/zcZWy8Fgal0ZmuGjAehdiANu/R2NPlJRZKbEYmhgRdS3G4+JpgyKstV8QqFPlWK32IuxZIuaI7YIe+aU1r2W30LCKxy+Q7NgAcKENAmw1I5OkGZ0zHHIdrOCBhWSk7ZJeNIu9OSZmRBzqb/ADj7cWTEl109I+MOFykqoiPF2i46KpxuG2q8VcNsuntDWL7NenRP7K/6YxtxXhGRkcqgZtgNB6T/VoQfHq2jwywLH8Ljh46QtGJSfOi597Q/mdvS1SjYs7WojVhvleG+9X/tBD9iD648+Jfg9O27dd/AcqQ/f8OCwAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Fire Event">80a30edeff30311077a95dac793bf19b</action_type>
+        <action_type_parent display_value="Fire Event">15e10e5eff30311077a95dac793bf11e</action_type_parent>
+        <attributes/>
+        <comment>Requested order - consumer notification</comment>
+        <compiled_snapshot>80a30edeff30311077a95dac793bf19b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Purchase of Codeine">8c7d8766478ae25038e741af016d436d</flow>
+        <generation_source/>
+        <order>8</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:17:57</sys_created_on>
+        <sys_id>587d8766478ae25038e741af016d43b7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:20:15</sys_updated_on>
+        <ui_id>5d31fbfb-003d-4de6-93b1-6be3419a7b1f</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2W227bOBCGX0XQtWVIFHXyXbFpFwF220XS7U1RCBQ5dLjQwSElt94g796hDj7UjRM4QRYF9sYAz//M/J9Hn+9cJdyFm3IW+iBAytAPg8BPEpZFgvEkCwsZZODO3JpVgDthDXWb94OZu2ZlZyeDMEz8OCnSsIggDnxZQEH9iMSCMRFyjluFMquSbT6NJ0yd8860TQXagF4rDvPqdq7htgPTzruVYC0IPMZvVCk01O7i85eZu2IaH25Bu4u7H5bazQrykhVQ4u1XIAFXuNX41Pims29tgA/Eax/BOb13faOFlRPMXPjWQi1Q9UKy0sDMrViNYTR64y5a3eGEBiY+1OVmu+NG4VML9wKM0iCc641poXJ6BU57w1rH3DRdKZwCHGl3uPbSb0b9iypCMtsTghndmEGrhqUyNkd76/mY/ik+56rfpFmrmrpPc4Ml+LDqhwvXhsqK8qFreVN2Vf1+SJCtLUjWle1UW5zpDD4JK5sPG+EYrry+ab5ua/NO1X3qxsWy4azcjljbalV0LRhb6k59PM78MPnHT0oOJVRWcsVWK1Uv85Vu1qp/C6VX82WJg7ksm6+o0ahlPWfcBj7HarH5O5y/6Kc/Ma1sFv7Ea/q4O/V3rdChl9ZSAH4IIpFewij1KI0Kryho6HE/yjLmEyID4t73NchvOxvakKoxKfmQaNxguFar9g1KWMMY//1s5JL7p3zL6M6nGjhacY/Ju7vrASznNwyrbJZ5MPGVK7TZ/f0xlWcDd9HwzqbcubyYkHuC9B2uo/YfYxl5E+PtuRI74shLEPe7tcLwvNMU/wBvHambCuEDBwYMew5OcPcAZiehOoehIaDnI3SYzEOIDsv4KhjJgLMoIKFHwoR7NOOpl1LAH4SJ0CzlhMePYjTk9TGWTvYAluz8N9V8Qslw/Pe77ak5ZuZqYArNdDmsn0fQR/um837oM0/Ve3D4WP+ITz+cWthIT3iannHmCJ8tBan/31DwYp3kICmHFByU4lUgyAilMk5TryBMeDSNKfYSP/WSgPoELUDCKHx2LxHpST8VO/+gZ6tgz/8v2CiusRj1crL4EyRNB/+aHnCCY6Gj0c10+Whyep7Jxx7xpt44fQaGTzENpinXYJy2cZizfWqPCP9XZ2Ib1CEP25q9Cgtx5Ge+T6Qn4hQ8GkjisSBLPULCIhAxpyTOns8CPWk8eWgx8iosPC7pmAVyLPQBFqL/Wfj1WJA0piFPEo+iM/DjKMW+kEDkhZGQCRUJj9PgbBa+fAd4GHOd/Q8AAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment>(create models)</comment>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Purchase of Codeine">8c7d8766478ae25038e741af016d436d</flow>
+        <generation_source/>
+        <order>18</order>
+        <parent_ui_id>cf578f24-a444-465f-a035-37052c779c90</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:17:57</sys_created_on>
+        <sys_id>5c7d8766478ae25038e741af016d43bc</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 18:48:08</sys_updated_on>
+        <ui_id>7b582688-5b4f-4a29-b2bb-62e8da41fd47</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1W30/cOBD+V6w8AV1CstkNy/KE6NHjoUWFXl+aEjnxZNenxAm2s7BF+d9vbCfLj4U7dKp0Oqn7Ah7PfPPNzGc73+49zry5F4cQTI/COI/CKBoHwXg2CbM4ysIxiyjAxBt5glaAnppmJaR2MfJWtGyNkZZVSpUCjTbGVVPS9dd+66Q350teMgnCm3/7PvIaKhFBg/Tm98+29LqBtKQZlBj9xWQjn1y2tzJ9EvwKc5Plua2WzBAKRh7caRAMMF9BSwUjr6KCUV3LtTfXskWDBMouRLneeCy50AjoGd87xX8g+iwwfgVgaTm4vc0y7dvkzPmy5jlcNJrXwlkssX6zLttKfHJFmAZDQdtSDw1GS6sQDxpD2ZDoGRVXy/r2ckh4xoWtrt8s65yWmxXVWvKs1aDMPKCECoHSijYNF4u0kfWK22DkUvmLEhd+Uda3mFTxhfBpboj72CHqn6H9vTV/pZKbKj4iDAZ3tvr0pjV5XR0949QVjQ4ql7zRJwi3gp5cNxokyiA4enXwYfYwaKtK9UiedrAp0oOkDYKI3d9fgVxhx8kpUi7rRRr6Em4wSKdcQ+XXyAxYSnXXXVc1gzLNMXiB8+8BkkHmiTdPvNO6ZMTsjGNyVrbkEkoOReKNEkfBOoXRBFmG8SyaUBpPgyKDbBJMxzGjlEWHR9ZdrVXK2Rv9e26vUGLABTzjkIezbJoxmEXBC5hRYN2t9Jx7xbI0r4VqK3tOUAiszVEYNu0zvv+M3V07LJCOcsH23cCBXffc7VF845D6Bc6pqKVfcIkbJrzr7CgOFembcG2vplTThUP++BmJKD2kySOYQhwU+1kRZ/uTfDbez4LDeH88LiZBHrNgSnNMlqOK/EYioa7bvuZ+SeyXxH62xP7lkwkVlqmBOGmO3nx7DgBnHEqmXrhOhzezT5Cu+gT9uxn+rHczjAP7+29eT8fzf/Z4PvqO2XpGXUHOZhg+Pgdm/cKj++DuHewlYm/vJM9BKWL4HZxYwsQQJq3CGoleAilYai119ifk2idXFoBUrdJEgm6lIJRYxfjEIF4Y0RDRVhn+4YrURYEniGRr8i4kXJDfpKwl+R31U5oUV+DaZMmsKC/th2FtZ65IXxJpGyTWSKRqYhLPTzxCCzwzAz0TDncUBQxzZCOJWtZSY8tz4s7q4OjjTBcLkH7eSpSA9q2jmZmtC7MeG6y+sg2KMR7geBRdAdtorDMydNfSdsOfjsczpFCR8py9xuj1G+qYHByQq7Ui5++xn+TJXiIWyueiqHcS903uky84NpMK50f1gzdOY469I+96HruJMKSGCj5cDsQE3JIPRs+X9ubacXdirqr08SU8PtzFrjxE+5Sxzy3Ide9vkrj/RkPCp/431tkYX6xg8CRIbMP8IdzEJYIXZOcRpMCLamd3l9wnguBvC/d80Ow2nr8A/YfgSMqOF1GOHUgvhb/xtOO5dLj2zJwO1Ps3TnSG67Z8uu77XzDnPmmpDQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment>Stage: Waiting for Approval</comment>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Purchase of Codeine">8c7d8766478ae25038e741af016d436d</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:17:57</sys_created_on>
+        <sys_id>907d8766478ae25038e741af016d43b2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:20:15</sys_updated_on>
+        <ui_id>d7bc22e9-fe70-41f9-bdc9-1c660bda3617</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1UwWrjMBD9leCzMXachja3ZUOgh20hXXrpFjG2xolAllxZTpoN+fcd2XKatrttKIGlUN1mNDPvvdFDd9tA8GASjJDHyUUyztMkTYdxPDwfJdk4zZIhTwExCcJAQYlUaTDXhlO8Atm4xHZ7g2Ylchx8BwtSL1gSGXxosLZMWCx3Oyrmoq4kbG59D2XypZDcoAomd/dhUIGh8RZNMNm+uLKbCpmEDCU1TnXelKjs4HJKM46l3nfPe+4vtTgMirmfzoRL0pXjk8RhgI8WFUeCK0DWGAYlKA5Wm00wsaahhEHg10pu9hVLoWyntITHWvym+aPY1RVI0nK/hX3I/Ib65Wha6HVlhVZdxkIm+81p2ZTqqpPgdosFNNIe7LapaR5WjrIj0TEsbpZ6Pe/xZkK16jxbqXOQ+wisNSJrLNbuOVBiu5QSqkqoBauMXom2maiU0UJSEBVSrwmzFgsVQe54R7QgiGaUn7bpWzDCifhBY6h514pnD43D7WR4wqzV3Apm7UNRaZ0bUdlvNHiFnuYu9N7Nzt4yQH7x9N4HM5/8W+eM7Npa9bVR552RkQ8uu/uP2fanAx5cdcDHkn7W/A8R3rjPct63Zyfz7fl/8q1n9MmM+55d4+Gb/9XBS7cOrQ+tamGBv5o4TvkahHWaCm0Y8SJlROeVfd9v+KCfsSQYi4MOKDxaWT9gJlDy+i9Se0N7ALbyAPvP+GSuTsZxe77+5BP+yfd/ALhOvc9RCAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment>Set item as closed skipped</comment>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Purchase of Codeine">8c7d8766478ae25038e741af016d436d</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>9f706f79-3c08-4e0a-840b-0fcf538e07c1</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:17:57</sys_created_on>
+        <sys_id>907d8766478ae25038e741af016d43b5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:20:15</sys_updated_on>
+        <ui_id>a0a55135-0654-4c66-9e14-c2a15a429d7e</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1UXWvbMBT9K8HPjpHt1GnyNgiBPqyFbPSlK0aWrhOBLDuynDYL+e+7suU0TbsulMAYTG+60j0fVwc97DzBvak3Ak7CSZiwOIzjiJDoehRmSZyFEY8pQOj5nqIF4E0NrNQc9xsqG1vY7fg4Y1EEk2EOYzIchflkmHE2GYYsSUjGaZyE46Dr2++xk4u6knR77wCwwlZCcg3Kmz48+l5FNXIZ0N50d3JkthWkkmYgsXFWsqYAZQY3M8Q410ffveiNnBqzHLjnDj0VtohHVk9IfA+eDSgOSJdTWYPvFVRxakq99aZGN1jQQPmdktvDjZVQpnNa0Oda/ET8EbH3ckBrzE3hsE3dhPrhlILBXWVEqbqKoZnsJ1fKplC3nQU7W8hpI83RbJsa8aCykq2ITmH+bVU+LXq+uVCtO6dWlozKw44ao0XWGKjtc4CEdigFrSqhlmmly41om1FKESwlboJclk/IWYulCiizugMcEA3mWJ+15XuqhTXxFWGwed+aT9eN5e1sOMFp67k1nLYPhVdrpkVlviDwBpzMve+CnF19FAA2eXnvI8yXMNcs1bBOhYHibVAXsG6gNsAHN93552L73RIPbjvic0W/av6NCRfcVzWX26uL5fb6L+XWKfrHgvunuJLow//q6KXbhNbHUTXUwI+GkJiP32b15PSTSYUCMQ0MOlT/bM09wFyA5PU7JvqoOoJ04wgO3+zF8hompF3/f9sL/raPvwDHAaDBOAgAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Catalog Task">af51fd0e73141300612c273ffff6a785</action_type>
+        <action_type_parent display_value="Create Catalog Task">f597c41073081300612c273ffff6a767</action_type_parent>
+        <attributes/>
+        <comment>Storage team check if we have the necessary.</comment>
+        <compiled_snapshot>af51fd0e73141300612c273ffff6a785</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Purchase of Codeine">8c7d8766478ae25038e741af016d436d</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:17:57</sys_created_on>
+        <sys_id>987d8766478ae25038e741af016d43b4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:20:15</sys_updated_on>
+        <ui_id>36e17da4-5c01-4953-a8af-0c4c6f99ce78</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Y227bOBD9FUFPW8Dw6uIb8rbdIMA+tMVuguxD3RVoamQRoS4lKbteI/++Q4mU5dhRDNcpEHT95uFlzpmZQ3L0eeuy2L1ySTL2k9iDaeiP/NDzJn5Ag2mY4G9CprOZO3BzkoGemUaKLDhE9f+BuyK80nZJ0S4f0BIzWXKyuT8YoCnjsYDcvfr8ZeCWROAOCoR7tX0ypDYlRJwsgOP6O+3N+dh4OxXs0cXPMNDe0LxnK0SsgXkDF74pyGNAvwnhEgZuRvKYqEJsWosAEn/K+c6Qslzhjq6e/E2yf3H7mafnJYAcKTRj7d/IRKwx07RgFD6VihV5Y6mRmcGCV1n+sSGiYw0Jqbg6jLUZuH4uF5VEt1BqahqrAZ7cpsX6L4vrhuV1FMwgLyjh7T+ilGCLSoHU+WMyklSw0kKtJ6Eb4JChgygjZcnyZVSKYsXqTZFKNlxy/DNMeLFGMJIt8yGhmvcQI0yGN2i/rs33RDC98wfcBhejd67X1HTQLHX6BDJ8rKMafa000CY+hmLUBBMnNDh/Qz8rMGweB0YG07Cvsoi3V0QCvlYgFcQRU5B1pLDd3oJYYRKd35EGL5aRPzST66mPj4cqOVsebbasOk7gsFtrGDh/NAx6yBmViI47IxK/XyQ6MadpJAz2NYLpRRgWwDG5HBD4HvFcXhWvVf0FBjKKRVGWhtxFij+c9hbOZK8+ZFoIpWHXG+po7+r/LgVHYvLJEhwFJHNoCvTBYYmzBiclK7TijBwoSEnEZniohjN2OE89t5iufGmlc0IE2oWav3O9x78/OkZA0no06gkudsX4gef9kFvmrQjlu2+D/nKgeylPGPBYdh9EiiiYV54Xxv4/RGp8NcelKKqysW/ntvDn7tUci7FT8R/+nLuDebNbPUqDWTKeBd4spECI7yULWIy8cTCJCYnD0ayeLjcyYvGJ849cQ28D9JkPScgQtQKnITs4Ocl2gxub4iNZt49I4yNaGR9G5eHFVD4ZH6h896o7JnbzBnHu7CP8ksJvLvc3pnuWl5WSw/0+4IWzIOktk0WwVxVrwlTnJPAPdVZf2GcXMi7+9ca8sE9FZxf/3WA7AGsKeFEUHEi+q9zRxSp39EMuJxPZ4/2PGfwpbq8XaqLT0reHFjXtypN+5jW7lRNQHpzf9kTbb1qeY/F84zK+WGkf6VwQRV/n8oTDz/Acw3JNddMORND0Yh37ord+Op99bFmsDCr5OhV+yyuZOu8r+gCqfWO8DNIut3Vx30HZQ8A2Fdrpwvo05T35v7OoP0wleCpgGHZxi3KAOiiv/pmK5ZRXMUQZcmQCl7cYQLUfrRrOnd1BRGvRbNFOkUUlMNI2lPpkiYo6xshm7VqR4NA62Xn55d3ZAvvyH+C5WyIbFgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Catalog Task">af51fd0e73141300612c273ffff6a785</action_type>
+        <action_type_parent display_value="Create Catalog Task">f597c41073081300612c273ffff6a767</action_type_parent>
+        <attributes/>
+        <comment>Our team delivers order</comment>
+        <compiled_snapshot>af51fd0e73141300612c273ffff6a785</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Purchase of Codeine">8c7d8766478ae25038e741af016d436d</flow>
+        <generation_source/>
+        <order>14</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:17:57</sys_created_on>
+        <sys_id>9c7d8766478ae25038e741af016d43ba</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:20:15</sys_updated_on>
+        <ui_id>660f54d5-5432-4ac7-9337-cf76749a7dd9</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1YTW/bOBD9K4JOu4DhlSzHTnPb3SDAHtpgmyA91F2BlkYWUUpUScqua/i/dyiRshU5iuE6BYKubx5+zHszb0iOPm5cGrtXLkku/CT2YBr4Yz/wvIk/ikbTIMHfhEwvL92Bm5MM9Mw0VGTOIKz+D9wlYaW2ywjt8jNaYioLRtYPnYEopSwWkLtXHz8N3III3EGBcK82j4bUuoCQkTkwXH+vvTnvam/Hgj24+AkG2huaWzYuYg3MG7jwVUEeA/pNCJMwcDOSx0RxsW4sAkh8m7OdIaW5wh1dPfmrpN9w+0tPz0sAOUZQjzV/QxOx2hylnEZwWyjK89pSITODnJVZ/q4momMNCSmZ6sbaDFw/lYtSolsoNDWN1QBP7lK+em9x3dC8ioIZZDwirPlHlBJ0XiqQOn9UhjIStLBQq0noBhhk6CDMSFHQfBEWgi9ptSlSyYYLhn+GCeMrBCPpIh+SSPMeYoTJ8Abt15X5gQiqd36L2+Bi9M70mooOmqVOn0CG2yqq4ZdSA63jYyiGdTBxQo3zT/SzBMNmOzBlMA36lEW8logEfClBKohDqiDbK4XN5g7EEpPo/I00GF+E/tBMrqZut90qObk8mmzZ6jiCw26tYeD8UzPoIWeqROy5M0Xi9xeJTsxxNRKM2jWC6UUYFsChcukQ+JHiOX9VvJT6OQYyjAUvCkPuLOIPpr3CmbT0IVMulIZdbaijvdP/rdaFw3NHpeCsMFEdtR+YcZr67zDc+cJK/wgGzUKN37lu4e9nZwpAWo9G/aOzXRH+yPN+yi3xWoT+w6d5vxyiVsoTCiyWeyomUkOqaC0EL4tZ6XlBvJlZLc/cq5l7DQwdi7VzDyRz3v47cwezeodq+E00J+MoiMdTDwj4XnAJ07FPEs+fxONgElXT5VqGND5y/vY/qYiCGozfraxXgvrEpyBkyEGBU7MdHJ1mu8GNTfKBvNtnoPERLo0PU+fB2ep8ctGp89277FC5m1eEc2+f0ecs/fp6fmWVT/OiVHLYfsk/cxokvTKZj1qqWBGq9s6CA4VWXbknCxkX/3Fj3sjHorOLP9TYOmCNgOecMyD5Trnjsyl3/FOuJxPZwx2MGfwl7q9nNLHXlDeHVmQajkcdyUv2G0eg7Jzf9kRrtx1PsXi69bg4m7QP9B6Ioq/3eMThV3iQoVxT3XYDEVF6tp573qufvQ83VhZLg0q+jMLvWClT568y+gyqeWM8D9Iut7p42EPZQ8C2Fdrp3Po08p7831tUn5YSPBUwDLu4hTlAFZQX/9BE84iVMYQZcqQClzcYQDWfnWrOe7uDCFei3qKZInkpMNI2lPpkCXkVY2Szcm2R4NAq2Xn57feTC+zTd74UeE3dFQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment>Request state: work in progress</comment>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Purchase of Codeine">8c7d8766478ae25038e741af016d436d</flow>
+        <generation_source/>
+        <order>11</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:17:57</sys_created_on>
+        <sys_id>d07d8766478ae25038e741af016d43b9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:20:15</sys_updated_on>
+        <ui_id>5e160134-648c-437c-a57a-b91414ce8dab</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1UW2vbMBT+K8HPjvEt17dBCOxhLWSjL10xx9JxIpAvleW0Wch/35Etp2m6daEExmB605HOdzn60P3eEdyZOzFyP5gFYxYFURT6fjiNg3QcpUHII0AMHNcpIEe6qZCVitN+C7Ixhf1+nLF0EoTT4Ww2HQ1jf4LDNE7jIUScwWQKUwiZ1/UdDtTJRV1J2N1ZAKqwjZBcYeHM7x9cpwJFXBqVM9+fHeldhYmEFCU1LkrW5FjowecFYVzqo+9e9UbOjRkO2nOLnghTpCOjJ/BdB581FhyJLgNZo+vkUHDQpdo5c60aKigEflvI3fHGRhS6c5rDcy1+EH7sm3sZkjVmp3DcJnZC/XBKwfC20qIsuoqGVPaTK2WTFzedBTNbzKCR+mS2TU14WBnJRkSnMPu6KZ9WPd9SFK07q1aWDORxB1orkTYaa/McKLEdSg5VJYp1UqlyK9pmkpJ7a0kbL5PlE3HWYl14wIxujwYE3pLqi7Z8B0oYE18IhpoPrfnksTG8nQ0rOGk9t4aT9qHoas2UqPQnAt6ilXlwbZDT0XsBYLOX9z7BfAlzzRKFjw3W+m1OV8eDj8X1myEc3HSEl4p91fwb8Tawr2o2r6Or5XX6l/JqFf1jgf1TTP3w3X/q5KXbZNanEdWg8Xvj+xEP34b07PSDScWcMDUOOlT3Ys09wFKg5PUvTPRRtQTJ1hIcv9er5TUY++36/8te8Zd9+AnKWvr+MAgAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment>Consumer notification</comment>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Purchase of Codeine">8c7d8766478ae25038e741af016d436d</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>9f706f79-3c08-4e0a-840b-0fcf538e07c1</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:17:57</sys_created_on>
+        <sys_id>d47d8766478ae25038e741af016d43b6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:20:15</sys_updated_on>
+        <ui_id>bc2d1e4f-2f01-4f4f-89a4-7baa6da48985</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Y227bOBD9FULPtivf5Dhv3QTBBugFSIPuQ1MIFDmKuaVEhaKSuoH/fYcSZUlx4hh2NmiBPBkiOfdzZkh/u/cE9469CT/ygyie0Jk/Ho19/2g0n0fjeewfzeb+kHGv56U0ATypgSltv2+pLOzC/T2fRWw0gnk/hpnfnwzjeT/ibN4fsiDwI07HwXA2qORWK5TkIs8kXX51CnCFLYTkGlLv+Nv3npdRjbYMaO/4/sGWWWYQShqBRMFTxYoEUkPOT1HHrnHU0pdUX4MhF3U8D+OzpvCbOyOhsIu4Zd3yex78NJByQKMxlTn0vISmnBqll+sVDZR/TmWzsBCpQZXv81wxQQ3kxCyAQEKFJHfCLAgllfmBZ/X9zMUvdGE8sqpiwCQw65FImeDokddaDl1Ocfu82WYLJRh8zoxQaZVoQyNZ51zJIkk/VVHbqkBMC2laVSly1AuZDdP6bXSBMcRfFuruorZ7JtIyIS5AqRiV6y9qjBZRgXGWhZRAdaMvLF2yOtESSChznNAsE+l1mGl1K0rF6GYyuJb4MYilukP5XFynA8psTANMOB2c4fppufyVamED/IhqUHhVJii8KaxPVYhd4/ZsWNYdj+ZMi8y8R8W34EJY9Rw9hvNtsOKTBj4tnQ1FchZquAmFgWQT/hdwU0BugJPzan8/Mlxaw+RTZXhXpzvCTwTheNBZczQYHkSDS8S+qUhYoZ4Y58Ya+kd+F/pPQP7Foe4c3Rvr/w+esa55WMHUxVYafxbnz6HbD4IoCqLpbNwAZc5ibOtxQGds3ADjDpuWTqj+EZZNqwXx4SawHbf3hDMKvzsrw+vt7GUtjC1QFhzIP7W72yJw+I6UwgaVNuAeHQTuConEKIK1k0vs7GvLdrHp+2ZBDRE5ybFcA3KpiHDOtyR6ZKkKkhS5wWMGdzq06QyLyaswxpXWrZ4+Wvc/glKHUme6vcfSBnh0ERq177UJf9yQCGOlByVyViuyybkX0rofZ79gvdLrmq87pGZNdrWZJ0fLvNbpWDnezsrqjrJBytZA8d9GSmekcJAiEWVxK+YeSgm+te7gd0rNWIsSL/g06EJxB5dqwZOTTf+egOJkvwHxhsXXw+Jw63MQgk6to9cB4w4+1YJ/PUBjtA2O0zc4/u5wnG4vPesUOy+if4GZFiRPVJLp8i+CBf1Fywn6AKKPnHiRUf6832vBtdePRfIEdIO3of47XWrp1nLHo25PUnzZwuhV4ftjlhHrYd+IdJkw0EqZCNPwo9zkV95VdQw+UBs9TVSOrx68guJbxwDBOylJFckUB7uDicgk4IuHmIJkwAVXhENkf2h51t5gif1vhWQF8FIWl/C8LbxKBSYGH1ZQm7A6SzGJPMmNVdbSjOm0eynBUjDI1aAK6F1WebxJORfwHxzQfh3i78uPH+r+sANg1iOtgssGflxnWJhENn1hduBIC6bTcfDWGdozLbvjI65VlrnYDppr3/8Dzr2cRz8YAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Fire Event">80a30edeff30311077a95dac793bf19b</action_type>
+        <action_type_parent display_value="Fire Event">15e10e5eff30311077a95dac793bf11e</action_type_parent>
+        <attributes/>
+        <comment>Ask our consumer if everything it's okay.</comment>
+        <compiled_snapshot>80a30edeff30311077a95dac793bf19b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Purchase of Codeine">8c7d8766478ae25038e741af016d436d</flow>
+        <generation_source/>
+        <order>15</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:17:57</sys_created_on>
+        <sys_id>d47d8766478ae25038e741af016d43bb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:20:15</sys_updated_on>
+        <ui_id>38f419a8-aa05-4543-bd21-dd7c990b71d5</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2W227bOBCGX0XQtWVIFHXyXbFpFwF220XS7U1RCBQ5dLjQwSElt94g796hDj7UjRM4QRYF9sYAz//M/J9Hn+9cJdyFm3IW+iBAytAPg8BPEpZFgvEkCwsZZODO3JpVgDthDXWb94OZu2ZlZyeDMEz8OCnSsIggDnxZQEH9iMSCMRFyjluFMquSbT6NJ0yd8860TQXagF4rDvPqdq7htgPTzruVYC0IPMZvVCk01O7i85eZu2IaH25Bu4u7H5bazQrykhVQ4u1XIAFXuNX41Pims29tgA/Eax/BOb13faOFlRPMXPjWQi1Q9UKy0sDMrViNYTR64y5a3eGEBiY+1OVmu+NG4VML9wKM0iCc641poXJ6BU57w1rH3DRdKZwCHGl3uPbSb0b9iypCMtsTghndmEGrhqUyNkd76/mY/ik+56rfpFmrmrpPc4Ml+LDqhwvXhsqK8qFreVN2Vf1+SJCtLUjWle1UW5zpDD4JK5sPG+EYrry+ab5ua/NO1X3qxsWy4azcjljbalV0LRhb6k59PM78MPnHT0oOJVRWcsVWK1Uv85Vu1qp/C6VX82WJg7ksm6+o0ahlPWfcBj7HarH5O5y/6Kc/Ma1sFv7Ea/q4O/V3rdChl9ZSAH4IIpFewij1KI0Kryho6HE/yjLmEyID4t73NchvOxvakKoxKfmQaNxguFar9g1KWMMY//1s5JL7p3zL6M6nGjhacY/Ju7vrASznNwyrbJZ5MPGVK7TZ/f0xlWcDd9HwzqbcubyYkHuC9B2uo/YfYxl5E+PtuRI74shLEPe7tcLwvNMU/wBvHambCuEDBwYMew5OcPcAZiehOoehIaDnI3SYzEOIDsv4KhjJgLMoIKFHwoR7NOOpl1LAH4SJ0CzlhMePYjTk9TGWTvYAluz8N9V8Qslw/Pe77ak5ZuZqYArNdDmsn0fQR/um837oM0/Ve3D4WP+ITz+cWthIT3iannHmCJ8tBan/31DwYp3kICmHFByU4lUgyAilMk5TryBMeDSNKfYSP/WSgPoELUDCKHx2LxHpST8VO/+gZ6tgz/8v2CiusRj1crL4EyRNB/+aHnCCY6Gj0c10+Whyep7Jxx7xpt44fQaGTzENpinXYJy2cZizfWqPCP9XZ2Ib1CEP25q9Cgtx5Ge+T6Qn4hQ8GkjisSBLPULCIhAxpyTOns8CPWk8eWgx8iosPC7pmAVyLPQBFqL/Wfj1WJA0piFPEo+iM/DjKMW+kEDkhZGQCRUJj9PgbBa+fAd4GHOd/Q8AAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Catalog Task">af51fd0e73141300612c273ffff6a785</action_type>
+        <action_type_parent display_value="Create Catalog Task">f597c41073081300612c273ffff6a767</action_type_parent>
+        <attributes/>
+        <comment>Storage works in order fulfillment</comment>
+        <compiled_snapshot>af51fd0e73141300612c273ffff6a785</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Purchase of Codeine">8c7d8766478ae25038e741af016d436d</flow>
+        <generation_source/>
+        <order>10</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:17:57</sys_created_on>
+        <sys_id>d87d8766478ae25038e741af016d43b8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:20:15</sys_updated_on>
+        <ui_id>9ca15322-3797-4834-9929-b6856d991619</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1YXW/bNhT9K4KeNsDw9OEv5G1bYGAPbbClyB7qTqCkK5soJaokZTcz/N93KZGyFTuK4ToFgs5v5tc95/Icklcfty5N3RuXZGM/Sz2Yhv7IDz1v4gdJMA0z/E3IdDZzB25BctAjV5EiMYOo/j9w14RVul0m2C4/Y0tKZcnI48NRR7KiLBVQuDcfPw3ckghcQYFwb7ZPutRjCREjMTCc/0FHc9430c4Fe3LyMwx0NGzutHGRamDewIWvCooUMG5GmISBm5MiJYqLx7ZFAEnvCrZvWNFC4YquHvxV0n9x+Zmnx2WAHBNo+tq/kclY05ysOE3grlSUF01Ljcx0clblxfuGiM41ZKRi6jjXpuP2ub2oJIaFUlPTWA3w7H7FN39ZXHNa1FkwnYwnhLX/iFKCxpUCqfePykgmgpYWaj0IwwCDHANEOSlLWiyjUvA1rRdFKvlwyfDPMGN8g2AkXRZDkmjeQ8wwGc6x/bZufiCC6pXf4TI4GaMzPaemg81Sb59Ahrs6q9GXSgNt8mMoRk0ycUCD81eMswbDZjcwNpiGfcoiXkdEAr5UIBWkEVWQH1hhu70HscZNdH5HGowvI39oBtdDd7tjl1xsj3a3rDvO4LCfaxg4fzQMesgZl4iDcMYkfr9J9Mac55Ew6HoEtxdhWACn7HJE4FvMc31XvJb6OSYySgUvS0PuKuIPp73CmXT0IVdcKA27XlBne6//O60LZ16xjDKmE3As91NDLtP/PSa8WFrxn8GhnagZOLcdBv38jAWkjWj0H1ztkvADz/su98Rbkfo3n+f9ckg6W55RYKk80DGRGlJNayl4VS4qzwvT7cKKeeHeLFB/XJAlOApI7rz7c+EOFs0CdW8SzLLxLPBmYQKE+F4WQzzyxsEkJSQNR7N6uHyUEU3PHL/7RyqioMHiHzvrbYC+8CkIOVJQ4DRkB2dvsl1gbrf4xK7bZ6CJEa1NDOPy8Goun4yPXL5/l50yu3lFOB/sM/qaxm+u5zfme1qUlZLD7kv+hbMg65VJHHRUsSFUHZwEJ3xWX7kXCxkn/zI3b+Rz0dnJfzfYjsAaAcecMyDFXrmjqyl39F0uJ5PZ0xWM6fwhbq8XNHFQlLeHVmIKjicVyWvWG2egPDq/7YnWLTueY/F86TG+mrRP1B6Ioq/2eMLhR3iOoVxXuuwGIpLV1WruuFc/Bx9urCzWBpV8HYXfs0qunN+q5DOo9o3xMkg73eri4QBlDwFbVOigsY1p5D35v7KoPy1leCpgGvZ5iwqAOimv/qGJFgmrUohy5EgFTm8xgGo/OzWcD1YHEW1Es0Q7RPJKYKZtKvXJEvE6x8hm41qTYNcm20f56eeLDfbpP26i4B7dFQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment>Closes requested item complete</comment>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Purchase of Codeine">8c7d8766478ae25038e741af016d436d</flow>
+        <generation_source/>
+        <order>17</order>
+        <parent_ui_id>cf578f24-a444-465f-a035-37052c779c90</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:17:57</sys_created_on>
+        <sys_id>dc7d8766478ae25038e741af016d43bb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:20:15</sys_updated_on>
+        <ui_id>c3e5e60f-bf6b-4c82-b076-22f40c6d05ac</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1U32vbMBD+V4KejbHjNLR5GwuBPqyFdPSl64QsXRKBLLmSnDYL+d93suU0bbculMAYzG931n0/Th+62xIpyISMQGT5RT7mRV4Uwywbno/yclyU+VAUDCAnCdGsAjxpgRsrsF4z1YTGdnsDdi05DD4zz5RZ0jy18NCA81R6qHY7PCykqxXb3MYZ7PCVVMKCJpO7+4TUzCK8B0sm21e//KYGqlgJCgenhjcVaD+4nCLGsdL76Xmv/bWXwIG1iOhUhib+CnryLCHw5EELQLoFUw4SUjEtmDd2QybeNtiwwMS1Vpv9iZXUvnNasScnfyD+KAvnFoDWeNzCvqRxQ/1yDC70uvbS6K7jWan6zRnVVPqqsxB2CwvWKH+w28YhHtRBchDRKVzcrMzjvOebSd26i2qV4UztK+a9lWXjwYXrAAXtUipW11IvaW3NWrbDKKVKlwqLdKHMI3I6udQp40F3igti6Qz707Z9y6wMJr4gDA7vWvP0oQm8nY0omLaeW8O0vSg86riVtf+EwGuIMndJzG559l4A+MXzfR9gPufXcYpxbaP6NqjzLsggBpfd/4/F9msgHlx1xMeKfjH8GxMxuC96MbdnJ8vt+V/KbVT0jwX3T3HNhu++Vwc33SbUHUbVsyV8a7KsEGigVpi879jzsVe8ze8REx9MNCAa4gw6puRobz3ATIIS7hdm+0hHArqOBPvn+GS5zsdZ+/1/lU/4Kt//BCSXf9JTCAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=8c7d8766478ae25038e741af016d436d"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=8c7d8766478ae25038e741af016d436d^sys_idNOT IN147d8766478ae25038e741af016d43b1,587d8766478ae25038e741af016d43b0,947d8766478ae25038e741af016d43ae,9c7d8766478ae25038e741af016d43af"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">01823c754702ee1038e741af016d4368</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Purchase of Codeine">8c7d8766478ae25038e741af016d436d</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>20</order>
+        <outputs_assigned/>
+        <parent_ui_id>cf578f24-a444-465f-a035-37052c779c90</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:17:57</sys_created_on>
+        <sys_id>147d8766478ae25038e741af016d43b1</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 18:48:11</sys_updated_on>
+        <ui_id>80176a35-e65b-4abd-b0bc-b1148ea07909</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">bb22b0754702ee1038e741af016d4358</block>
+        <comment>Remember to change this conditional*</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Purchase of Codeine">8c7d8766478ae25038e741af016d436d</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>16</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:17:57</sys_created_on>
+        <sys_id>587d8766478ae25038e741af016d43b0</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 18:48:11</sys_updated_on>
+        <ui_id>cf578f24-a444-465f-a035-37052c779c90</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2UW2sbMRCF/4rR87LsJTaN30JKoNDWUIe8tEHMamdtEa20kbR2XOP/3tFeHNM4tIQ85s06I82cM/vhPTOtb1rvbs2Vc3Kl2fznfcSkDhr93jMNNbI5E0aX0kujeSdEbAOqDYWFLdFOzAPsSCylaxTs7s7VxFqq0uIwoQFLfTxaNt//VfK7BrmCAhW1WHor9Yqey5JOVQJVeilSkWezPEuS7NNFWszyIs3KHBByujc+vB4NT752SvRqkjCPdDdOMsE1m6dJxPDJoy6RRlegHEasBl2CN3Z3VCxCudDqWVhL7akdC5efnPxNvbPpNFyskDIK7IvHIx+W1stibaTARRMM9oqHQg1vhFFtrb/3OcK6sYJW+XHdpLSO+mETTAcXg6VquTbbH+PAG6m7gENRGQHqeAJPayhajy58GFRYUyNeQ9PQcnhjzUZ2j8lLHa8UHeJKmS0NDfTEIILxmHYE8Q3pnzv5DqwMKb5RG3rc2yzAScE70qidtxTh0K2FP7bBUB9wiML7bdAFJ6xs/BXN2eDg+hC9xPSE0P1+iXZDW51cky1lVjyNLT626DyXHuvO9AYPh19tkuRl5+QFym9r8h7MX8K0mqbJ9DzzF7NzzJ+h/XXQs3+AHrL8J+dJknyAfgq6dLwHdsjWDX8z5/cB6n6C67kpUUhHRm6D9mX81w6FHQEgxam0NfYhRHjWDn8AIWkjEv8FAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">bae640b5470eae1038e741af016d438d</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Purchase of Codeine">8c7d8766478ae25038e741af016d436d</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:17:57</sys_created_on>
+        <sys_id>947d8766478ae25038e741af016d43ae</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 18:48:11</sys_updated_on>
+        <ui_id>9f706f79-3c08-4e0a-840b-0fcf538e07c1</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Uy27bMBD8FUNnWdDD8usWpAhQoG2AxkgPbSCsqJVNhCJVkrLjGv73LvVwjMZBgyLH3sTZ5e7MclYHTzW2bqxZqStj+Fp6y+8Pvselw+j74Emo0Ft6TMmCW65k1gK+twXRuMA3HDGQP5owjGd2xFRVC7Q4shscKV2gptSCm1rA/v7tN9iGi0Jjz6YGTT0tRZaHP0J2X2MmIEdBhe+s5nJN13lBpzKEMlqwiCXxNImp2XwS5dMkj+IiAYSE8oaL14O40acW8V9V7foRboZOHeFlFPoePlmUBVLrEoRB36tAFmCV3p8QjVDcSvEMbLi0VM5zyU+G/6LacZq6xBJJI8MueDpm/Sg7mG0UZ3hbO4IdYiEX/R2mRFPJL50O9whYQiPs8AiENIbqYe1IOxY9pfJuo3Zfh4Y3XLYC+6BQDMTpBJbGkDcWjXsYFFhRoayCuqbhZLVWW95eJi5VsBZ0CEqhdtTUOS0A5ogHNCMIbgj/0ML3oLlT8ZnKtF5wNHMwnGWtK6mc1STh2I4l+9k4Qp3AXkrWTYMSDNO8tlfUZ4s966P/0tJnbj4ckilGswIm45SF0XiySJMxzKEch2zCpuViwXA2D66Js1Dr0QrMY2AsWDwenaGTYvbS7+9S8z02YgFpmUZhenkjJtNLG3FhF15fg/gva+Ae7o1bEIbh/zU4XwNuss7Ovba2+T9vwYOzfNfBdL4pkHFDRFYO+zj8/11gTwbg7BzaKf3oJDxjx98D8vgSSQYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">0725921e4702a25038e741af016d4336</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Purchase of Codeine">8c7d8766478ae25038e741af016d436d</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <parent_ui_id>9f706f79-3c08-4e0a-840b-0fcf538e07c1</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:17:57</sys_created_on>
+        <sys_id>9c7d8766478ae25038e741af016d43af</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 18:48:11</sys_updated_on>
+        <ui_id>dbc1f64e-d7cc-42b0-a2a1-f07889a2d3a4</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=8c7d8766478ae25038e741af016d436d^sys_idNOT IN587d8766478ae25038e741af016d43c8,d07d8766478ae25038e741af016d43c8,d87d8766478ae25038e741af016d43c8"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8c7d8766478ae25038e741af016d436d</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Service Catalog_1.request_item}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:17:57</sys_created_on>
+        <sys_id>587d8766478ae25038e741af016d43c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:17:57</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>bc6051d8-f680-411c-b1ee-4e9192041a7c</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8c7d8766478ae25038e741af016d436d</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Service Catalog_1.request_item.number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:17:57</sys_created_on>
+        <sys_id>d07d8766478ae25038e741af016d43c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:17:57</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>3b6c4667-b6b2-445f-bbb8-23e1c128afa4</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8c7d8766478ae25038e741af016d436d</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Service Catalog_1.request_item.requested_for.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:17:57</sys_created_on>
+        <sys_id>d87d8766478ae25038e741af016d43c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:17:57</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>0179f97c-d033-42b3-9d8a-6b268e7d4e88</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=8c7d8766478ae25038e741af016d436d^sys_idNOT INc47d8766478ae25038e741af016d4375"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=glide_date_time,uiTypeLabel=Date/Time,uiUniqueId=eee8328d-c071-4fb1-a468-47553f087fb5</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>closed_date</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">glide_date_time</internal_type>
+        <label>closed_date</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Purchase of Codeine">8c7d8766478ae25038e741af016d436d</model>
+        <model_id>8c7d8766478ae25038e741af016d436d</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_8c7d8766478ae25038e741af016d436d</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:17:57</sys_created_on>
+        <sys_id>c47d8766478ae25038e741af016d4375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:17:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8c7d8766478ae25038e741af016d436d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:17:57</sys_created_on>
+        <sys_id>8c7d8766478ae25038e741af016d43a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:17:57</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8c7d8766478ae25038e741af016d436d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:17:57</sys_created_on>
+        <sys_id>c47d8766478ae25038e741af016d43a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:17:57</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_8c7d8766478ae25038e741af016d436d"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_8c7d8766478ae25038e741af016d436d"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=1293000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>ee664f6a474ae25038e741af016d4312</copied_from>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>purchase_of_codeine</internal_name>
+        <label_cache>[{"name":"7b582688-5b4f-4a29-b2bb-62e8da41fd47.record.model","label":"18 - Create Record➛Asset Record➛Model","reference":"cmdb_model","reference_display":"Product Model","type":"reference","base_type":"reference","parent_table_name":"alm_asset","column_name":"model","usedInstances":{"10751d96-29f6-47f4-8933-8e99725c2cf6":["product"]}},{"name":"c3e5e60f-bf6b-4c82-b076-22f40c6d05ac.record.price","label":"17 - Update Record➛Requested Item Record➛Price","reference":"","reference_display":"Price","type":"currency","base_type":"currency","usedInstances":{"7b582688-5b4f-4a29-b2bb-62e8da41fd47":["cost"]},"attributes":{}},{"name":"Service Catalog_1.request_item.active","label":"Trigger - Service Catalog➛Requested Item Record➛Active","reference":"","reference_display":"Active","type":"boolean","base_type":"boolean","parent_table_name":"sc_req_item","column_name":"active","usedInstances":{"cf578f24-a444-465f-a035-37052c779c90":["condition"]}},{"name":"Service Catalog_1.request_item.number","label":"Trigger - Service Catalog➛Requested Item Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"sc_req_item","column_name":"number","usedInstances":{"8fb5d35e-93d2-4277-ace3-e44735ea1a4c":[null]}},{"name":"Service Catalog_1.request_item.requested_for.first_name","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"8fb5d35e-93d2-4277-ace3-e44735ea1a4c":[null],"7b582688-5b4f-4a29-b2bb-62e8da41fd47":["display_name"]}},{"name":"Service Catalog_1.request_item.requested_for.email","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"8fb5d35e-93d2-4277-ace3-e44735ea1a4c":["ah_to"]}},{"name":"6fcb7128-9985-407e-b4b4-a3dca78a8a2c.record.closed_at","label":"2 - Update Record➛Request Record➛Closed","reference":"","reference_display":"Closed","type":"glide_date_time","base_type":"glide_date_time","usedInstances":{"ab017af4-a5ad-4e2a-ba24-1296ad6c5c00":["closed_date-0"]},"attributes":{}},{"name":"Service Catalog_1.request_item.closed_at","label":"Trigger - Service Catalog➛Requested Item Record➛Closed","reference":"","reference_display":"Closed","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sc_req_item","column_name":"closed_at","usedInstances":{"ab017af4-a5ad-4e2a-ba24-1296ad6c5c00":["closed_date-0"]}},{"name":"d7bc22e9-fe70-41f9-bdc9-1c660bda3617.record.closed_at","label":"1 - Update Record➛Requested Item Record➛Closed","reference":"","reference_display":"Closed","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sc_req_item","column_name":"closed_at","usedInstances":{"10751d96-29f6-47f4-8933-8e99725c2cf6":["start_date"]}},{"name":"7b582688-5b4f-4a29-b2bb-62e8da41fd47.record","label":"18 - Create Record➛Asset Record","reference":"alm_asset","reference_display":"Asset","type":"reference","base_type":"reference","usedInstances":{"10751d96-29f6-47f4-8933-8e99725c2cf6":["asset","product"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item.opened_at","label":"Trigger - Service Catalog➛Requested Item Record➛Opened","reference":"","reference_display":"Opened","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sc_req_item","column_name":"opened_at","usedInstances":{"7b582688-5b4f-4a29-b2bb-62e8da41fd47":["order_date"]}},{"name":"Service Catalog_1.request_item.requested_for","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"requested_for","usedInstances":{"7b582688-5b4f-4a29-b2bb-62e8da41fd47":["owned_by"]}},{"name":"Service Catalog_1.request_item.sys_id","label":"Trigger - Service Catalog➛Requested Item Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sc_req_item","column_name":"sys_id","usedInstances":{"5a6c1bda-3574-4af4-bcf0-ffdac41fb604":["sys_id"]}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"d7bc22e9-fe70-41f9-bdc9-1c660bda3617":["record"],"822b2fb3-a3d8-4f8d-bea5-cf29fc165011":["ah_requested_item"],"ffa7bb4d-b952-42db-9583-191cddaa15c2":["record"],"8fb5d35e-93d2-4277-ace3-e44735ea1a4c":["record",null],"5d31fbfb-003d-4de6-93b1-6be3419a7b1f":["record"],"99ebb0ef-f09e-4034-a02f-56dc3a7b4e6a":["record"],"7890eb4f-0a2e-4c61-b060-fb2249b48fe1":["record"],"3dee1b12-8dc5-497c-a519-86d00e089e76":["record"],"38f419a8-aa05-4543-bd21-dd7c990b71d5":["record"],"22917603-a087-4a81-a693-32877ce08b51":["ah_requested_item"],"bf561e9b-e8e7-4e55-ae43-1d0da48e9011":["record"],"36e17da4-5c01-4953-a8af-0c4c6f99ce78":["ah_requested_item"],"ebdf5f35-55d0-403f-9b27-d17c7f73a306":["ah_requested_item"],"19334924-e99b-4b30-aa79-3fcc20be734a":["record"],"9ca15322-3797-4834-9929-b6856d991619":["ah_requested_item"],"b84caebd-1083-4d2d-9c73-f11b5c4696ea":["record"],"660f54d5-5432-4ac7-9337-cf76749a7dd9":["ah_requested_item"],"ec62bfcc-19d1-4ce7-83fd-978e8376117a":["ah_requested_item"],"c3e5e60f-bf6b-4c82-b076-22f40c6d05ac":["record"],"581b2e19-988a-492d-930d-46359fa505a3":["record"]},"attributes":{"default_search_field":"number"}},{"name":"Service Catalog_1.request_item.request","label":"Trigger - Service Catalog➛Requested Item Record➛Request","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"request","usedInstances":{"6fcb7128-9985-407e-b4b4-a3dca78a8a2c":["record"]}},{"name":"6fcb7128-9985-407e-b4b4-a3dca78a8a2c.record","label":"2 - Update Record➛Request Record","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","usedInstances":{"99ebb0ef-f09e-4034-a02f-56dc3a7b4e6a":["record"],"7890eb4f-0a2e-4c61-b060-fb2249b48fe1":["record"],"b84caebd-1083-4d2d-9c73-f11b5c4696ea":["record"],"3da67c80-0313-457d-a76d-55379f778200":["record"],"558c07ad-756a-4495-8a70-a0d3e0040f57":["record"],"5e160134-648c-437c-a57a-b91414ce8dab":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item.sys_created_on","label":"Trigger - Service Catalog➛Requested Item Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sc_req_item","column_name":"sys_created_on","usedInstances":{"bf561e9b-e8e7-4e55-ae43-1d0da48e9011":["due_date"]}},{"name":"{{static.c28f582083ceaa10fbeb40526daad348}}","label":"Storage team MQ","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"bf561e9b-e8e7-4e55-ae43-1d0da48e9011":["approval_conditions"]}},{"name":"d7bc22e9-fe70-41f9-bdc9-1c660bda3617.record","label":"1 - Update Record➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"a0a55135-0654-4c66-9e14-c2a15a429d7e":["record"],"bc2d1e4f-2f01-4f4f-89a4-7baa6da48985":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d7bc22e9-fe70-41f9-bdc9-1c660bda3617.record.requested_for.email","label":"1 - Update Record➛Requested Item Record➛Requested for➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"bc2d1e4f-2f01-4f4f-89a4-7baa6da48985":["ah_to"]}},{"name":"{{static.807c7b7a932d6610d942fc4e1dba1025}}","label":"Jacqueline Lopez","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"c7de4bdd-d693-496a-99ff-89ff114cf236":["approval_conditions"]}},{"name":"d7bc22e9-fe70-41f9-bdc9-1c660bda3617.record.requested_for.manager","label":"1 - Update Record➛Requested Item Record➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{"c7de4bdd-d693-496a-99ff-89ff114cf236":["approval_conditions"]}},{"name":"36e17da4-5c01-4953-a8af-0c4c6f99ce78.Catalog Task.state","label":"3 - Create Catalog Task➛Catalog Task➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"sc_task","column_name":"state","choices":[{"label":"Pending","used":false,"reference":false,"image":"","rawLabel":"Pending","selected":false,"missing":false,"value":"-5","parameters":{"name":"task","dependent_values":[""]}},{"label":"Open","used":false,"reference":false,"image":"","rawLabel":"Open","selected":false,"missing":false,"value":"1","parameters":{"name":"task","dependent_values":[""]}},{"label":"Work in Progress","used":false,"reference":false,"image":"","rawLabel":"Work in Progress","selected":false,"missing":false,"value":"2","parameters":{"name":"task","dependent_values":[""]}},{"label":"Closed Complete","used":false,"reference":false,"image":"","rawLabel":"Closed Complete","selected":false,"missing":false,"value":"3","parameters":{"name":"task","dependent_values":[""]}},{"label":"Closed Incomplete","used":false,"reference":false,"image":"","rawLabel":"Closed Incomplete","selected":false,"missing":false,"value":"4","parameters":{"name":"task","dependent_values":[""]}},{"label":"Closed Skipped","used":false,"reference":false,"image":"","rawLabel":"Closed Skipped","selected":false,"missing":false,"value":"7","parameters":{"name":"task","dependent_values":[""]}}],"usedInstances":{"9f706f79-3c08-4e0a-840b-0fcf538e07c1":["condition"]}},{"name":"Service Catalog_1.request_item.price","label":"Trigger - Service Catalog➛Requested Item Record➛Price","reference":"","reference_display":"Price","type":"currency","base_type":"currency","parent_table_name":"sc_req_item","column_name":"price","usedInstances":{"7b582688-5b4f-4a29-b2bb-62e8da41fd47":["cost"]}},{"name":"c3e5e60f-bf6b-4c82-b076-22f40c6d05ac.record.closed_at","label":"17 - Update Record➛Requested Item Record➛Closed","reference":"","reference_display":"Closed","type":"glide_date_time","base_type":"glide_date_time","usedInstances":{"10751d96-29f6-47f4-8933-8e99725c2cf6":["start_date"]},"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Purchase of Codeine</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Purchase of Codeine">8c7d8766478ae25038e741af016d436d</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:20:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fffdc3a6478ae25038e741af016d43f5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 18:48:14</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=fffdc3a6478ae25038e741af016d43f5"/>
+    <sys_variable_value action="delete_multiple" query="document_key=fffdc3a6478ae25038e741af016d43f5"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=fffdc3a6478ae25038e741af016d43f5"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=fffdc3a6478ae25038e741af016d43f5^sys_idNOT INbffdc3a6478ae25038e741af016d43f6"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>fffdc3a6478ae25038e741af016d43f5</id>
+        <name>Purchase of Codeine</name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:20:23</sys_created_on>
+        <sys_id>bffdc3a6478ae25038e741af016d43f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:20:23</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=bffdc3a6478ae25038e741af016d43f6"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=fffdc3a6478ae25038e741af016d43f5^sys_idNOT INc40e07a6478ae25038e741af016d430c,f3fdc3a6478ae25038e741af016d43f8"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Purchase of Codeine">fffdc3a6478ae25038e741af016d43f5</model>
+        <model_id>fffdc3a6478ae25038e741af016d43f5</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_fffdc3a6478ae25038e741af016d43f5</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:20:23</sys_created_on>
+        <sys_id>c40e07a6478ae25038e741af016d430c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 18:48:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c40e07a6478ae25038e741af016d430c"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Purchase of Codeine">fffdc3a6478ae25038e741af016d43f5</model>
+        <model_id>fffdc3a6478ae25038e741af016d43f5</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_fffdc3a6478ae25038e741af016d43f5</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>true</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:20:23</sys_created_on>
+        <sys_id>f3fdc3a6478ae25038e741af016d43f8</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 18:48:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f3fdc3a6478ae25038e741af016d43f8"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=fffdc3a6478ae25038e741af016d43f5"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=fffdc3a6478ae25038e741af016d43f5"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=fffdc3a6478ae25038e741af016d43f5^sys_idNOT IN480e07a6478ae25038e741af016d433c"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Purchase of Codeine">fffdc3a6478ae25038e741af016d43f5</flow>
+        <generation_source/>
+        <name>Service Catalog</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:20:24</sys_created_on>
+        <sys_id>480e07a6478ae25038e741af016d433c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:20:24</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/61TTW/bMAz9K4FOG5CDk6zNktswoECAbgWarpdiMGSJcoTJkifJbr2g/32kPxK3M4YB3U2iyMfHx6eHIzM8A8O27LaysyvjHmc7y+ZM2wjecnPXlICP4uC0AIx3h2sdIts+HJm656aihIyLH7l3lZWYpK5HmIowtZ2dM2bvJChemfiecncFzwmBznswICJItlXcBMDItzC+fdEhaJv3gef5iIByHv5O4GXGG9p+n7OCW8mj8805ybviDorS8AinoPMSPNsukmTOaiK6b8JOdl0tL6i/r2xKDFNNstf9NHiUOiBYc3+OiIM20oNF5ZFCyT0iRMI/vnrS1OIy2SRivdys18tktUoSdZEpoYRYf1wkl4uLDQJOr36SWHzlg/Fk8BTBypFgf6rjgcsba86BAxqsm6rgT0H/QvAPCeUpwDFEP/HpmvZqDEIQi9A60Py71eopr/aDJGSmKawXrqmnzDZIQb7ou33+/wQXbya4JIKddDdl1A7Nwla0Wp4ZqglN6BbuQWBJGr3OcyzEImeqwn6d8kXPfuTSKuC2oCRH0IqH77E/uMfbYZ1X2raU+kfjBDenG4/YOasi6XdkXNYcK8jR0WOP59YV6c+KKtp/MvRK24koIQivy/hJRF3D6dP+BvLQA67rBAAA</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=fffdc3a6478ae25038e741af016d43f5^sys_idNOT IN000e07a6478ae25038e741af016d432a,040e07a6478ae25038e741af016d4325,080e07a6478ae25038e741af016d432a,0c0e07a6478ae25038e741af016d4325,400e07a6478ae25038e741af016d4327,440e07a6478ae25038e741af016d432d,480e07a6478ae25038e741af016d4327,4c0e07a6478ae25038e741af016d433a,800e07a6478ae25038e741af016d432b,880e07a6478ae25038e741af016d432b,8c0e07a6478ae25038e741af016d4328,8c0e07a6478ae25038e741af016d432d,c00e07a6478ae25038e741af016d432c,c00e07a6478ae25038e741af016d433c,c80e07a6478ae25038e741af016d432c,c80e07a6478ae25038e741af016d433b"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Fire Event">80a30edeff30311077a95dac793bf19b</action_type>
+        <action_type_parent display_value="Fire Event">15e10e5eff30311077a95dac793bf11e</action_type_parent>
+        <attributes/>
+        <comment>Requested order - consumer notification</comment>
+        <compiled_snapshot>80a30edeff30311077a95dac793bf19b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Purchase of Codeine">fffdc3a6478ae25038e741af016d43f5</flow>
+        <generation_source/>
+        <order>8</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:20:24</sys_created_on>
+        <sys_id>000e07a6478ae25038e741af016d432a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:20:24</sys_updated_on>
+        <ui_id>5d31fbfb-003d-4de6-93b1-6be3419a7b1f</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2W227bOBCGX0XQtWVIFHXyXRE3iwDddhF3e1MUBkWObC4oyaEot94g797Rwee1ExdugKJ7Y0DDIfXPP/OZ+vxoS2GP7Jgz3wUBWea7vue5UcSSQDAeJX6aeQnYA7tgOWAmLKEw0/ZhYC+Zqpug5/uRG0Zp7KcBhJ6bpZBSNyChYEz4nGOqkNVCsdWnfkdVTHldmTIHXYFeSg7D/GGo4aGGygzrhWAGBG7jc6mEhsIeff4ysBdM44sNaHv0eLD00jIUS0Fh6tumjhNlmdWiiWnIAM/n69C7fuv9TrzUolHjDWz4ZqAQKHqUMVXBwM5ZgVWUemWPjK4xoIGJD4VabTLmEiWM7DFUUoOwJqvKQG61yiwzZ8aq5mWthJWClTUZdnPot0r+i+p8MtgRiIauqq4GDTNZNRbtrE9799d1W/dtkmZGlgUmZmNm2ARVclPr5rTW+RK7UnXuoqWsVuZmN9YlfFi0Z7RbDEvVKS28VHVevO/ctjcnrucBI3WFOmHRmNjY0nuUTebl143jt7Jo/e4XVcmZ2kkFpvn8VoIShy1lxmiZ1qYR/2jX8uNxi7vgfzUZFOTNWTlbLGQxmy50uZStDiwrH84UPgwzVX5F/ZWcFUPGG1OG2H42vMX4uA1/Ylo2Dv2Jx7Se1PLvQuLE37VywfVBRJkTMUodSoPUSVPqO9wNkoS5hGQesZ8Gjbk3ilXV1kosYvpQN0Z0xvYWTru2NFu4lgvzBkUtoXfradCTz91zyDC6RUQDx2nfof7xcdKha91goaqcTb01wVOJk/z0dMz9xUi/QJ/atKwXeCi451mUvG77KMUB0eN+xbobb5km12D6j2Y2OmFWmf4D3FiZLnPEGyzoQG+hOUP2CZCvj+2PUNq5cAGkJ0Dc780+ivvdeRUYM4+zwCO+Q/yIOzThsRNTwB9EktAk5oSHPwBj5/RzRJ69xFi0HfD16KyBrDj+4z607B2Td9+RiTN5161fyOHzqtYcfuxlHajsKWwfd2/ad7vbrPfdQs+gf57BPrKFsBvHDUqx+wuhdPmFd4KlPYf3Udrz+FVISgilWRjHTkqYcGgcUrzW3NiJPOoSnCfiB/5PuNZEfHZc0+144uDn3g5EV7izXvDyNSt/rY+yvGNJPTH4oYbtOaBlsg72pNALSdm/rt4UK6s1oPvu1FCVagmVZUqLWZv373Dl/pZkbZzYp2rTi1chKgzcxHVJ5ogwBod6GXGYl8QOIX7qiZBTEiY/gyh6dqiz/fElVybq+ZcfE0WOJV1CVPA/Ub8JURkNqc+jyKE4Y/i1F+MdFUHg+IHIIioiHsbeFYn68h2bac5fdhEAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment>Stage: Waiting for Approval</comment>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Purchase of Codeine">fffdc3a6478ae25038e741af016d43f5</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:20:24</sys_created_on>
+        <sys_id>040e07a6478ae25038e741af016d4325</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:20:24</sys_updated_on>
+        <ui_id>d7bc22e9-fe70-41f9-bdc9-1c660bda3617</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVXWviQBT9KzLPEhJjpfVtUYRCtwVdfOmWMJm50YFJJp2ZaF3xv+9NMolBS2uhL9K83a+Zc07OTZ73RHAyJkPgfnAXjFgYhOHA9we3wyAehXEw4CEFCEifZDQF7NTAlOYYb6gsysR+vwC9EQx6E2qpVKso8DS8FmBsJCykhwM2c2FySXdLN4MZthaSa8jI+PmlT3Kq8XgLmoz3J6VL8Ukag8TWeQPwFLDd5WXMFStSyBBck3xwk1NX6d1PsYJDJZzA7xN4s5BxQCAJlQb6JKUZp1bpHRlbXWBCA+VPmdy1HWuR2ZpoSt+M+Ic3D/2yLwFkxpwIbRg5gep0MkUlF3gys4Vu9VKosak14ZDQQtpJN1c3POVWqKwesTSWzbSSRZo91oqQ9oDO+ygMgoC85Fkir2kli7XazhuQM5FVkjiKUjEq24haq0Vc2BLOnoCESuOU5rnIVlGu1UZUwwgl9VYSAy+Raot3GrHKPMpK3B6qSr0Z5qdVekm1KEn8xmNw+NAnZmcmkhpzpIIaRq9FiaQm5ihElQqVBFHlhHKYaZHbX3jVBhzwQ99tQHzzkcPY3dFQnTOPW2BYhKavDH9u93m9DsB793X9a+a/AFpj/j/VK38fqvP/We6hO9t7rAvO/Tff5v7ba3K/o3H19v/M9P7gw89qx0mVz03X8Jau4G/h+yHfUmFLlonSESJFrgjnbAk+H/jaVlyAvdmKmQDJzTtkmpWAFJFaiGpyJ2vhir2lK7Y/hm/bjWDkV88VbciP+T+8/AcwkntFIwkAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment>Request stage: Fulfillment</comment>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Purchase of Codeine">fffdc3a6478ae25038e741af016d43f5</flow>
+        <generation_source/>
+        <order>9</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:20:24</sys_created_on>
+        <sys_id>080e07a6478ae25038e741af016d432a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:20:24</sys_updated_on>
+        <ui_id>19334924-e99b-4b30-aa79-3fcc20be734a</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVTW+jMBT8K5HPCEFIoza3VaJIlbqtlKxy6VbI4EdqyRhqm7TZKP99n8EQlLTdVOolWm7vy54Z5sHjjnBGJmQELAhvwnEahVE0DILh9ShMxlESDllEAULiEUlzwE4FaaEYxhsqKpvY7ZagNjyFwZQaKop1HPoKXirQJuYG8v0emxnXpaDblZvBTPrMBVMgyeTxySMlVXi8AUUmu6PSufgETUBg66IFeAzYbEsbsyKtcpAIrk3eucmZqwxuZ1jBIQsnDDwCbwYkAwSSUaHBIzmVjJpCbcnEqAoTCih7kGLbdTxzaRqiOX3T/A/ePApsXwbILHUidGHsBGrS2QyVXOLJqalUp1eBGutGEwYZrYSZ9nNNw0NpeCGbEUMT0U4XosrlfaMI6Q7ovY9KIwgoLU+LvKGVLZ+L10ULcs5lLYmjKIqUii6ixiieVMbC2REQUGuc07Lkch2Xqtjwehih5P5aYOBnonjFOzVfS5+mFrePqlJ/jvlZnV5RxS2Jn3gMDu89ord6KqjWByqoYfxSWSQNMUchrlWoJYhrJ9jhVPHS/MCrNuCA7z23AcnVZw5Lbw6G6p152AKdxmj62vCndl806wBscNvUv2b+M6C15v9Vv/L3oTr/n+Tu+rOD+6bg3H/1be6/viT3OxoXb/9/mT4YfvpZ7Tmp9rnuG97QNfyugiBiWSUyLoRlfOr9D/u+tgNnIG13YM5BMP0O9HYBIEeABuKGytESuOJg5Yrdb+DbNiEcB/VzQfvw3/wNnv4CoErpBhEJAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment>Request stage: Requested</comment>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Purchase of Codeine">fffdc3a6478ae25038e741af016d43f5</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:20:24</sys_created_on>
+        <sys_id>0c0e07a6478ae25038e741af016d4325</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:20:24</sys_updated_on>
+        <ui_id>6fcb7128-9985-407e-b4b4-a3dca78a8a2c</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVwW7iMBT8FeRzFCWEopbbCoS0UreVYMWl240c+wUsOU5qO7Qs4t/3JXFCBFWXSr2gzc3z/OyZybzkaU8EJxMyAh6Ed+GYRWEUDYNgeDsKk3GUhEMeUYCQeETRDHCnBpZrjustlWUF7PdL0FvBYDCllsp8HYe+hpcSjI2FhaxdHA7YxIUpJN2tXC8ibCMk16DI5OnZIwXVeI0FTSb7k9KlPCVNQOLWRUv0lLjdFdWa56zMQCHJFrx3nTNXGXyfYQWbKjph4BF4s6A4IJGUSgMeyaji1OZ6RyZWlwhooPxRyV23YyOUbYRm9M2IP3jzKKj2pYDKmDOhW8bOoAZOZ+joEk9mttSdXzl6bRpPOKS0lHbax5oNj4UVuWpaLE1k253LMlMPjSOkO6D3PkqDJKCodFbMG1npcpO/LlqSc6FqS5xEmTMquxW1VouktBWdPQEJtccZLQqh1nGh862om5FK5q8lLvxU5q94pxFr5VNW8fbRVerPEZ/V8IpqUYn4gcdg88EjZmemkhpzlIIexi9lxaQR5iTEtQu1BXGdhKqZaVHYb3jVFhzxg+cmIbn5KGHs7hio3pnHaTAsdnk/T/uiK3wu9BdQakP/s37V71N0uT/D7vu9g4em4FJ/82Wpv72m1DsZVx/7f4U9GH74Oe0lqc636QW9/cQbSy38KoMg4g4C/hvB9RmIItAGKk/w8zn5yqM/N2kX+NFO2lyA5OYdg9oxgww1WYgbw05GzRUHK1fsfjJfNm/hOKifK5q6/+Zf8/wX2hGebncJAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Catalog Task">af51fd0e73141300612c273ffff6a785</action_type>
+        <action_type_parent display_value="Create Catalog Task">f597c41073081300612c273ffff6a767</action_type_parent>
+        <attributes/>
+        <comment>Storage team check if we have the necessary.</comment>
+        <compiled_snapshot>af51fd0e73141300612c273ffff6a785</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Purchase of Codeine">fffdc3a6478ae25038e741af016d43f5</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:20:24</sys_created_on>
+        <sys_id>400e07a6478ae25038e741af016d4327</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:20:24</sys_updated_on>
+        <ui_id>36e17da4-5c01-4953-a8af-0c4c6f99ce78</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1YbY/iNhD+K1E+tRKiCeFN+63dFVKl3p26rLYfjmtkkgmx1nk524GjaP/7jRMbEmCzcILTXlu+MZ6Mn3l5xh5/3Ng0tG9sEg3cKHRg5Ll913OcodsLeiMvwt+QjMZju2OnJAGlGfuSzBn45f+OvSSsUHIRoFw8oSSkImdk/XiwEMSUhRxS++bjp46dE44WJHD7ZrO3dCokRubAUPVBAbLeV4BewCnXuRIfyP44ZiPjocLldGz4IiENAQFFhAno2AlJQyIzvt5KOJDwQ8pQIHmB/2OaSjRoK90vgv6D244dpRYBehhAtbb96+t4VeLojkgyRUOBLLhWDeKMBiCq2IQQkYLJ27qsUviQS5ql1Selm/rrjBVJ+r6Kir01cJgevXD3UvoKgVghV+FQDmrvo2mcre6NMxOalpHTiywLCNv+I1JyOi+kgo11J3wRcJobqKUSbgMMEtzAT0ie03Th5zxb0tIoupJ0Fwz/dCOWrRCMoIu0SwLldxezQroTlN+V4kfCqbL8Ds3gx7g7U9+U7qBYqFrAdNnPHVusxS0jQuxihMnxPxcKehUx7bRfhVd9UiL/FXdegvbvuaO5NPLaCpc4jRrl8LkAISH0qYSkxqfNZgp8iWm1btExli18t6uVS9Xn50Oqnc2xE6Aajt0boNbvFdAWHzTXdhXfpNp9Ta6Z5rYzrSLWjmha4wjTvF6TaZhvhGeAHSPdgWPfnYKX4FY0BcKDeEKBqcQGRBqfm6y7FrsyzIsf8izPtdtXIpc3aq3YYaMwRZxxqRwpDarM7Pj1EIMlsLrIAiwJJLGCGIIni0bWCqyYLFGKGilghgXh6+4h277BwnnsPMFXw86p8tS6a3jaHgfNUYHFkS72CDo1Qs3O3pnn4Mv0dHuO83bPwssfcteh2xXOrPZSCxrlFKkmI+p3P0kkzArH8UL3bwSFiEuvFzwr8kq+mRn6zOybGVZYjTfv/pzZnVllrVwNeuNoMO45Yy8AQlwnmsO87wx6w5CQ0OuPS3WMgE/DE/WPHJY/Bugzz/PX02g6xsQk8UhezV0ZEvRdgl/lee++rBetR72oe4V3sV4xHBz0it1l9FjL0Bcl66FSeQPto7q3/PDdg6Z5IUW3OVK90lGi1lKc9xqVtyJU1vqJe8jW8jpxLh1OwGDo8FeF4ACSpsI8yxiQdJ8DCOqXiZ5bdP33L1b//bd7UOpsHJ8Y9eJ/9CR9peZqLynb9hroAW9vArzAfHcCGLbfz00XbY55L4E9f9QbXIwgR2a92tzTdkL8iyY9/ZT1faY8HCRWvij3v+L7yby1aGtvfKYWlxqnuCx7TgBi2GMK67GGpAWkGb5YIeJ5ETyB3OPNVK1Yv5klTZ3h/3PYtz82Rti+MHa7PPgpQBnJqz890jRgRQh+gj5Sjp9vMYDcPkRWPtesA/dXvDKxVRFZwTE9JpSq1flZGWP0ZmUbYuHSKtrt8tPPF6Tpp6/P4Eq3NBgAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Catalog Task">af51fd0e73141300612c273ffff6a785</action_type>
+        <action_type_parent display_value="Create Catalog Task">f597c41073081300612c273ffff6a767</action_type_parent>
+        <attributes/>
+        <comment>Our team delivers order</comment>
+        <compiled_snapshot>af51fd0e73141300612c273ffff6a785</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Purchase of Codeine">fffdc3a6478ae25038e741af016d43f5</flow>
+        <generation_source/>
+        <order>14</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:20:24</sys_created_on>
+        <sys_id>440e07a6478ae25038e741af016d432d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:20:24</sys_updated_on>
+        <ui_id>660f54d5-5432-4ac7-9337-cf76749a7dd9</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1YbY/iNhD+K1E+tRKiCWFhu9/aRUiVerfqstp+OK6RSSZgnfNytgPHIf57x4kNCWSzUMFpr22+ZTy2n3l5xh5/2Ng0tO9sEt24UejA0HP7ruc4A7cX9IZehN+ADG9v7Y6dkBiU5sKXZMbAL/479pKwXMlFgHLxCSUhFRkj6+ejgWBBWcghse8+fOzYGeG4ggRu320Ohk6FxMgMGKo+KUDW+xLQCzjlOlPiI9nvTWukPFS4nI4NXyQkISCgiDABHTsmSUhkytc7CQcSPiQMBZLn+L+gicQFbaX7RdCvuO2to9QiQAsDKMd2v772VymORkSSCS4UyJxr1WCR0gBE6ZsQIpIzeV+VlQoPmaRpUk4pzNSzU5bHyfvSK/ZugePw6IHRS+HLBWKFTLlDGaitjyaLdPVojBnTpPCcHmRpQNjuj0jJ6SyXCjbmnfBFwGlmoBZKuA0wiHEDPyZZRpO5n/F0SYtF0ZS4O2f4041YukIwgs6TLgmU3V2MCumOUT4qxM+EU7XyO1wGJ+PuTM0pzEGxULmA4bK3HVusxT0jQux9hMHxP+cKeukxbbRfuldNKZD/gjsvQdu37WguDb22xCVOLUc5fM5BSAh9KiGu8GmzmQBfYlitezSMpXPf7WrlQnW7Paba2Rw7Aarh2KMBav1WAm2xQXNtn/F1qj1W5JppbjvTSmLtiaY1Gpjm9epMw3gjPAOsiXRHhn1zCl6CW9EECA8WYwpMBTYg0thcZ9212JViXPyQp1mmzb4Subxha8YOaokpFimXypBiQRWZPb8eVOJZaWLJBVgrzIQjNjVonMeuE7Aadk0UUmtUQ9puh+aYwOAm8wOCTYxQs6t35jn2Mr3cnuO83bPs8ofUdehyhTOnPdWCWjpFqkiIChcQB4IsDJ3zNM+mueN44WZqGDG176b2CBhuzNfWE5DYevfH1O5MyxWK4Z+DGekHXtgfOkDAdbxbGPZdEjnuIOx7g6BQR6t9Gp6ov/1LSCKhBOMe8/M7QX3mifx6IE3NGJswNkTW3HYhRk9I8MtIH9x49aD1rAd1tfAuVi0GN0fVYn+dbCoa+qpjPZUqb6CAlDeP775+0CTLpejWm6JXakrUmoqzXi3zVoTKSkVpoGtxITiXDidgMHT4s0RwBElTYZamDEhyyAEE9dNYdx46//sXy//+2z0qdTSaez49+B89S1/JucpbyK68BrpFO+jhLtChnQCGHdZzU0XrjdpLYM9v1m4uRpCGbq3SubSdEP+iXk0/Rn2bPg1biZUviv2v+AIya03ayiudycWlxikuy54TgBj2mMR6riBpAWnaL5aLxSwPPoE84M1EjVi/miFNncH/ndg/fy6MsHyh7/Zx8BOAwpNXfzykScDyEPwYbaQcp+8wgNw9JZY2V1YH7q94ucRORaQ5x/AYV6pS56eFj9GalW2IhUOraL/LDz9ekKYf/waXfEwC9hcAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment>Set item as closed skipped</comment>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Purchase of Codeine">fffdc3a6478ae25038e741af016d43f5</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>9f706f79-3c08-4e0a-840b-0fcf538e07c1</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:20:24</sys_created_on>
+        <sys_id>480e07a6478ae25038e741af016d4327</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:20:24</sys_updated_on>
+        <ui_id>a0a55135-0654-4c66-9e14-c2a15a429d7e</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+WUTW/iMBCG/wryOUT5oKFwWxUhVeq2El1x6VaRY0/AkvOB7dCyiP++TuyECKoulXpBm9vMeOx3Xj/xyx4xiqZoBNTzJ35EQj8MA88Lbkd+EoWJH9AQA/jIQTnOQK8UQApBdbzFvKoT+z0dJyQIYDJMYewNR346GSaUTIY+iSIvoTiM/LFr+g4H3UmZLDneLe0GOkPWjFMBOZq+vDqoxEKfpUCg6f6kdKlYjhPgeumiVXuqXu3KOqYFqTLIVcza5IPtnNnK4H6mK7qpluN7DoJ3BTkFLSTFXIKDMpxTrAqxQ1MlKp0QgOlTznfdijXLlRk0w++S/dEnj7x6XQp6MmJN6MLYGmTS6Qwr/Kx3JqoSnV8FIyCNJxRSXHF118+ZBU+lYkVuWhROeNtd8CrLH40jqNugdx+V1CKgrOeslZux0ud18bZoRc5Z3lhiR+QFwbyLsFKCJZWq5ewRcGg8znBZsnwVl6LYsqZZS8ncFdeBm/LiTZ8p2Sp3Mal1u9pV7M51ftakl1iweoifehvdfHCQ3Mk7jqU8jqI9jDdVrcQMZkeIGxcaC+KGhLqZCFaqH/qoLVjhB8f+DsnNZ4SRyRGo3p7HX0KSWMAmZgqyc9wXsKlAKqCDe1P/GvwXSGvh/9Vc+cdSLf9nuYd+7+DRFCz9N99G/+010W/HuHr8/wW9F3z6rPZIajiXfeAVVvC78ryQjs+JP6l+jfcLVLW8zxlwKj+Q2cIOmZalIDayT4C3xcHSFrsn/9uo9yOv+a6I/f/m5X/9C1SOX7AKCQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment>Closes requested item complete</comment>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Purchase of Codeine">fffdc3a6478ae25038e741af016d43f5</flow>
+        <generation_source/>
+        <order>17</order>
+        <parent_ui_id>cf578f24-a444-465f-a035-37052c779c90</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:20:24</sys_created_on>
+        <sys_id>4c0e07a6478ae25038e741af016d433a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:20:24</sys_updated_on>
+        <ui_id>c3e5e60f-bf6b-4c82-b076-22f40c6d05ac</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVwW7iMBD9FeRzFCWEopbbCoRUqdtKsOLS7UaOPQFLjpPaDi2L+PedJE6IoGqp1Eu13Pxmxnnv5Q153BPByYSMgAfhTThmURhFwyAYXo/CZBwl4ZBHFCAkHlE0A+zUwHLN8bylsqyA/X4JeisYDKbUUpmv49DX8FyCsbGwkB0O2MyFKSTdrdwMImwjJNegyOTxySMF1Xi9BU0m+5PSpfwkTUBi66IleErY7orqzHNWZqCQXAveucmZqwxuZ1jBoYpOGHgEXi0oDkgkpdKARzKqOLW53pGJ1SUCGih/UHLXdWyEso3QjL4a8RefPAqqvhRQGXMmdMfYGdTA6QydXOLNzJa68ytHj03jCYeUltJO+1jT8FBYkatmxNJEttO5LDN13zhCugt676M0SAKKSmfFvJGVLjf5y6IlOReqtsRJlDmjsjtRa7VISlvR2ROQUHuc0aIQah0XOt+KehipZP5a4sFPZf6CzzRirXzKKt4+ukr9OeKzGl5RLSoRP/EaHD54xOzMVFJjjlLQw/i5rJg0wpyEuHahtiCuk1ANMy0K+wMftQVH/OC5DUiu3ksYuzkGqnfncQsMizH0deDP475o1gH44Lapfy78F1Brw/+rfuVvU3X5P8Pu+rOD+6bg0n/1Zem//k7pdzK+ffw/Cn0wfPdvtZekOuemH3hL1/C7DIKIo6RCYn7/IGYdFp1vwQUTn9uLC9i3ezEXILl5Q067FICEkErcyDtZDFccrFyx+zR82XaE46D+faMd+W++EE//ANHVFdslCQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Catalog Task">af51fd0e73141300612c273ffff6a785</action_type>
+        <action_type_parent display_value="Create Catalog Task">f597c41073081300612c273ffff6a767</action_type_parent>
+        <attributes/>
+        <comment>Storage works in order fulfillment</comment>
+        <compiled_snapshot>af51fd0e73141300612c273ffff6a785</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Purchase of Codeine">fffdc3a6478ae25038e741af016d43f5</flow>
+        <generation_source/>
+        <order>10</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:20:24</sys_created_on>
+        <sys_id>800e07a6478ae25038e741af016d432b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:20:24</sys_updated_on>
+        <ui_id>9ca15322-3797-4834-9929-b6856d991619</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1YW4/aOBT+K1GeuhKigXDTvO3OCGmlbUc7VLMPpRuZ5ASsOpfaDnQW8d/3OLYhASYDK6im2+Ytx8f2dy7fsY8/rl0auTcuifudOPJg6Hd6Hd/zBp1u2B36MX4DMhyN3JabkgSU5iKQZMYgKP9b7pKwQslFiHLxGSURFTkjT48HA+GCsohD6t58/NRyc8JxBQncvVnvDZ0KiZEZMFT9oAA57zWgZ3DKp1yJD2R/HFsj45HC5bVc+CohjQABxYQJaLkJSSMiM/60lXAg0X3KUCB5gf8Lmkpc0FW6XwX9B7cdeUotBrQwBD22/Q2Mv7Q4viOSTHChUBbcqIaLjIYgtG8iiEnB5G1VphXuc0mzVE8pzTSzM1Yk6XvtFXe7wGF4zMDdc+ErBGKFXLlDGWisjyeLbPVgjRnTtPScGWRZSNj2j0jJ6ayQCjbmnQhEyGluoZZKuA0wSHCDICF5TtN5kPNsSctF0ZSkPWf4045ZtkIwgs7TNgmV3W2MCmmPUX5Xih8Jp2rld7gMTsbdmZpTmoNioXIBw+VuWq54EreMCLHzEQYn+FIo6NpjxuhAu1dNKZH/ijsvwdi3aRkuDf2mxCVeLUc5fClASIgCKiGp8Gm9ngBfYlidWzSMZfOg0zbKpepmc0i1szl2AlTLsQcL1PldA22wwXBtl/F1qj1U5IZpnWamaWLtiGY0jjDN79aZhvFGeBbYMdIdGPbNKXgJbsUTIDxcjCkwFdiQSGtznXXXYleGcQkinuW5MftK5PKHjRk7qCWmWGRcKkPKBVVkdvy6V4nnjAsWU8aUSw7pdEzlPH6dgNbya6KwOnc1rM2WGJYJDG8636PYxAoNv7pnnmTPE6zT9bzXe5pd/pi6DmGucOo0p1pYS6dYlQlRYQPiQJCloXOeFfm08Dw/Wk8tJabuzRSTKuNkDo4Ekjjv/py6raleoBwNu6O4P+p6Iz8EQjpePINZz+t3BxEhkd8blepodECjE/U3fwtJJGgsnUN+fh+gzzyRXw6jrRhjG8QjcbW3XUjQERICHee9G68ZdB7NoKkV/sVqxaB/UCt218ljJcNcdZwPWuUVlA998/juqwdN80KKdr0peqGixI2pOOvWMm9FqKzUkyNsLS8E59LhBAyWDn9pBAeQDBVmWcaApPscQFBvx6bzMPnfu1j+917vQWmicbznM4M/6En6Qs5V3kK25TU0LdpeD3eBDu0EMGy/ntsqWm/UngN7frPWvxhBjnRrlc6l6YT4H/Vq5jHq2/Rp2EisAlHuf8UXkFlj0lZe6WwuLg1OcVn2nADEsscm1mMFSQNI23yxQixmRfgZ5B5vJmrE+c0OGeoMfvZh//25MMbyhb7bxSFIAUpPXv3xkKYhKyIIErSRcpy+xQBy+5Soba6sDjxYcb3EVkVkBcfwWFeqUhdkpY/RmpVriYVDq3i3y5tfLkjTT/8CsXLwqvYXAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment>Request state: work in progress</comment>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Purchase of Codeine">fffdc3a6478ae25038e741af016d43f5</flow>
+        <generation_source/>
+        <order>11</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:20:24</sys_created_on>
+        <sys_id>880e07a6478ae25038e741af016d432b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:20:24</sys_updated_on>
+        <ui_id>5e160134-648c-437c-a57a-b91414ce8dab</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+WU22rjMBCGXyXoOjE+5ODkrjQEFrotpEtvusWMpXEikA+V5LTZkHdf2ZadkJRuCr0J67uZ0Uj//Pqs5x3hjMzIEJnrTb0xDbwg8F3XD4dePA5iz2cBIHqkTzJI0ayUSHPJTLwBUVaJ3W6c0Hji+eFgOg1Hg6E7wUE8jIcDCBiFSQgh+NRp+vZ708m4KgRsn+wGJkPXXDCJGZk9v/RJAdKcpVGS2e6kdKlYATEKs3TZqj1Vr7dFFbOclilmOuJt8s52zm2l92NuKqapkuO5fYLvGjOGRkgCQmGfpJAx0LnckpmWpUlIBPaQiW23Ys0z3Qyawrvif8zJQ7dal6CZjFoTujCyBjXpZA4aHs3OVJey8yvnFFXjCcMESqFvj3PNgodC8zxrWjTEou3ORZlm940jpNvg6D5KZURgUc1ZKW/GSh7X+duyFbngWW2JHVHkFEQXgdaSx6Wu5OwICqw9TqEoeLaKCplveN1spKTOSpjASUT+Zs5UfJU5QCvdjnEVnIXJz+v0E0heDfHTbGOa932itupWgFKHUYyH0WtZKWkGsyNEtQu1BVFNQtVMJS/0jTlqg1b4vm9/h3j0GWF0egDqaM/DL6FoJPG1RKXPaV92ha9Bf4GkFvpf9VV/LNFyf5a7O+7t3TcFS/3o26gPr4l6O8bVY/8v2F3/0+f0iKSab3UMugaNv0vXDZh/jvpJ9Wu8X6Cq5X3BUTD1gcwWdkyNLI1RI/sEeFvsPdli99R/G/Xe2K2/K2L/v3nxX/4CdEc4fQIJAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment>Consumer notification</comment>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Purchase of Codeine">fffdc3a6478ae25038e741af016d43f5</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>9f706f79-3c08-4e0a-840b-0fcf538e07c1</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:20:24</sys_created_on>
+        <sys_id>8c0e07a6478ae25038e741af016d4328</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:20:24</sys_updated_on>
+        <ui_id>bc2d1e4f-2f01-4f4f-89a4-7baa6da48985</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Y227bOBD9FULPjivf5Dhv3RjBBkhbIAm6D00hUCRlc0uJCkkldQP/e4cSdbGdunbiYhNsngwNOcMzw3M4pL88eJx6J96QHvtBFA/x2B/0B75/3J9MosEk9o/HE79HqNfxUpwwmKkYkcp+32GRW8PDAx1HpN9nk6OYjf2jYS+eHEWUTI56JAj8iOJB0Bt3S7/lEjwp15nAi88uAFjInAuqWOqdfPna8TKsYC3DlHfysDa0K1iBIyZg6jVWM2bQZQV6PQmzyOw3lSRPWGpCXhkvXICpG0HnUxgBJ4vK73jsu2EpZQAnxkKzjpfglGIj1aK2KIbpp1Q0hjlPDYR8r7UkHBumkZkzxBLMBbrnZo4wKoF1PRvvu+Y/ANygb0PFDGpALFaeEk4Bkdcyh66kMHzeDMdTbPCVUTkxuaorLTlhuqwmZTHOhTlt28oJnzLDZVq6GByJyluKPEk/lkX06gCtncw1gGGZrY1NFhaHxOOruby/rMCe8bSooquKkASL+iu+YliR+Rlnwm51micRzO142BjFo9xYmEAKAbOadcICql0LZjLBiq1McJbxdBZmSt7xYkGAn3RnAj66sZD34K/5LO1iYnPtwu7h7hnYp4X5M1bcJv4BwoDzsuPphT4VWOsmfah/eJtb9GUxVuFY77AgnHUmimfmPSx1x1yyy44TX2+yjc902PC2FbMRoCahYrchNyzZFNclu82ZNoyi83J8P6ntAK2RmqXJ41CdzDZsF21f9LEccCLr7SmykmpOY9cgLFNqv5QUMg5eratjf1VXv9DTy9BRrY6dhbQqmD8jCiCJDktmu9yKxZ8glt9JxA+CKAqi0XjQ8HBCYug8cYDHZNDw7h4OVpVg9S0sDtaWTnqb6nBHxn6a2AFLpQk4jEVOGfqnArUNpxNJJCWcbum6QgDpu7OiurVC+s9qQyU1kZEINlMsoPnUkKyxaU1mjg3iGmnYrS66loi7rFoeHbSQOUpybWCagZEV8a30s+HL1Z2jg7NOH+XKqxDm4QU42t4IcENsPA+NfOr9EH5cvwpjqboFAZdLtKncA0XdT/k7FKHuhnKzIk7gGvY/na3p+6oyOm0Ptmu7bHYb0m41N//lyuy1qMgCFzzhBSFK/R9eWHQrp5i/QiNCWsI6wEtqh8UrQp+ebiLZh9DDpzWrN0a/Okb3tj7PWbDCo+jQlN5h9YrSf61xOtqb1KM3Uv9PSD3aTiuyQiSdR/8yYlrEPpVJpoq/d+b4By5uCmtEf2TGnpeT3yOsiH9V43sM8z4CCN6uKf85/w9PdryVSnF/9dSUdNFi+k3u+wOSIYv5yPB0kRCmpDQRFOZbMUhvvJtyGtDK1gMnUsOjEq7m8JQ0DMFdHaUSZZIyOwKlyQSDByUyOcoY5VQiyiL7g4u59maP7N9fKMsZLXzBBPMtf2TKoVTwbmXVEjZm4SZAbdrYYK3IUGA7liLYHKCR7JYJvctKxJvCdQm/4oT2O2d2IEfdYEtqbHDFnTBzk4i18+Xv6w8XzekyfmZ7DUajQfB2vjy7v2b3tE+VzDKX24F77NefGUU3E4YaAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Fire Event">80a30edeff30311077a95dac793bf19b</action_type>
+        <action_type_parent display_value="Fire Event">15e10e5eff30311077a95dac793bf11e</action_type_parent>
+        <attributes/>
+        <comment>Ask our consumer if everything it's okay.</comment>
+        <compiled_snapshot>80a30edeff30311077a95dac793bf19b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Purchase of Codeine">fffdc3a6478ae25038e741af016d43f5</flow>
+        <generation_source/>
+        <order>15</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:20:24</sys_created_on>
+        <sys_id>8c0e07a6478ae25038e741af016d432d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:20:24</sys_updated_on>
+        <ui_id>38f419a8-aa05-4543-bd21-dd7c990b71d5</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2W227bOBCGX0XQtWVIFHXyXRE3iwDddhF3e1MUBkWObC4oyaEot94g797Rwee1ExdugKJ7Y0DDIfXPP/OZ+vxoS2GP7Jgz3wUBWea7vue5UcSSQDAeJX6aeQnYA7tgOWAmLKEw0/ZhYC+Zqpug5/uRG0Zp7KcBhJ6bpZBSNyChYEz4nGOqkNVCsdWnfkdVTHldmTIHXYFeSg7D/GGo4aGGygzrhWAGBG7jc6mEhsIeff4ysBdM44sNaHv0eLD00jIUS0Fh6tumjhNlmdWiiWnIAM/n69C7fuv9TrzUolHjDWz4ZqAQKHqUMVXBwM5ZgVWUemWPjK4xoIGJD4VabTLmEiWM7DFUUoOwJqvKQG61yiwzZ8aq5mWthJWClTUZdnPot0r+i+p8MtgRiIauqq4GDTNZNRbtrE9799d1W/dtkmZGlgUmZmNm2ARVclPr5rTW+RK7UnXuoqWsVuZmN9YlfFi0Z7RbDEvVKS28VHVevO/ctjcnrucBI3WFOmHRmNjY0nuUTebl143jt7Jo/e4XVcmZ2kkFpvn8VoIShy1lxmiZ1qYR/2jX8uNxi7vgfzUZFOTNWTlbLGQxmy50uZStDiwrH84UPgwzVX5F/ZWcFUPGG1OG2H42vMX4uA1/Ylo2Dv2Jx7Se1PLvQuLE37VywfVBRJkTMUodSoPUSVPqO9wNkoS5hGQesZ8Gjbk3ilXV1kosYvpQN0Z0xvYWTru2NFu4lgvzBkUtoXfradCTz91zyDC6RUQDx2nfof7xcdKha91goaqcTb01wVOJk/z0dMz9xUi/QJ/atKwXeCi451mUvG77KMUB0eN+xbobb5km12D6j2Y2OmFWmf4D3FiZLnPEGyzoQG+hOUP2CZCvj+2PUNq5cAGkJ0Dc780+ivvdeRUYM4+zwCO+Q/yIOzThsRNTwB9EktAk5oSHPwBj5/RzRJ69xFi0HfD16KyBrDj+4z607B2Td9+RiTN5161fyOHzqtYcfuxlHajsKWwfd2/ad7vbrPfdQs+gf57BPrKFsBvHDUqx+wuhdPmFd4KlPYf3Udrz+FVISgilWRjHTkqYcGgcUrzW3NiJPOoSnCfiB/5PuNZEfHZc0+144uDn3g5EV7izXvDyNSt/rY+yvGNJPTH4oYbtOaBlsg72pNALSdm/rt4UK6s1oPvu1FCVagmVZUqLWZv373Dl/pZkbZzYp2rTi1chKgzcxHVJ5ogwBod6GXGYl8QOIX7qiZBTEiY/gyh6dqiz/fElVybq+ZcfE0WOJV1CVPA/Ub8JURkNqc+jyKE4Y/i1F+MdFUHg+IHIIioiHsbeFYn68h2bac5fdhEAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Fire Event">80a30edeff30311077a95dac793bf19b</action_type>
+        <action_type_parent display_value="Fire Event">15e10e5eff30311077a95dac793bf11e</action_type_parent>
+        <attributes/>
+        <comment>Order on delivery - notification</comment>
+        <compiled_snapshot>80a30edeff30311077a95dac793bf19b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Purchase of Codeine">fffdc3a6478ae25038e741af016d43f5</flow>
+        <generation_source/>
+        <order>12</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:20:24</sys_created_on>
+        <sys_id>c00e07a6478ae25038e741af016d432c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:20:24</sys_updated_on>
+        <ui_id>3dee1b12-8dc5-497c-a519-86d00e089e76</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2W227bOBCGX0XQtWVIFHXyXRE3iwDddhF3e1MUBkWObC4oyaEot94g797Rwee1ExdugKJ7Y0DDIfXPP/OZ+vxoS2GP7Jgz3wUBWea7vue5UcSSQDAeJX6aeQnYA7tgOWAmLKEw0/ZhYC+Zqpug5/uRG0Zp7KcBhJ6bpZBSNyChYEz4nGOqkNVCsdWnfkdVTHldmTIHXYFeSg7D/GGo4aGGygzrhWAGBG7jc6mEhsIeff4ysBdM44sNaHv0eLD00jIUS0Fh6tumjhNlmdWiiWnIAM/n69C7fuv9TrzUolHjDWz4ZqAQKHqUMVXBwM5ZgVWUemWPjK4xoIGJD4VabTLmEiWM7DFUUoOwJqvKQG61yiwzZ8aq5mWthJWClTUZdnPot0r+i+p8MtgRiIauqq4GDTNZNRbtrE9799d1W/dtkmZGlgUmZmNm2ARVclPr5rTW+RK7UnXuoqWsVuZmN9YlfFi0Z7RbDEvVKS28VHVevO/ctjcnrucBI3WFOmHRmNjY0nuUTebl143jt7Jo/e4XVcmZ2kkFpvn8VoIShy1lxmiZ1qYR/2jX8uNxi7vgfzUZFOTNWTlbLGQxmy50uZStDiwrH84UPgwzVX5F/ZWcFUPGG1OG2H42vMX4uA1/Ylo2Dv2Jx7Se1PLvQuLE37VywfVBRJkTMUodSoPUSVPqO9wNkoS5hGQesZ8Gjbk3ilXV1kosYvpQN0Z0xvYWTru2NFu4lgvzBkUtoXfradCTz91zyDC6RUQDx2nfof7xcdKha91goaqcTb01wVOJk/z0dMz9xUi/QJ/atKwXeCi451mUvG77KMUB0eN+xbobb5km12D6j2Y2OmFWmf4D3FiZLnPEGyzoQG+hOUP2CZCvj+2PUNq5cAGkJ0Dc780+ivvdeRUYM4+zwCO+Q/yIOzThsRNTwB9EktAk5oSHPwBj5/RzRJ69xFi0HfD16KyBrDj+4z607B2Td9+RiTN5161fyOHzqtYcfuxlHajsKWwfd2/ad7vbrPfdQs+gf57BPrKFsBvHDUqx+wuhdPmFd4KlPYf3Udrz+FVISgilWRjHTkqYcGgcUrzW3NiJPOoSnCfiB/5PuNZEfHZc0+144uDn3g5EV7izXvDyNSt/rY+yvGNJPTH4oYbtOaBlsg72pNALSdm/rt4UK6s1oPvu1FCVagmVZUqLWZv373Dl/pZkbZzYp2rTi1chKgzcxHVJ5ogwBod6GXGYl8QOIX7qiZBTEiY/gyh6dqiz/fElVybq+ZcfE0WOJV1CVPA/Ub8JURkNqc+jyKE4Y/i1F+MdFUHg+IHIIioiHsbeFYn68h2bac5fdhEAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Purchase of Codeine">fffdc3a6478ae25038e741af016d43f5</flow>
+        <generation_source/>
+        <order>19</order>
+        <parent_ui_id>cf578f24-a444-465f-a035-37052c779c90</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:20:24</sys_created_on>
+        <sys_id>c00e07a6478ae25038e741af016d433c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:20:24</sys_updated_on>
+        <ui_id>10751d96-29f6-47f4-8933-8e99725c2cf6</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VW2+bSBT+KyOebMlQwI7tuE+rpKkqNa02yaYPdYMG5mDPCgYyMzhhLf77nmHAIZd2u9G+VFpeYM5tvvOdC1/3DmfOypkH4B8dB/NkGkynoe+Hy1kQz6dxELIpBZg5E0fQHNBS0ziDqD1MnB3NKiNUIHc8gQiE5jqDHN+oZVyVGa2vO6N3j5TJlmdMgnBWX79NnJJKjKhBOqv9E9XP4stoDBmaXhmA38Gr6/JF2cehL/lkFYVkBo8/ceBeg2CAQFKaKZg4ORWM6kLWzkrLCgUSKPsssvpgseWY5cpxjO294n/htUvf2KWAmSVgdYdj1HFlxekp1fQSIye6kp1psi2QYWU5YZDSKtMnQ5k1+FxqXgjr0qbZeRdZlYtPlhLnEKAvDUoqhSCgNHka5F0a6eW2uLvoUZ5x0VLSKbMiodnhRLWWPK60wbN3wBY6ymlZcrGJSlnseOuMWHJvk+HBS7PiDi9VfCM8mhjgHtJKvTOUn7biayq5yeIcw6BzM3FUrU4yqtRDLkhidFsZJDazLofI0mBcEslL/RtesIMObjPpG5+Bf/zdxgrih0Zqe10Nmp62AdeV70+Z6YIbRAXanvf7RXy0DOfLpXsUz1J3RsNjNw7j2J2HsGR0FqRstvAkJNhlTXOTFEJVOUjrnTLXYgZ2ozSVOkJaoI+cTOEI5n7qxuk8dmfJMnRjfzF3wzCd+cmc+Uc06SJ7SVYoYBHVeMdgONvet/HOgfGEGu4V+UKlpELXaMoGVw7hYB0ZtuUrsvTygkHWNM8Xw/9EvpbIf7lE/7nX+yV6xiFj6oXm7zco5FhBDZEdhidbtFOS607ZbdLgv9qkwdxvn19on9rkfvl1OvhzPlusNkUrazF3vW++f2SJzSWJna9T0zV2JIiAO/Le5GWEVzyHUdrGo14ULKKoKk3sqBuJp1M6frsWDyE9yvBdq4+G4TZUaAzW4s0b8u5eSySLFNhzRG+BmLAER0mTUY2Pe37uMjZeC4PS6Exz9hgHV2xAm/do7OkCWw2LNDJ3SMCWEwfHtwSvvNpyRaxCkT8rpQ/3rgVSrugO2KGTGtNsdqf9FJHYd/ID6wH2lCGgzQYk8nSLc6wjjgPcH5CwtJAtsstakQ+npEjJI51Nvofx/uJZiS5a+kdGHC4SlUfDNRwu2mocvE01fq9A1p29QWy/Jh36J/a3rbGtGE/JaKASuFBG4zHZrwXBp2N7YIBl+UNwjNASikFMmhcd94b2k86W4CREnK1FY655qQwPP5DnheiG9pHPq38wTtM03/4GLgt5JZoLAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment>Request stage: Delivery</comment>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Purchase of Codeine">fffdc3a6478ae25038e741af016d43f5</flow>
+        <generation_source/>
+        <order>13</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:20:24</sys_created_on>
+        <sys_id>c80e07a6478ae25038e741af016d432c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:20:24</sys_updated_on>
+        <ui_id>581b2e19-988a-492d-930d-46359fa505a3</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+WVXWviQBSG/4rMdQiJsdJ6tyhCoduCLr3pljCZOdGBySSdmdi64n/fk2QSg0rXQm9kvZvzlfe8eca87IjgZEJGwIPwLhyzKIyiYRAMb0dhMo6ScMgjChASjyiaAVZqYLnmeN5QWVaB3W4JeiMYDKbUUpmv4tDX8FaCsbGwkO33WMyFKSTdPrsejLC1kFyDIpOXV48UVON4C5pMdkepS/VJmoDE0kUr8Fiw3RbVmeeszEChuDb44DpnLjO4n2EGmyo5YeAR+LCgOKCQlEoDHsmo4tTmeksmVpcY0ED5k5LbrmItlG0WzeiHEX/wyaOgqksBN2POhO4YO4OacDpDJ5c4mdlSd37l6LFpPOGQ0lLaaT/WFDwVVuSqabE0kW13LstMPTaOkG5A732UBkVAUe1ZKW/WSpfr/H3RipwLVVviVpQ5o7I7UWu1SEpbydkRkFB7nNGiEGoVFzrfiLoZpWT+SuLBT2X+js80YqV8yirdPrpK/TnGZ3X4mWpRLfETx2Dz3iNma6aSGnNYBT2M38pKSbOYWyGuXagtiGsSqmamRWF/4KM24ITvPXcDkpvPCGN3B6B6Mw+3wLAYoa+BP8V90VwH4IP7Jv81+C+Q1sL/q37l56U6/k9iD/3ewWOTcPTffBv9t9dEv1vj6vH/F/TB8NO/1R5JNeemD7ylK/hdBkHEOUicjTicgH++6Gv0X6CxpX8uQHJzRnSLPmSozkLcLHGEv0sOnl2y+wB82x0Ix0H9u6Kb8N98B17/AiS1xw8LCQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment>(create models)</comment>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Purchase of Codeine">fffdc3a6478ae25038e741af016d43f5</flow>
+        <generation_source/>
+        <order>18</order>
+        <parent_ui_id>cf578f24-a444-465f-a035-37052c779c90</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:20:24</sys_created_on>
+        <sys_id>c80e07a6478ae25038e741af016d433b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 18:48:14</sys_updated_on>
+        <ui_id>7b582688-5b4f-4a29-b2bb-62e8da41fd47</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1X3VPbOBD/VzR+AhqMnQ8D4YmBo9eZa5lCj5e6eGRrHXQjy0GSAynj//1Wkh0CgSs305fONC+g1X78dven3eTrQ8BZMA2SGKLJYZwUo3g0GkbR8GAc58koj4dsRAHGwSCQtALUNDQXkLnDIFhQ0VghFVVGtQaDMsb1XNDlVXd13ImLGy6YAhlMv34bBHOq0IMBFUwfnl29FY+gOQhU/WIBvYLPLOcvyv5atyWf/EWtmMUTDQK4NyAZIJCSCg2DoKKSUVOrZTA1qkGBAsrOpViuNG64NOgwsLr3mn/HsAeR1SsBMyvA362OWVclLy5PqaGX6LkwjepUi5uaF6B9TRiUtBHmZF3mFc7nhtfSm7g0O+taNJX85EsSrBz0TUFJoxEEzG2eFnmXRnl5U99d9CjPuHQl6S5FXVCxOlFjFM8bY/E8BCCgQkdZRedzLmfZXNUL7owRSxXOBB7CUtR3GFTzmQxpYYGHWFYanqH81ImvqOI2i4/oBo3bQaCX+kQgtx5zwSJmt41F4jPrcsh8GaxJofjcHGOABXRw20FPdAbR4avEivNHIjlu6zWSO35kCBjSJopG7OHhEtQCe0BOMAlRz7I4VHCLRibjBqqwRmTAMmra9rqqGYisQOMZ0qhzkPaPJQ2maXBSC0bszTAhZ6IhFyA4lGkwSD0EpxSPxogyTg5GY0qTSVTmkI+jyTBhlLLR/qFTx5plnL1Rv8P2CiQGXMIzDEV8kE9yBgej6AWfo8ipOzJ69YrlWVFL3VTuHSI1GDI982Gf4f2x7/ba+wLlIZds1zcc2HWH3T31NzapO2CfylqFJVd4Yc3b1rViX5OuCNduwGWGzrznj58RiDZ9mGIEE0iicjcvk3x3XBwMd/NoP9kdDstxVCQsmtACgxXIonCuEFDbbg7L3xT7TbGfTbH/uXh/PB/7xXvGQTD9wsDsty5UWCkDmR+gzzZvd0muustu+8Y/a/vGSeQ+v9AO9sn98it47dvWxjL2KXqZxbz+muz5hdX9qB7s7aRyZ+e4wPprYhHvHbsUiE2BNBqzJuYGSMkyJ6nzf6AwIbl0DkjVaEMUYH8locSxMiTW47nlHpFNleMfrkldlvgOSb4k72LCJflDqVqRP5GGwoa4BF84B2ZBuXDfImvHAk26lEgzR2BzhVCtTRqEaUBoiS+vh2fN4Z7iO4ApolFE39TKYBMK4l98rxhil2czUGHRKCSFCZ2i7aLLC6MeWV9dZisvVriH7dF0AWzFutYS0w+3zYI/bU9gQSFH1Qf2GqLX59wR2dsjl0tNPpxiPcmTu1TOdMhlWW+l/vdBSL5g22wo7B81j9rYjSnWjrzrcGyn0oLqM3h/0QOTcEfeW4ZfuPm35SdroatsfZQP97exKo/WIWXscwNq2enbIP6/QR/wqf6tU7bCFzPoNQkCWyF/NLd2qeQl2VpzKXHebW1vk4dUEvxs+P3Qc3bTXzgD87fkCMq1F70ceScdFf5D07Xnwvt1b+akh95tStlarJv0adtv/wJt8m0uNQ4AAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=fffdc3a6478ae25038e741af016d43f5"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=fffdc3a6478ae25038e741af016d43f5^sys_idNOT IN000e07a6478ae25038e741af016d4323,840e07a6478ae25038e741af016d4324,8c0e07a6478ae25038e741af016d4321,c80e07a6478ae25038e741af016d4323"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">0725921e4702a25038e741af016d4336</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Purchase of Codeine">fffdc3a6478ae25038e741af016d43f5</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <parent_ui_id>9f706f79-3c08-4e0a-840b-0fcf538e07c1</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:20:24</sys_created_on>
+        <sys_id>000e07a6478ae25038e741af016d4323</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 18:48:13</sys_updated_on>
+        <ui_id>dbc1f64e-d7cc-42b0-a2a1-f07889a2d3a4</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">01823c754702ee1038e741af016d4368</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Purchase of Codeine">fffdc3a6478ae25038e741af016d43f5</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>20</order>
+        <outputs_assigned/>
+        <parent_ui_id>cf578f24-a444-465f-a035-37052c779c90</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:20:24</sys_created_on>
+        <sys_id>840e07a6478ae25038e741af016d4324</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 18:48:14</sys_updated_on>
+        <ui_id>80176a35-e65b-4abd-b0bc-b1148ea07909</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">bae640b5470eae1038e741af016d438d</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Purchase of Codeine">fffdc3a6478ae25038e741af016d43f5</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:20:24</sys_created_on>
+        <sys_id>8c0e07a6478ae25038e741af016d4321</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 18:48:13</sys_updated_on>
+        <ui_id>9f706f79-3c08-4e0a-840b-0fcf538e07c1</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Vy27bMBD8FYNnWdDD8usWOAhQIG2AxkgPTSCsqZVNhCJVkbLjGv73LiX5gcZFEzTH3szZ5e7MiAPvmK5tWVsz11fGiKVi0+9PHhPKYfR7xxQUyKaMa5UJK7RKG8Bja5C1K3zDHgf1WAdBNLI9rotSosWeXWFPVxlW1JoJU0rYPrz9Bl8JmVXYsSmhop2WKtPdbyWR0cA8gDyc8JDH0TCOaOx4EC6G8SKMshgQYhooYYGSWmcHGb3bBvH+qM9uS4cbWwm17M633ZT7A9jynYaBx/DFosqQ+OQgDXqsAJWB1dX2iFQI2Z2SJ2AllKVxzDW/GPGTFkZJ4hpzJIkc2+LxmHZOtnB+DRaISs1tXXWtfKUFR9Oak2EOtbSzc6xtuCud1PaKhYU83NayLtSX1hF2HHD4cITUhkhg6ZQ66p2O/H6lN18PLG+EalzpilJzkMcTWPJuUVvHZ8dQYkGD0gLKkhxNy0qvRXOZuBT+UtLBz6Xe0FL3On3gjrhPxoJ/Q/h1Az9AJZyKzzSmeT+O5gKM4Gnzkmkc2YRs7zGzNTMJxpxEkrvpj9pRbCV34tLWH3eFV6K0V7R5jZ2Ovfc6GGeZ2O3iIYajDAb9hAdhfzBJ4j6MIe8HfMCH+WTCcTT2Z6RC6mVvDubZNxYs7vcuFnE2ep2aD5n5vlxNIMmTMEgu52owvJSrC4l6Z5iiv4TJfck3ZikIgv9h+ucwCZO2Eei0Ncs/MEtPLjjtzqPXXBiiNnfYp8N/kSts6XEJfg5tdPXsRJ2w/S/962LV1QYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">bb22b0754702ee1038e741af016d4358</block>
+        <comment>Remember to change this conditional*</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Purchase of Codeine">fffdc3a6478ae25038e741af016d43f5</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>16</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:20:24</sys_created_on>
+        <sys_id>c80e07a6478ae25038e741af016d4323</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 18:48:14</sys_updated_on>
+        <ui_id>cf578f24-a444-465f-a035-37052c779c90</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Vy27bMBD8lYBnQdAjNhrfAgcBCqQ1UAe5tIGwolY2EYpUSMqOK/jfu9TDNhIXbdoeezNnubszIw7cMt24unH2Xl9bK1aKzb4+Bkwoj9HvlimokM0Y16oQTmiVdUDANiAbX1iYAs2FfoIdgYWwtYTdw7kaXwtZGBw21GBojkPDZu2rkiiotYygjK94zNNkmiZRlHy4jPNpmsdJkQJCSgMl5Cjp6nykdnHXIcFPObtd7XHrjFCr4Xw3TFmOoPak2SyOAoYvDlWBxKcEaTFgFagCnDa7A2IQioWSR2AtlKNxzF9+seI7LUwmE3+xRJLIsS8ejtngWQ+XN+CAqDTcNWa4ytdacLS9OQWW0Eg3P8X6C4vaS+1bHORy7NayqdTn3hF2GDB+IkIaSySw9ko99UFHuVzr7ZeR5a1QnStDUWoO8nACR97ljfN8WoYSKxqUVVDX5GhWG70RXTNxqcKVpENYSr2lpf7FhcA98ZCMhfCW8JsOfgAjvIpPNIaae5o5WMGz7nXSOLIJ2T5gdmfnEqw9iiR3s+fGU+wlD+Ky3h/fwo2o3TVt3uCgYx+8fewn77xtl2g25PPFnIhKvcri0OBzg9ZlwmHVydjgfv+tiaK06Li9CcSfDXlfcq5gUk7iaHI+OZfTc8k5k5l3xiX5RVy8lN9MSxRF/+Py13ERNusf+aCtW/4P0/Loo9HvPHjNhSVq9x77OP6D+MKOHpfgp9BWmycv6ojtfwCmP0TmiwYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=fffdc3a6478ae25038e741af016d43f5^sys_idNOT IN4c0e07a6478ae25038e741af016d433c,c80e07a6478ae25038e741af016d433c,cc0e07a6478ae25038e741af016d433c"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>fffdc3a6478ae25038e741af016d43f5</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Service Catalog_1.request_item.number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:20:24</sys_created_on>
+        <sys_id>4c0e07a6478ae25038e741af016d433c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:20:24</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>3b6c4667-b6b2-445f-bbb8-23e1c128afa4</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>fffdc3a6478ae25038e741af016d43f5</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Service Catalog_1.request_item}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:20:24</sys_created_on>
+        <sys_id>c80e07a6478ae25038e741af016d433c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:20:24</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>bc6051d8-f680-411c-b1ee-4e9192041a7c</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>fffdc3a6478ae25038e741af016d43f5</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Service Catalog_1.request_item.requested_for.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:20:24</sys_created_on>
+        <sys_id>cc0e07a6478ae25038e741af016d433c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:20:24</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>0179f97c-d033-42b3-9d8a-6b268e7d4e88</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=fffdc3a6478ae25038e741af016d43f5^sys_idNOT IN4c0e07a6478ae25038e741af016d431b"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=glide_date_time,uiTypeLabel=Date/Time,uiUniqueId=eee8328d-c071-4fb1-a468-47553f087fb5</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>closed_date</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">glide_date_time</internal_type>
+        <label>closed_date</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Purchase of Codeine">fffdc3a6478ae25038e741af016d43f5</model>
+        <model_id>fffdc3a6478ae25038e741af016d43f5</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_fffdc3a6478ae25038e741af016d43f5</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:20:24</sys_created_on>
+        <sys_id>4c0e07a6478ae25038e741af016d431b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:20:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_fffdc3a6478ae25038e741af016d43f5</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:20:23</sys_created_on>
+        <sys_id>000e07a6478ae25038e741af016d4311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:20:23</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_fffdc3a6478ae25038e741af016d43f5</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:20:23</sys_created_on>
+        <sys_id>0c0e07a6478ae25038e741af016d4309</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:20:23</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_fffdc3a6478ae25038e741af016d43f5"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_fffdc3a6478ae25038e741af016d43f5"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>8c7d8766478ae25038e741af016d436d</sys_id>
+        <latest_snapshot>fffdc3a6478ae25038e741af016d43f5</latest_snapshot>
+        <compiler_build>glide-yokohama-12-18-2024__patch3-04-17-2025_04-30-2025_1345.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=8c7d8766478ae25038e741af016d436d^sys_idNOT IN580e07a6478ae25038e741af016d436e"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan/>
+        <plan_id>8c7d8766478ae25038e741af016d436d</plan_id>
+        <snapshot>fffdc3a6478ae25038e741af016d43f5</snapshot>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-13 16:20:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>580e07a6478ae25038e741af016d436e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-13 16:20:25</sys_updated_on>
+        <trigger display_value="">900e07a6478ae25038e741af016d436e</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=8c7d8766478ae25038e741af016d436d"/>
+</record_update>

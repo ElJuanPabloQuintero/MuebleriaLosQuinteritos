@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">382a1d82470a225038e741af016d435b</sp_column>
+        <sp_widget display_value="CSM Unified Portal Header">451ffe6e3b103200367aee1234efc415</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>emiliano.jimenez</sys_created_by>
+        <sys_created_on>2025-06-11 18:43:05</sys_created_on>
+        <sys_id>2a7b1906470a225038e741af016d43cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name>sp_instance_2a7b1906470a225038e741af016d43cb</sys_update_name>
+        <sys_updated_by>emiliano.jimenez</sys_updated_by>
+        <sys_updated_on>2025-06-11 18:43:05</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=2a7b1906470a225038e741af016d43cb"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Customer Service">51d811fad7223100b7490ee60e61034f</application>
+        <file_path/>
+        <instance_id>537c19fd1b1b219019254089bd4bcb73</instance_id>
+        <instance_name>volteollcdemo21</instance_name>
+        <name>sp_instance_2a7b1906470a225038e741af016d43cb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>2</order><roles/><short_description/><size>md</size><sp_column display_value="2">382a1d82470a225038e741af016d435b</sp_column><sp_widget display_value="CSM Unified Portal Header">451ffe6e3b103200367aee1234efc415</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>emiliano.jimenez</sys_created_by><sys_created_on>2025-06-11 18:43:05</sys_created_on><sys_id>2a7b1906470a225038e741af016d43cb</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package><sys_policy/><sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope><sys_update_name>sp_instance_2a7b1906470a225038e741af016d43cb</sys_update_name><sys_updated_by>emiliano.jimenez</sys_updated_by><sys_updated_on>2025-06-11 18:43:05</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=2a7b1906470a225038e741af016d43cb"/></record_update>]]></payload>
+        <payload_hash>959940467</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>e640c52f47b5261038e741af016d430b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>emiliano.jimenez</sys_created_by>
+        <sys_created_on>2025-06-11 18:43:05</sys_created_on>
+        <sys_id>6e7b1906470a225038e741af016d43cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197604d8f220000001</sys_recorded_at>
+        <sys_updated_by>emiliano.jimenez</sys_updated_by>
+        <sys_updated_on>2025-06-11 18:43:05</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>227b1906ed0a22502f3783f0973ea7cd</update_guid>
+        <update_guid_history>227b1906ed0a22502f3783f0973ea7cd:959940467</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">7b7b5906470a225038e741af016d4316</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>emiliano.jimenez</sys_created_by>
+        <sys_created_on>2025-06-11 18:43:10</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>ab877fd553924854981eda65d4710e90</sys_id>
+        <sys_metadata>2a7b1906470a225038e741af016d43cb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_scope_delete display_value="">5b1be66412fc4f2eb88762fff89dc671</sys_scope_delete>
+        <sys_update_name>sp_instance_2a7b1906470a225038e741af016d43cb</sys_update_name>
+        <sys_update_version display_value="sp_instance_2a7b1906470a225038e741af016d43cb">6e7b1906470a225038e741af016d43cd</sys_update_version>
+        <sys_updated_by>emiliano.jimenez</sys_updated_by>
+        <sys_updated_on>2025-06-11 18:43:10</sys_updated_on>
+    </sys_metadata_delete>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
+        <claim_timestamp>19779fdf6990000001</claim_timestamp>
+        <metadata_update_name>sp_instance_2a7b1906470a225038e741af016d43cb</metadata_update_name>
+        <previous_claim_app_version>27.2.17</previous_claim_app_version>
+        <previous_claim_name>Customer Service</previous_claim_name>
+        <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-16 18:26:16</sys_created_on>
+        <sys_id>b89703a7838e6e50fbeb40526daad33a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-16 18:26:16</sys_updated_on>
+    </sys_claim>
+</record_update>

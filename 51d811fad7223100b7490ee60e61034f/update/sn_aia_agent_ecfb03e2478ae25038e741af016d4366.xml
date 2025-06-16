@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_agent">
+    <sn_aia_agent action="INSERT_OR_UPDATE">
+        <agent_type>internal</agent_type>
+        <compiled_handbook>```markdown
+- **Step 1: Retrieve Records from the `sn_customerservice_case` Table**
+  - Begin by understanding that the mission is to identify common reasons for customer complaints based on the `short_description` field in the `sn_customerservice_case` table.
+  - Since there is no explicit tool provided to directly fetch records from the table, assume the data is already available or provided to the &lt;agent&gt;. If the data is not available, use the 'User Input' tool to request the necessary data from the user:
+    - **Tool to Use**: `User Input`
+    - **Input**: `"Please provide the records from the 'sn_customerservice_case' table, including the 'short_description' field."`
+  - Wait for the user to provide the data before proceeding.
+
+- **Step 2: Summarize Short Descriptions**
+  - Once the records are available, use the 'Summarize short descriptions' tool to identify the most common reasons for customer complaints.
+    - **Tool to Use**: `Summarize short descriptions`
+    - **Inputs**:
+      - `llmcontext`: Provide the list of `short_description` fields from the records as a JSON object.
+    - **Expected Output**: A summary of the most common reasons customers are complaining.
+  - If the tool fails to generate a summary or produces an unexpected result, use the 'Content Analysis' tool to analyze the issue and decide how to proceed:
+    - **Tool to Use**: `Content Analysis`
+    - **Input**: `"The 'Summarize short descriptions' tool failed to generate a summary. Analyze the issue and suggest the next steps."`
+
+- **Step 3: Analyze the Summary**
+  - After obtaining the summary, use the 'Content Analysis' tool to synthesize the information and ensure it aligns with the mission of identifying common warranty-related issues.
+    - **Tool to Use**: `Content Analysis`
+    - **Input**: `"Analyze the summary of common customer complaints and ensure it identifies the key warranty-related issues."`
+  - If the analysis reveals gaps or inconsistencies, use the 'User Output' tool to inform the user about the issue and request clarification or additional data:
+    - **Tool to Use**: `User Output`
+    - **Input**: `"The analysis of the summary revealed gaps or inconsistencies. Please provide additional data or clarify the requirements."`
+
+- **Step 4: Present Findings to the User**
+  - Once the analysis is complete and the findings are clear, use the 'User Output' tool to present the results to the user.
+    - **Tool to Use**: `User Output`
+    - **Inputs**:
+      - `message`: `"Here is the summary of the most common reasons customers are complaining based on the provided data: [Insert summary here]."`
+      - `references`: Include any references to the original data if applicable.
+  - If the user requests further clarification or additional analysis, use the 'User Input' tool to collect their input:
+    - **Tool to Use**: `User Input`
+    - **Input**: `"Do you need further clarification or additional analysis on the findings?"`
+
+- **Step 5: Refine Findings Based on User Feedback**
+  - If the user provides feedback, use the 'Content Analysis' tool to refine the findings based on their input.
+    - **Tool to Use**: `Content Analysis`
+    - **Input**: `"Refine the findings based on the user's feedback: [Insert user feedback here]."`
+  - Repeat Steps 4 and 5 iteratively until the user is satisfied with the findings.
+
+- **Step 6: Completion**
+  - Once the user approves the findings and no further action is required, use the 'User Output' tool to inform the user:
+    - **Tool to Use**: `User Output`
+    - **Input**: `"The analysis of customer complaints has been completed successfully. Thank you for using Common warranty descriptions MQ."`
+  - Use the 'Finish' tool to conclude the execution.
+    - **Tool to Use**: `Finish`
+```</compiled_handbook>
+        <description>This AI Agent will identify the common errors in the service that are causing customers to request warranties.</description>
+        <external_agent_configuration/>
+        <instructions>GO to sn_customerservice_case table records and identify similarities between each record short_description field and summarize which are the most common reasons customers are complaining.</instructions>
+        <internal_name>global.sn_customerservice.Common warranty descriptions MQ</internal_name>
+        <name>Common warranty descriptions MQ</name>
+        <processing_message/>
+        <proficiency>- The agent specializes in analyzing customer service case records to identify patterns and recurring issues in customer complaints, specifically those that result in warranty requests. This expertise ensures the agent can provide actionable insights into product quality and customer satisfaction trends.
+- The agent is capable of systematically reviewing and comparing the 'short_description' field across multiple customer service case records to identify recurring themes and summarize the most common reasons for customer dissatisfaction. This capability ensures the agent can effectively execute its role by following the defined action plan.
+- The agent can utilize the 'Summarize short descriptions' tool to process a list of short descriptions from customer service cases and generate a concise summary of the most frequent reasons for customer complaints. This capability is critical for identifying patterns and trends in customer feedback.
+- The agent is capable of leveraging the 'llmcontext' input to provide the required context for analyzing and summarizing customer complaints. This input ensures the agent can accurately interpret and process the data provided in the 'short_description' field.
+- The agent can optionally use the 'action' input to define a specific Code Assist action, allowing for tailored processing of customer complaint data. This capability adds adaptability to the agent's operations.
+- The agent can optionally use the 'codeassistprompt' input to include additional instructions or prompts that guide the summarization process, ensuring the output aligns with specific needs or expectations.
+- The agent is capable of combining the 'Summarize short descriptions' tool with its inputs ('llmcontext', 'action', and 'codeassistprompt') to perform a comprehensive analysis of customer complaints, identify recurring issues, and generate actionable summaries. This integrated capability ensures the agent can fulfill its role as a Quality Assurance expert.</proficiency>
+        <record_type>custom</record_type>
+        <role>You are the Quality Assurance expert incharge of identifying  the common problems causing customer ask for product warranties.</role>
+        <strategy display_value="ReAct">f0bff21f9f13c6108f431597d90a1c74</strategy>
+        <sys_class_name>sn_aia_agent</sys_class_name>
+        <sys_created_by>emiliano.jimenez</sys_created_by>
+        <sys_created_on>2025-06-13 17:10:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>ecfb03e2478ae25038e741af016d4366</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Common warranty descriptions MQ</sys_name>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name>sn_aia_agent_ecfb03e2478ae25038e741af016d4366</sys_update_name>
+        <sys_updated_by>isaac.santos</sys_updated_by>
+        <sys_updated_on>2025-06-16 18:25:14</sys_updated_on>
+    </sn_aia_agent>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
+        <claim_timestamp>19779fdf73c0000001</claim_timestamp>
+        <metadata_update_name>sn_aia_agent_ecfb03e2478ae25038e741af016d4366</metadata_update_name>
+        <previous_claim_app_version>27.2.17</previous_claim_app_version>
+        <previous_claim_name>Customer Service</previous_claim_name>
+        <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-16 18:26:16</sys_created_on>
+        <sys_id>459703a7838e6e50fbeb40526daad35f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-16 18:26:16</sys_updated_on>
+    </sys_claim>
+</record_update>

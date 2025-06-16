@@ -52,19 +52,42 @@ MQCatalogsUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 		return gr.hasNext();
 	},
 
+	updateRequestState: function (sc_cat_item_id) {
+		//Get item record
+		let grCatItem = new GlideRecord("sc_req_item");
+		if(!grCatItem.get(sc_cat_item_id)) return;
+
+		//Check if there are more items within the same request
+		let gr = new GlideRecord("sc_req_item");
+        gr.addQuery("request", this.requestGr.getUniqueValue());
+        gr.query();
+		if(gr.getRowCount() > 1){
+			//Check if any of the other items are still pending
+			while (gr.next()) {
+				if(gr.stage != "completed" && gr.sys_id !== sc_cat_item_id) return;
+			}
+		}
+		
+		//Get request record and update it
+		let grRequest = new GlideRecord("sc_request");
+		if(!grRequest.get(grCatItem.request)) return;
+		grRequest.setValue("state", 3);
+        
+	}
+
 });]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>antonio.renteria</sys_created_by>
         <sys_created_on>2025-05-21 18:56:15</sys_created_on>
         <sys_id>5ff35d5783ad6a10fbeb40526daad3c0</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>MQCatalogsUtils</sys_name>
         <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
         <sys_update_name>sys_script_include_5ff35d5783ad6a10fbeb40526daad3c0</sys_update_name>
-        <sys_updated_by>isaac.santos</sys_updated_by>
-        <sys_updated_on>2025-06-02 22:38:49</sys_updated_on>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-12 18:54:21</sys_updated_on>
     </sys_script_include>
     <sys_claim action="INSERT_OR_UPDATE">
         <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>

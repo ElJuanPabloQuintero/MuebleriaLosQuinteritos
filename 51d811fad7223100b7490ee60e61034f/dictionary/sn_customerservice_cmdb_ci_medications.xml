@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="56b281ce830ee250fbeb40526daad3d4" extends="cmdb_ci" label="Medications" max_length="40" name="sn_customerservice_cmdb_ci_medications" type="collection">
+        <element label="Current stock" max_length="40" name="u_current_stock" type="decimal"/>
+        <element choice="1" label="Dosage form" max_length="40" name="u_dosage_form" type="choice">
+            <choice/>
+        </element>
+        <element label="Brand name" max_length="40" name="u_brand_name" type="string"/>
+        <element label="Date received" max_length="40" name="u_date_received" type="glide_date"/>
+        <element label="Supplier" max_length="40" name="u_supplier" type="string"/>
+        <element label="Storage requirements" max_length="40" name="u_storage_requirements" type="string"/>
+        <element label="Strength" max_length="40" name="u_strength" type="decimal"/>
+        <element label="Batch number" max_length="40" name="u_batch_number" type="string"/>
+        <element label="Controlled substance indicator" max_length="40" name="u_controlled_substance_indicator" type="boolean"/>
+        <element choice="1" label="Packaging type" max_length="40" name="u_packaging_type" type="choice">
+            <choice/>
+        </element>
+        <element label="Product model" max_length="32" name="u_product_model" reference="cmdb_model" type="reference"/>
+        <element label="Date of manufacture" max_length="40" name="u_date_of_manufacturer" type="glide_date"/>
+        <element label="Expiry date" max_length="40" name="u_expiry_date" type="glide_date"/>
+        <element display="true" label="Generic name" mandatory="true" max_length="40" name="u_generic_name" type="string"/>
+    </element>
+</database>

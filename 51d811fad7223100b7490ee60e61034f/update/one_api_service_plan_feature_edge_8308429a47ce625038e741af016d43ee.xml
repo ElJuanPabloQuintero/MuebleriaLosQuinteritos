@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="one_api_service_plan_feature_edge">
+    <one_api_service_plan_feature_edge action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability_condition_expression/>
+        <applicability_failed_policy/>
+        <applicability_script><![CDATA[(function(currentInputs, context) {  
+	/* @param {Object} currentInputs - Inputs provided for the current step.*/  
+	/* @param {Object} context - Execution context, which may include:*/     
+	/*         - Previous tool outputs/inputs (e.g., context['ToolName.attributeName'] or context.getValue('ToolName.attributeName')).*/     
+	/*         - Additional context information (e.g., context.getAllValues()).*/  
+	/* @returns {Boolean} - Return 'true' if the condition is met; otherwise 'false'.*/  
+	return true;
+  })(currentInputs, context);]]></applicability_script>
+        <applicability_type/>
+        <error_handler_script><![CDATA[(function handleError() {  
+	// customize condition logic here,  
+	return ;
+})();]]></error_handler_script>
+        <error_policy/>
+        <from_service_plan_feature display_value="___$y$t3m_bu1163r___-542203de7fe81210a01c7d8b7d86658c, cc801ebaff68a2101dbaffffffffff07-default: 542203de7fe81210a01c7d8b7d86658c-2">7608429a47ce625038e741af016d43e3</from_service_plan_feature>
+        <internal_name>InstructionToolSearch__Recommend AIA Tools RAG</internal_name>
+        <name>edge</name>
+        <order>0</order>
+        <sys_class_name>one_api_service_plan_feature_edge</sys_class_name>
+        <sys_created_by>emiliano.jimenez</sys_created_by>
+        <sys_created_on>2025-06-12 16:36:17</sys_created_on>
+        <sys_id>8308429a47ce625038e741af016d43ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>edge</sys_name>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name>one_api_service_plan_feature_edge_8308429a47ce625038e741af016d43ee</sys_update_name>
+        <sys_updated_by>emiliano.jimenez</sys_updated_by>
+        <sys_updated_on>2025-06-12 16:36:17</sys_updated_on>
+        <to_service_plan_feature display_value="___$y$t3m_bu1163r___-542203de7fe81210a01c7d8b7d86658c, cc801ebaff68a2101dbaffffffffff07-default: cc801ebaff68a2101dbaffffffffff07">3208429a47ce625038e741af016d43e8</to_service_plan_feature>
+    </one_api_service_plan_feature_edge>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
+        <claim_timestamp>19779fdf6bd0000001</claim_timestamp>
+        <metadata_update_name>one_api_service_plan_feature_edge_8308429a47ce625038e741af016d43ee</metadata_update_name>
+        <previous_claim_app_version>27.2.17</previous_claim_app_version>
+        <previous_claim_name>Customer Service</previous_claim_name>
+        <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-16 18:26:16</sys_created_on>
+        <sys_id>f09703a7838e6e50fbeb40526daad340</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-16 18:26:16</sys_updated_on>
+    </sys_claim>
+</record_update>

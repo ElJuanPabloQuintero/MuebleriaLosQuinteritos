@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="alm_asset" version="2" view="mq_view">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Asset - MQ View" name="alm_asset" related_list="NULL" sys_domain="global" view="0d02990683cee250fbeb40526daad347">6482994683cee250fbeb40526daad39f</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>alm_asset.parent</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>jacqueline.lopez</sys_created_by>
+            <sys_created_on>2025-06-11 18:03:54</sys_created_on>
+            <sys_id>2082994683cee250fbeb40526daad3a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jacqueline.lopez</sys_updated_by>
+            <sys_updated_on>2025-06-11 18:03:54</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Asset - MQ View" name="alm_asset" related_list="NULL" sys_domain="global" view="0d02990683cee250fbeb40526daad347">6482994683cee250fbeb40526daad39f</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>service_entitlement.asset</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>jacqueline.lopez</sys_created_by>
+            <sys_created_on>2025-06-11 18:03:54</sys_created_on>
+            <sys_id>2482994683cee250fbeb40526daad3a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jacqueline.lopez</sys_updated_by>
+            <sys_updated_on>2025-06-11 18:03:54</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Asset - MQ View" name="alm_asset" related_list="NULL" sys_domain="global" view="0d02990683cee250fbeb40526daad347">6482994683cee250fbeb40526daad39f</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>fm_expense_line.asset</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>jacqueline.lopez</sys_created_by>
+            <sys_created_on>2025-06-11 18:03:54</sys_created_on>
+            <sys_id>2882994683cee250fbeb40526daad3a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jacqueline.lopez</sys_updated_by>
+            <sys_updated_on>2025-06-11 18:03:54</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Asset - MQ View" name="alm_asset" related_list="NULL" sys_domain="global" view="0d02990683cee250fbeb40526daad347">6482994683cee250fbeb40526daad39f</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>REL:8a36beb7c7930010b088b70927c260b9</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>jacqueline.lopez</sys_created_by>
+            <sys_created_on>2025-06-11 18:03:54</sys_created_on>
+            <sys_id>2c82994683cee250fbeb40526daad3a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jacqueline.lopez</sys_updated_by>
+            <sys_updated_on>2025-06-11 18:03:54</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Asset - MQ View</calculated_name>
+            <filter/>
+            <name>alm_asset</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>jacqueline.lopez</sys_created_by>
+            <sys_created_on>2025-06-11 18:03:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6482994683cee250fbeb40526daad39f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Asset - MQ View</sys_name>
+            <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+            <sys_update_name>sys_ui_related_alm_asset_mq_view</sys_update_name>
+            <sys_updated_by>jacqueline.lopez</sys_updated_by>
+            <sys_updated_on>2025-06-11 18:03:54</sys_updated_on>
+            <sys_user/>
+            <view display_value="MQ View" name="mq_view">0d02990683cee250fbeb40526daad347</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
+        <claim_timestamp>19779fdf5660000001</claim_timestamp>
+        <metadata_update_name>sys_ui_related_alm_asset_mq_view</metadata_update_name>
+        <previous_claim_app_version>27.2.17</previous_claim_app_version>
+        <previous_claim_name>Customer Service</previous_claim_name>
+        <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-16 18:26:16</sys_created_on>
+        <sys_id>f09703a7838e6e50fbeb40526daad302</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-16 18:26:16</sys_updated_on>
+    </sys_claim>
+</record_update>

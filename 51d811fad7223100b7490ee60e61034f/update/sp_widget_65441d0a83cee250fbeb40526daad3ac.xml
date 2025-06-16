@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.container {&#13;
+  width: 100%;&#13;
+  margin-bottom: 20px;&#13;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;&#13;
+  border-radius: 20px;&#13;
+  background-color: #05acc2;&#13;
+  text-align: center;&#13;
+  color: #f0f0f0;&#13;
+  padding: 24;&#13;
+  justify-content: center;&#13;
+  align-items: center;&#13;
+}&#13;
+&#13;
+.row-container {&#13;
+  display: flex;&#13;
+  flex-direction: row;&#13;
+  flex-wrap: wrap;&#13;
+  justify-content: center;&#13;
+  align-items: center;&#13;
+}&#13;
+&#13;
+.introduction-container {&#13;
+  padding: 20px;&#13;
+  padding-bottom: 0;&#13;
+  color: #f0f0f0;&#13;
+}&#13;
+&#13;
+.item-container {&#13;
+  display: inline-block;&#13;
+  margin: 16px;&#13;
+}&#13;
+&#13;
+.circle-container {&#13;
+  width: 100px;&#13;
+  height: 100px;&#13;
+  display: grid;&#13;
+  place-items: center;&#13;
+  padding: 10px;&#13;
+  border-radius: 50%;&#13;
+  object-fit: fill;&#13;
+  background-color: white;&#13;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;&#13;
+}&#13;
+&#13;
+.circle-container:hover {&#13;
+    transform: scale(1.1);&#13;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);&#13;
+}&#13;
+&#13;
+.icon {&#13;
+  aspect-ratio: 3/2;&#13;
+  object-fit: contain;&#13;
+}&#13;
+&#13;
+.text-container {&#13;
+  margin-top: 10px;&#13;
+}&#13;
+&#13;
+.icon:hoover</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>trusted_by_best</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Trusted by the best</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>isaac.santos</sys_created_by>
+        <sys_created_on>2025-06-11 18:12:19</sys_created_on>
+        <sys_id>65441d0a83cee250fbeb40526daad3ac</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Trusted by the best</sys_name>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name>sp_widget_65441d0a83cee250fbeb40526daad3ac</sys_update_name>
+        <sys_updated_by>isaac.santos</sys_updated_by>
+        <sys_updated_on>2025-06-12 18:42:44</sys_updated_on>
+        <template><![CDATA[<div class="container">
+    <div class="introduction-container">
+        <h1>Trusted by the best</h1>
+        <p style="font-size: 20px">
+            We are the logistics partner of choice for the largest pharmaceutical companies for their large-scale orders,
+          	ensuring precision, speed, and regulatory compliance with every delivery.
+        </p>
+    </div>
+    <div class="row-container">
+        <div class="item-container">
+            <div class="circle-container">
+                <img class="icon"
+                    src="https://pharmaoffer.com/media/cache/clr/upload/logo/glaxosmithkline.webp?version=20242307"
+                    alt="brand-logo" width="100%" height="100%">
+            </div>
+            <div class="text-container">
+                <span>
+                    GSK
+                </span>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="circle-container">
+                <img class="icon"
+                    src="https://www.paediatricrespiratory.com/wp-content/uploads/2020/09/KJPPRC-AstraZeneca.png"
+                    alt="brand-logo" width="100%" height="100%">
+            </div>
+            <div class="text-container">
+                <span>
+                    AstraZeneca
+                </span>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="circle-container">
+                <img class="icon" src="https://www.xaldigital.com/wp-content/uploads/2024/08/Logo-Nadro-2-1024x1024.png"
+                    alt="brand-logo" width="100%" height="100%">
+            </div>
+            <div class="text-container">
+                <span>
+                    Nadro
+                </span>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="circle-container">
+                <img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Pfizer_logo.svg"
+                    alt="brand-logo" width="100%" height="100%">
+            </div>
+            <div class="text-container">
+                <span>
+                    Pfizer
+                </span>
+            </div>
+        </div>
+    </div>
+</div>]]></template>
+    </sp_widget>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
+        <claim_timestamp>19779fdf7d30000001</claim_timestamp>
+        <metadata_update_name>sp_widget_65441d0a83cee250fbeb40526daad3ac</metadata_update_name>
+        <previous_claim_app_version>27.2.17</previous_claim_app_version>
+        <previous_claim_name>Customer Service</previous_claim_name>
+        <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-16 18:26:16</sys_created_on>
+        <sys_id>cd9703a7838e6e50fbeb40526daad381</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-16 18:26:16</sys_updated_on>
+    </sys_claim>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>65441d0a83cee250fbeb40526daad3ac</id>
+        <sys_created_by>isaac.santos</sys_created_by>
+        <sys_created_on>2025-06-11 18:12:18</sys_created_on>
+        <sys_id>af64514a83cee250fbeb40526daad36a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>isaac.santos</sys_updated_by>
+        <sys_updated_on>2025-06-11 18:12:18</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

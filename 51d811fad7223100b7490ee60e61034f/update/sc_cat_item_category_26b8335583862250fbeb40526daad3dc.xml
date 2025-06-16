@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Losartan">62b8335583862250fbeb40526daad31a</sc_cat_item>
+        <sc_category display_value="Blood Pressure Medication">4a8ce75547066e1038e741af016d4316</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-09 22:14:41</sys_created_on>
+        <sys_id>26b8335583862250fbeb40526daad3dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Blood Pressure Medication.Copy of Lisinopril</sys_name>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name>sc_cat_item_category_26b8335583862250fbeb40526daad3dc</sys_update_name>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-09 22:14:41</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
+        <claim_timestamp>19779fdfa260000001</claim_timestamp>
+        <metadata_update_name>sc_cat_item_category_26b8335583862250fbeb40526daad3dc</metadata_update_name>
+        <previous_claim_app_version>27.2.17</previous_claim_app_version>
+        <previous_claim_name>Customer Service</previous_claim_name>
+        <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-16 18:26:17</sys_created_on>
+        <sys_id>8d9703a7838e6e50fbeb40526daad3f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-16 18:26:17</sys_updated_on>
+    </sys_claim>
+</record_update>

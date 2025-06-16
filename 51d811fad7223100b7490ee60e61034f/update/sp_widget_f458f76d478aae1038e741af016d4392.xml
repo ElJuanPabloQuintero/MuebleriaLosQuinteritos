@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.container {&#13;
+  	background-color: $background-primary;&#13;
+  	margin-block: 25px;&#13;
+    padding: 10px;&#13;
+  	width: 100%;&#13;
+    border-radius: 20px;&#13;
+    box-shadow: $sp-panel-box-shadow;&#13;
+}&#13;
+&#13;
+.row-container {&#13;
+    display: flex;&#13;
+    flex-direction: row;&#13;
+}&#13;
+&#13;
+.image-container {&#13;
+    margin: 20px;&#13;
+    margin-right: 40px;&#13;
+  	padding: 10px;&#13;
+  	background-color: #05acc2;&#13;
+    width: 40%;&#13;
+    text-align: center;&#13;
+    align-content: center;&#13;
+  	border-radius: 10px;&#13;
+}&#13;
+&#13;
+.text-container {&#13;
+    width: 60%;&#13;
+  	padding-right: 50px;&#13;
+  	text-align: left;&#13;
+    align-content: center;&#13;
+}&#13;
+&#13;
+@media (max-width: 768px) {&#13;
+  .row-container {&#13;
+    flex-direction: column;&#13;
+    align-items: center;&#13;
+  }&#13;
+&#13;
+  .image-container,&#13;
+  .text-container {&#13;
+    width: 100%;&#13;
+    margin: 10px 0;&#13;
+    padding: 0 20px;&#13;
+  }&#13;
+&#13;
+  .text-container {&#13;
+    padding-right: 0;&#13;
+    text-align: center;&#13;
+  }&#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description>gives a short description of the company</description>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>story_telling</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Story Telling</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>isaac.santos</sys_created_by>
+        <sys_created_on>2025-06-10 17:37:09</sys_created_on>
+        <sys_id>f458f76d478aae1038e741af016d4392</sys_id>
+        <sys_mod_count>29</sys_mod_count>
+        <sys_name>Story Telling</sys_name>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name>sp_widget_f458f76d478aae1038e741af016d4392</sys_update_name>
+        <sys_updated_by>isaac.santos</sys_updated_by>
+        <sys_updated_on>2025-06-11 18:22:28</sys_updated_on>
+        <template><![CDATA[<div class="container">
+    <div class="row-container">
+        <div class="image-container">
+            <img src="https://volteollcdemo21.service-now.com/sn_customerservice.quinteritos_team_members.png" alt="story_telling_img" width="100%">
+        </div>
+        <div class="text-container">
+            <h1 class="text-xl-start">Who are we?</h1>
+            <h2 class="text-lg-start">Pioneering Pharmaceutical Logistics for Global Enterprises</h2>
+            <p class="text-md-start">
+                Quinteritos revolutionizes large-scale pharmaceutical distribution. 
+              	Unlike traditional pharmacies, we provide precise, efficient supply chain management, 
+              	acting as a vital backbone for major distribution companies.
+            </p>
+        </div>
+    </div>
+</div>]]></template>
+    </sp_widget>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
+        <claim_timestamp>19779fdf7000000001</claim_timestamp>
+        <metadata_update_name>sp_widget_f458f76d478aae1038e741af016d4392</metadata_update_name>
+        <previous_claim_app_version>27.2.17</previous_claim_app_version>
+        <previous_claim_name>Customer Service</previous_claim_name>
+        <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-16 18:26:16</sys_created_on>
+        <sys_id>709703a7838e6e50fbeb40526daad357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-16 18:26:16</sys_updated_on>
+    </sys_claim>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>f458f76d478aae1038e741af016d4392</id>
+        <sys_created_by>isaac.santos</sys_created_by>
+        <sys_created_on>2025-06-10 17:37:09</sys_created_on>
+        <sys_id>c7c204bd47caae1038e741af016d43ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>isaac.santos</sys_updated_by>
+        <sys_updated_on>2025-06-10 17:37:09</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

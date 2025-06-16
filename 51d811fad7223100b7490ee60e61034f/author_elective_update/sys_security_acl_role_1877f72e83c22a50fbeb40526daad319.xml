@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>ivan.andrade</sys_created_by>
+        <sys_created_on>2025-06-13 19:21:28</sys_created_on>
+        <sys_id>1877f72e83c22a50fbeb40526daad319</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_customerservice_case.state.snc_internal</sys_name>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_security_acl display_value="sn_customerservice_case.state">1c77f72e83c22a50fbeb40526daad318</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_1877f72e83c22a50fbeb40526daad319</sys_update_name>
+        <sys_updated_by>ivan.andrade</sys_updated_by>
+        <sys_updated_on>2025-06-13 19:21:28</sys_updated_on>
+        <sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Customer Service">51d811fad7223100b7490ee60e61034f</application>
+        <file_path/>
+        <instance_id>537c19fd1b1b219019254089bd4bcb73</instance_id>
+        <instance_name>volteollcdemo21</instance_name>
+        <name>sys_security_acl_role_1877f72e83c22a50fbeb40526daad319</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>ivan.andrade</sys_created_by><sys_created_on>2025-06-13 19:21:28</sys_created_on><sys_id>1877f72e83c22a50fbeb40526daad319</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sn_customerservice_case.state.snc_internal</sys_name><sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package><sys_policy/><sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope><sys_security_acl display_value="sn_customerservice_case.state">1c77f72e83c22a50fbeb40526daad318</sys_security_acl><sys_update_name>sys_security_acl_role_1877f72e83c22a50fbeb40526daad319</sys_update_name><sys_updated_by>ivan.andrade</sys_updated_by><sys_updated_on>2025-06-13 19:21:28</sys_updated_on><sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1792430020</payload_hash>
+        <record_name>sn_customerservice_case.state.snc_internal</record_name>
+        <reverted_from/>
+        <source>51d811fad7223100b7490ee60e61034f</source>
+        <source_table>sys_store_app</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2025-06-13 19:21:28</sys_created_on>
+        <sys_id>f2b7336e83c22a50fbeb40526daad3fd</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>1976abd6ac00000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Access Roles</type>
+        <update_guid>b2b7336ee9c22a50633c87a92593fcfd</update_guid>
+        <update_guid_history>b2b7336ee9c22a50633c87a92593fcfd:-1792430020</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="sn_customerservice_case.state.snc_internal">fab7336e83c22a50fbeb40526daad3fd</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ivan.andrade</sys_created_by>
+        <sys_created_on>2025-06-13 19:22:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>8f1be2b2e50144b484f6d353b72f16b9</sys_id>
+        <sys_metadata>1877f72e83c22a50fbeb40526daad319</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_customerservice_case.state.snc_internal</sys_name>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_parent display_value="sn_customerservice_case.state">1c77f72e83c22a50fbeb40526daad318</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_scope_delete display_value="">5b1be66412fc4f2eb88762fff89dc671</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_1877f72e83c22a50fbeb40526daad319</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_1877f72e83c22a50fbeb40526daad319">f2b7336e83c22a50fbeb40526daad3fd</sys_update_version>
+        <sys_updated_by>ivan.andrade</sys_updated_by>
+        <sys_updated_on>2025-06-13 19:22:44</sys_updated_on>
+    </sys_metadata_delete>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
+        <claim_timestamp>19779fdf79d0000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_role_1877f72e83c22a50fbeb40526daad319</metadata_update_name>
+        <previous_claim_app_version>27.2.17</previous_claim_app_version>
+        <previous_claim_name>Customer Service</previous_claim_name>
+        <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-16 18:26:16</sys_created_on>
+        <sys_id>c19703a7838e6e50fbeb40526daad36d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-16 18:26:16</sys_updated_on>
+    </sys_claim>
+</record_update>

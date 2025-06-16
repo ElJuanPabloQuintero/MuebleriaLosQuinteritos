@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Warranty Claim">bb3303af83edea10fbeb40526daad3f2</cat_item>
+        <cat_item display_value="Complaints">bb3303af83edea10fbeb40526daad3f2</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -22,7 +22,7 @@
         <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field>description</field>
+        <field>short_description</field>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
@@ -42,14 +42,14 @@
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>description</name>
+        <name>short_description</name>
         <not_available_conversation>false</not_available_conversation>
         <order>100</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>What is wrong with your product?</question_text>
+        <question_text>Please describe the issue in more detail: </question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -79,14 +79,14 @@
         <sys_created_by>emiliano.jimenez</sys_created_by>
         <sys_created_on>2025-05-22 21:51:33</sys_created_on>
         <sys_id>7a76c3e783212e10fbeb40526daad373</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>What is wrong with your product?</sys_name>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>short_description</sys_name>
         <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
         <sys_update_name>item_option_new_7a76c3e783212e10fbeb40526daad373</sys_update_name>
-        <sys_updated_by>antonio.renteria</sys_updated_by>
-        <sys_updated_on>2025-05-27 20:32:38</sys_updated_on>
+        <sys_updated_by>emiliano.jimenez</sys_updated_by>
+        <sys_updated_on>2025-06-12 22:47:53</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>

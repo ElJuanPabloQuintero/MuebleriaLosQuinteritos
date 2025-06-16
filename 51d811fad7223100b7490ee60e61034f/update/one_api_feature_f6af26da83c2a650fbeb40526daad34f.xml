@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="one_api_feature">
+    <one_api_feature action="INSERT_OR_UPDATE">
+        <input_processor display_value="OneExtendGenericCapabilityRequestProcessor">a7eb538353111110c271ddeeff7b12a8</input_processor>
+        <name>c18ed0e9430012106c3603295bb8f2c3</name>
+        <output_processor display_value="OneExtendCapabilityResponseProcessor">3a90ff027f50121032d293f10d866518</output_processor>
+        <short_description>Auto Generated </short_description>
+        <sys_class_name>one_api_feature</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-12 19:29:24</sys_created_on>
+        <sys_id>f6af26da83c2a650fbeb40526daad34f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c18ed0e9430012106c3603295bb8f2c3</sys_name>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name>one_api_feature_f6af26da83c2a650fbeb40526daad34f</sys_update_name>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-12 19:29:24</sys_updated_on>
+    </one_api_feature>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
+        <claim_timestamp>19779fdf4dc0000001</claim_timestamp>
+        <metadata_update_name>one_api_feature_f6af26da83c2a650fbeb40526daad34f</metadata_update_name>
+        <previous_claim_app_version>27.2.17</previous_claim_app_version>
+        <previous_claim_name>Customer Service</previous_claim_name>
+        <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-16 18:26:15</sys_created_on>
+        <sys_id>7497cf67838e6e50fbeb40526daad39b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-16 18:26:15</sys_updated_on>
+    </sys_claim>
+</record_update>

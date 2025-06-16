@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Pedir Garantia">bb3303af83edea10fbeb40526daad3f2</catalog_item>
+        <catalog_variable>IO:7a76c3e783212e10fbeb40526daad373</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>emiliano.jimenez</sys_created_by>
+        <sys_created_on>2025-05-22 22:39:36</sys_created_on>
+        <sys_id>3fb1d76b83612e10fbeb40526daad318</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>description</sys_name>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_3fb1d76b83612e10fbeb40526daad318</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-05-22 22:43:50</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Hacer campos mandatorios">96f0172b83612e10fbeb40526daad3e6</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>description</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Customer Service">51d811fad7223100b7490ee60e61034f</application>
+        <file_path/>
+        <instance_id>537c19fd1b1b219019254089bd4bcb73</instance_id>
+        <instance_name>volteollcdemo21</instance_name>
+        <name>catalog_ui_policy_action_3fb1d76b83612e10fbeb40526daad318</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Pedir Garantia">bb3303af83edea10fbeb40526daad3f2</catalog_item><catalog_variable>IO:7a76c3e783212e10fbeb40526daad373</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>emiliano.jimenez</sys_created_by><sys_created_on>2025-05-22 22:39:36</sys_created_on><sys_id>3fb1d76b83612e10fbeb40526daad318</sys_id><sys_mod_count>1</sys_mod_count><sys_name>description</sys_name><sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package><sys_policy/><sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope><sys_update_name>catalog_ui_policy_action_3fb1d76b83612e10fbeb40526daad318</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2025-05-22 22:43:50</sys_updated_on><table/><ui_policy display_value="Hacer campos mandatorios">96f0172b83612e10fbeb40526daad3e6</ui_policy><value/><value_action>ignore</value_action><variable>description</variable><variable_set/><visible>ignore</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-1966405568</payload_hash>
+        <record_name>description</record_name>
+        <reverted_from/>
+        <source>79b281d383256a10fbeb40526daad302</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-05-22 22:43:51</sys_created_on>
+        <sys_id>e2c2936347ed2a1038e741af016d435b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196fa2acd9f0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-05-22 22:43:51</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>2ac293637fed2a10c8fa5a50454a1d5a</update_guid>
+        <update_guid_history>2ac293637fed2a10c8fa5a50454a1d5a:-1966405568,dcd11b6b24612e1080150c9473b818b6:-1165608314</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="description">a04d5619834aee10fbeb40526daad3fd</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-06-09 15:35:02</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>0196ff8db4b3492080b643ac46816640</sys_id>
+        <sys_metadata>3fb1d76b83612e10fbeb40526daad318</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>description</sys_name>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_scope_delete display_value="">5b1be66412fc4f2eb88762fff89dc671</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_3fb1d76b83612e10fbeb40526daad318</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_3fb1d76b83612e10fbeb40526daad318">e2c2936347ed2a1038e741af016d435b</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-06-09 15:35:02</sys_updated_on>
+    </sys_metadata_delete>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
+        <claim_timestamp>197377b9aa70000001</claim_timestamp>
+        <metadata_update_name>catalog_ui_policy_action_3fb1d76b83612e10fbeb40526daad318</metadata_update_name>
+        <previous_claim_app_version>27.2.17</previous_claim_app_version>
+        <previous_claim_name>Customer Service</previous_claim_name>
+        <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-03 20:28:56</sys_created_on>
+        <sys_id>1bf660eb4735261038e741af016d433e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-03 20:28:56</sys_updated_on>
+    </sys_claim>
+</record_update>

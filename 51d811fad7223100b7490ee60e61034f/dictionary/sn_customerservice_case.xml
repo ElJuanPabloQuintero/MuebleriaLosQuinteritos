@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="email_client=true" audit="true" db_object_id="ef4ee44347ad661038e741af016d4371" extends="task" label="Case" max_length="40" name="sn_customerservice_case" text_index="true" type="collection">
+    <element attributes="email_client=true,wwna_skill_id=c5870faa20e22110f877d3d1bc36dd87" audit="true" db_object_id="ef4ee44347ad661038e741af016d4371" extends="task" label="Case" max_length="40" name="sn_customerservice_case" text_index="true" type="collection">
+        <element label="Refund" max_length="255" name="u_refund" type="boolean"/>
         <element label="Tarjeta Crédito/Débito" max_length="32" name="u_tarjeta" reference="sn_customerservice_tarjetas_guardadas" type="reference"/>
         <element label="Dirección de envío" max_length="32" name="u_direccion" reference="sn_customerservice_direcciones_de_envio" type="reference"/>
     </element>

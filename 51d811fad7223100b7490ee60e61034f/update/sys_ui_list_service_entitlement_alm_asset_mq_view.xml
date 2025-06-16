@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="alm_asset" relationship="" sys_domain="global" table="service_entitlement" version="2" view="mq_view">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>entitlement_name</element>
+            <list_id display_value="service_entitlement" element="NULL" name="service_entitlement" parent="alm_asset" relationship="NULL" sys_domain="global" view="0d02990683cee250fbeb40526daad347">fe329d0683cee250fbeb40526daad3b2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>jacqueline.lopez</sys_created_by>
+            <sys_created_on>2025-06-11 18:02:41</sys_created_on>
+            <sys_id>fa32114683cee250fbeb40526daad328</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jacqueline.lopez</sys_updated_by>
+            <sys_updated_on>2025-06-11 18:02:41</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>asset</element>
+            <list_id display_value="service_entitlement" element="NULL" name="service_entitlement" parent="alm_asset" relationship="NULL" sys_domain="global" view="0d02990683cee250fbeb40526daad347">fe329d0683cee250fbeb40526daad3b2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>jacqueline.lopez</sys_created_by>
+            <sys_created_on>2025-06-11 18:02:41</sys_created_on>
+            <sys_id>fe32114683cee250fbeb40526daad328</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jacqueline.lopez</sys_updated_by>
+            <sys_updated_on>2025-06-11 18:02:41</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>consumer</element>
+            <list_id display_value="service_entitlement" element="NULL" name="service_entitlement" parent="alm_asset" relationship="NULL" sys_domain="global" view="0d02990683cee250fbeb40526daad347">fe329d0683cee250fbeb40526daad3b2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>jacqueline.lopez</sys_created_by>
+            <sys_created_on>2025-06-11 18:02:41</sys_created_on>
+            <sys_id>f232114683cee250fbeb40526daad329</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jacqueline.lopez</sys_updated_by>
+            <sys_updated_on>2025-06-11 18:02:41</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>start_date</element>
+            <list_id display_value="service_entitlement" element="NULL" name="service_entitlement" parent="alm_asset" relationship="NULL" sys_domain="global" view="0d02990683cee250fbeb40526daad347">fe329d0683cee250fbeb40526daad3b2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>jacqueline.lopez</sys_created_by>
+            <sys_created_on>2025-06-11 18:02:41</sys_created_on>
+            <sys_id>f632114683cee250fbeb40526daad329</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jacqueline.lopez</sys_updated_by>
+            <sys_updated_on>2025-06-11 18:02:41</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>end_date</element>
+            <list_id display_value="service_entitlement" element="NULL" name="service_entitlement" parent="alm_asset" relationship="NULL" sys_domain="global" view="0d02990683cee250fbeb40526daad347">fe329d0683cee250fbeb40526daad3b2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>jacqueline.lopez</sys_created_by>
+            <sys_created_on>2025-06-11 18:02:41</sys_created_on>
+            <sys_id>fa32114683cee250fbeb40526daad329</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jacqueline.lopez</sys_updated_by>
+            <sys_updated_on>2025-06-11 18:02:41</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>entitlement_process</element>
+            <list_id display_value="service_entitlement" element="NULL" name="service_entitlement" parent="alm_asset" relationship="NULL" sys_domain="global" view="0d02990683cee250fbeb40526daad347">fe329d0683cee250fbeb40526daad3b2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>jacqueline.lopez</sys_created_by>
+            <sys_created_on>2025-06-11 18:02:41</sys_created_on>
+            <sys_id>fe32114683cee250fbeb40526daad329</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jacqueline.lopez</sys_updated_by>
+            <sys_updated_on>2025-06-11 18:02:41</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>active</element>
+            <list_id display_value="service_entitlement" element="NULL" name="service_entitlement" parent="alm_asset" relationship="NULL" sys_domain="global" view="0d02990683cee250fbeb40526daad347">fe329d0683cee250fbeb40526daad3b2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>jacqueline.lopez</sys_created_by>
+            <sys_created_on>2025-06-11 18:02:41</sys_created_on>
+            <sys_id>f232114683cee250fbeb40526daad32a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jacqueline.lopez</sys_updated_by>
+            <sys_updated_on>2025-06-11 18:02:41</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>service_entitlement</name>
+            <parent>alm_asset</parent>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>jacqueline.lopez</sys_created_by>
+            <sys_created_on>2025-06-11 18:02:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fe329d0683cee250fbeb40526daad3b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>service_entitlement</sys_name>
+            <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+            <sys_update_name>sys_ui_list_service_entitlement_alm_asset_mq_view</sys_update_name>
+            <sys_updated_by>jacqueline.lopez</sys_updated_by>
+            <sys_updated_on>2025-06-11 18:02:41</sys_updated_on>
+            <sys_user/>
+            <view display_value="MQ View" name="mq_view">0d02990683cee250fbeb40526daad347</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
+        <claim_timestamp>19779fdf8d90000001</claim_timestamp>
+        <metadata_update_name>sys_ui_list_service_entitlement_alm_asset_mq_view</metadata_update_name>
+        <previous_claim_app_version>27.2.17</previous_claim_app_version>
+        <previous_claim_name>Customer Service</previous_claim_name>
+        <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-16 18:26:16</sys_created_on>
+        <sys_id>419703a7838e6e50fbeb40526daad3aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-16 18:26:16</sys_updated_on>
+    </sys_claim>
+</record_update>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_email_layout">
+    <sys_email_layout action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <advanced_layout/>
+        <description>Reusable layout for client notifications</description>
+        <layout><![CDATA[<p>&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+<table align="center" cellpadding="0" cellspacing="0" width="600" style="background-color: #f0f0f0; border-radius: 10px;"><!-- HEADER -->
+<tbody>
+<tr>
+<td align="center" bgcolor="#02658C" style="background: linear-gradient(0deg, rgba(5, 172, 194, 1) 0%, rgba(2, 101, 140, 1) 100%); padding: 20px; border-top-left-radius: 10px; border-top-right-radius: 10px;"><img src="https://volteollcdemo21.service-now.com/6a74c0b1470eae1038e741af016d4388.iix" alt="logo" width="300" style="display: block;"></td>
+</tr>
+<!-- CONTENT -->
+<tr>
+<td align="center" style="padding: 30px;">
+<table cellpadding="0" cellspacing="0" width="90%" style="background-color: #ffffff; border-radius: 15px; box-shadow: 0px 5px 15px rgba(0,0,0,0.2);">
+<tbody>
+<tr>
+<td style="padding: 20px; font-family: Arial, sans-serif; color: #000000; text-align: left;">
+<p style="margin-top: 20px;">${notification:body}</p>
+<p>Thank you,</p>
+<p>Quinteritos Team.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- UNSUBSCRIBE -->
+<tr>
+<td align="center" style="padding: 10px; font-size: 12px; font-family: Arial, sans-serif; color: #05acc2;"><u>${NOTIF_UNSUB} | ${NOTIF_PREFS+link_text="Manage preferences"}</u></td>
+</tr>
+<!-- FOOTER -->
+<tr>
+<td align="center" bgcolor="#02658C" style="background: linear-gradient(0deg, rgba(2, 101, 140, 1) 0%, rgba(5, 172, 194, 1) 100%); padding: 20px; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;"><img src="https://volteollcdemo21.service-now.com/6a74c0b1470eae1038e741af016d4388.iix" alt="logo" width="200" style="display: block;">
+<p style="color: #f0f0f0; font-size: 12px; margin-top: 10px;">&copy; 2025 Quinteritos</p>
+</td>
+</tr>
+</tbody>
+</table>]]></layout>
+        <name>Quinteritos Layout</name>
+        <sys_class_name>sys_email_layout</sys_class_name>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-11 15:59:17</sys_created_on>
+        <sys_id>f0c53cc683cae250fbeb40526daad3a0</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Quinteritos Layout</sys_name>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name>sys_email_layout_f0c53cc683cae250fbeb40526daad3a0</sys_update_name>
+        <sys_updated_by>isaac.santos</sys_updated_by>
+        <sys_updated_on>2025-06-16 18:11:53</sys_updated_on>
+    </sys_email_layout>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
+        <claim_timestamp>19779fdf91d0000001</claim_timestamp>
+        <metadata_update_name>sys_email_layout_f0c53cc683cae250fbeb40526daad3a0</metadata_update_name>
+        <previous_claim_app_version>27.2.17</previous_claim_app_version>
+        <previous_claim_name>Customer Service</previous_claim_name>
+        <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-16 18:26:16</sys_created_on>
+        <sys_id>4d9703a7838e6e50fbeb40526daad3c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-16 18:26:16</sys_updated_on>
+    </sys_claim>
+</record_update>

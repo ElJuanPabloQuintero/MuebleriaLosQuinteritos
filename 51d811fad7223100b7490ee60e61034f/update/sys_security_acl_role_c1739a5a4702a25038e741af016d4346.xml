@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-06-12 17:26:07</sys_created_on>
+        <sys_id>c1739a5a4702a25038e741af016d4346</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x.reco.portal-starter-experience.*.admin</sys_name>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_security_acl display_value="x.reco.portal-starter-experience.*">78739a5a4702a25038e741af016d4335</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_c1739a5a4702a25038e741af016d4346</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-06-12 17:26:07</sys_updated_on>
+        <sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role>
+    </sys_security_acl_role>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
+        <claim_timestamp>19779fdf39a0000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_role_c1739a5a4702a25038e741af016d4346</metadata_update_name>
+        <previous_claim_app_version>27.2.17</previous_claim_app_version>
+        <previous_claim_name>Customer Service</previous_claim_name>
+        <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-16 18:26:15</sys_created_on>
+        <sys_id>3897cf67838e6e50fbeb40526daad357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-16 18:26:15</sys_updated_on>
+    </sys_claim>
+</record_update>

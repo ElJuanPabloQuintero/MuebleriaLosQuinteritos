@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.box-container {&#13;
+    display: flex;&#13;
+    flex-direction: row;&#13;
+    background-color: #05acc2;&#13;
+    padding: 30px;&#13;
+  	margin-top: 50px;&#13;
+    border-radius: 20px;&#13;
+    justify-content: center;&#13;
+    align-items: center;&#13;
+}&#13;
+&#13;
+.message-box {&#13;
+    padding: 30px;&#13;
+    border-radius: 20px;&#13;
+    text-align: center;&#13;
+}&#13;
+&#13;
+.message-box h1 {&#13;
+    font-weight: bold;&#13;
+    color: white;&#13;
+}&#13;
+&#13;
+.message-box p {&#13;
+    margin: 5px 0;&#13;
+    color: #e8e8e8;&#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>user_post_registration_redirect</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>QP User Post Registration Redirect</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>isaac.santos</sys_created_by>
+        <sys_created_on>2025-06-10 18:21:02</sys_created_on>
+        <sys_id>bddcc031474eae1038e741af016d4331</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>QP User Post Registration Redirect</sys_name>
+        <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
+        <sys_update_name>sp_widget_bddcc031474eae1038e741af016d4331</sys_update_name>
+        <sys_updated_by>isaac.santos</sys_updated_by>
+        <sys_updated_on>2025-06-10 18:25:28</sys_updated_on>
+        <template><![CDATA[<div class="box-container">
+    <div>
+        <img src="https://volteollcdemo21.service-now.com/sn_customerservice.quinteritos_horizontal_logo.png" alt="quinteritos_logo" width="300px">
+    </div>
+    <div class="message-box">
+        <h1>Thank you for signing up.</h1>
+        <p>Please check your registered email for login instructions.</p>
+    </div>
+</div>]]></template>
+    </sp_widget>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</claim_owner_scope>
+        <claim_timestamp>19779fdf6b40000001</claim_timestamp>
+        <metadata_update_name>sp_widget_bddcc031474eae1038e741af016d4331</metadata_update_name>
+        <previous_claim_app_version>27.2.17</previous_claim_app_version>
+        <previous_claim_name>Customer Service</previous_claim_name>
+        <previous_claim_scope>51d811fad7223100b7490ee60e61034f</previous_claim_scope>
+        <sys_created_by>antonio.renteria</sys_created_by>
+        <sys_created_on>2025-06-16 18:26:16</sys_created_on>
+        <sys_id>7c9703a7838e6e50fbeb40526daad33e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>antonio.renteria</sys_updated_by>
+        <sys_updated_on>2025-06-16 18:26:16</sys_updated_on>
+    </sys_claim>
+</record_update>

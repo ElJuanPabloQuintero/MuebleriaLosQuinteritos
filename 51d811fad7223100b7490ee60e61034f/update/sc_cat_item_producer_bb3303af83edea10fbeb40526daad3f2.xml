@@ -6,8 +6,8 @@
         <availability>on_desktop</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
-        <category/>
-        <checked_out/>
+        <category display_value="Support">1b8611d5c3921200b0449f2974d3ae12</category>
+        <checked_out>false</checked_out>
         <cost>0</cost>
         <custom_cart/>
         <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
@@ -31,7 +31,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Warranty Claim</name>
+        <name>Complaints</name>
         <no_attachment_v2>true</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
@@ -70,7 +70,7 @@
 * To access the variables, use `producer.var1` where var1 is the name of the variable
 * To access the Record Producer use `cat_item`
 */]]></save_script>
-        <sc_catalogs/>
+        <sc_catalogs>65bcd377c3011200b12d9f2974d3aea0</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template/>
@@ -103,30 +103,31 @@
 
 // })(current, previous);
 ]]></script>
-        <short_description>Record Producer to ask for product warranty</short_description>
+        <short_description>Please let us know about any issue with your order</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
-        <state/>
+        <state>published</state>
         <sys_class_name>sc_cat_item_producer</sys_class_name>
         <sys_created_by>emiliano.jimenez</sys_created_by>
         <sys_created_on>2025-05-22 21:37:39</sys_created_on>
         <sys_id>bb3303af83edea10fbeb40526daad3f2</sys_id>
-        <sys_mod_count>37</sys_mod_count>
-        <sys_name>Warranty Claim</sys_name>
+        <sys_mod_count>141</sys_mod_count>
+        <sys_name>Complaints</sys_name>
         <sys_package display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Customer Service">51d811fad7223100b7490ee60e61034f</sys_scope>
         <sys_update_name>sc_cat_item_producer_bb3303af83edea10fbeb40526daad3f2</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-05-27 20:32:38</sys_updated_on>
+        <sys_updated_on>2025-06-13 22:39:07</sys_updated_on>
         <table_name>sn_customerservice_case</table_name>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
+        <turn_off_nowassist_conversation>false</turn_off_nowassist_conversation>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>37</version>
+        <version>141</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
